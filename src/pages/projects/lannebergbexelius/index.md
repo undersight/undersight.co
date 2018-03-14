@@ -8,6 +8,6 @@ thumbnail: "./thumbnail.svg"
 
 # Options
 path: "/lannebergbexelius/"
-order: 3
+order: 4
 ---
 

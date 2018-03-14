@@ -4,7 +4,7 @@ title: "Echo1"
 type: "Branding + Web"
 
 # Thumbnails
-thumbnail: "./thumbnail.png"
+thumbnail: "./thumbnail.svg"
 
 # Options
 path: "/echo1/"

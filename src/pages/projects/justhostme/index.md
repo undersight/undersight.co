@@ -4,10 +4,10 @@ title: "JustHostMe"
 type: "Branding + Web"
 
 # Thumbnails
-thumbnail: "./thumbnail.png"
+thumbnail: "./thumbnail.jpg"
 
 # Options
 path: "/justhostme/"
-order: 4
+order: 3
 ---
 

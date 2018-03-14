@@ -27,7 +27,7 @@ class TemplateWrapper extends React.Component {
       <ThemeProvider theme={theme}>
         <div>
           <Helmet
-            title="Gatsby Default Starter"
+            title="Undersight.co"
             meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' },
