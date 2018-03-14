@@ -10,4 +10,3 @@ thumbnail: "./thumbnail.svg"
 path: "/echo1/"
 order: 2
 ---
-

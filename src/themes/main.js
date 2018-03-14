@@ -11,7 +11,7 @@ const colors = {
   colorGreyDarker:   "#2A2A2A",
   colorGreyDarkest:  "#1a1a1a",
 
-  colorOrange:       "#FE4E1E",
+  colorYellow:       "#FFF9AA",
 }
 
 const main = {

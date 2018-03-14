@@ -103,3 +103,8 @@ input::-ms-clear	{ display: none; }
 input::-webkit-input-placeholder	{ opacity: 1; }
 input::-moz-placeholder			      { opacity: 1; }
 input:-ms-input-placeholder		    { opacity: 1; }
+
+/* Hide FOUT */
+.wf-loading > * {
+	opacity: 0;
+}

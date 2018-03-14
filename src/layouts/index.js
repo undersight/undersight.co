@@ -7,7 +7,13 @@ import WebFont from 'webfontloader';
 import Header from '../components/Header'
 
 import theme from "../themes/main.js"
+import inRegexArray from "../helpers/in-regex-array.js"
+
 import "../assets/styles/reset.css"
+
+const largeHeaderPages = [
+  /^\/$/, // index
+]
 
 class TemplateWrapper extends React.Component {
   constructor(props) {
@@ -33,7 +39,9 @@ class TemplateWrapper extends React.Component {
               { name: 'keywords', content: 'sample, something' },
             ]}
           />
-          <Header />
+
+          <Header headerSize={inRegexArray(location.pathname, largeHeaderPages) ? 'large' : 'small'} />
+
           <div>
             {this.props.children()}
           </div>

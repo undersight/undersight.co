@@ -8,6 +8,7 @@ const breakpoints = {
   large:     1080,
   xlarge:    1280,
   xxlarge:   1920,
+  xxxlarge:   2400,
 }
 
 let mediaQueries = {}

@@ -7,12 +7,22 @@ import ProjectThumbnail from "../components/Project/project-thumbnail"
 
 const Projects = styled.section`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: calc(50vw + 100px);
+  grid-template-columns: 1fr;
+  grid-auto-rows: calc(100vw + 80px);
+
+  @media ${props => props.theme.mediumUp} {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: calc(50vw + 100px);
+  }
 
   @media ${props => props.theme.xxlargeUp} {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: calc(100vw / 3 + 100px);
+  }
+
+  @media ${props => props.theme.xxxlargeUp} {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: calc(25vw + 100px);
   }
 `
 
