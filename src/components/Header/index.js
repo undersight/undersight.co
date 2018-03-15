@@ -25,8 +25,18 @@ const MainHeader = styled.header`
   ${props => props.size === 'small' && css`
     padding: ${rem(20)};
     margin-bottom: ${rem(50)};
-    background: ${props => props.theme.colorBorderLighter};
+    background: ${props => props.theme.colorWhite};
+    border-bottom: 1px solid ${props => props.theme.colorBorderLighter};
     position: relative;
+    transition: background 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    
+    small {
+      display: none;
+    }
 
     @media ${props => props.theme.smallUp} {
       padding: ${rem(20)};
@@ -51,10 +61,11 @@ const MainHeader = styled.header`
         transform: translateX(-50%) translateY(-50%);
       }
       strong {
-        transition: transform 0.3s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+        transition: transform 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955);
       }
       small {
-        transition: transform 0.3s cubic-bezier(0.455, 0.030, 0.515, 0.955), opacity 0.3s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+        display: inline-block;
+        transition: transform 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955), opacity 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955);
       }
 
       small {
@@ -73,13 +84,16 @@ const MainHeader = styled.header`
     }
 
     &:hover {
+      background: ${props => props.theme.colorYellow};
+      border-color: ${props => props.theme.colorYellow};
+
       strong {
-        transform: translateX(-200%) translateY(-50%);
+        transform: translateX(-190%) translateY(-50%);
       }
       small {
         opacity: 1;
-        transform: translateX(-35%) translateY(-50%);
-        transition: transform 0.3s cubic-bezier(0.455, 0.030, 0.515, 0.955), opacity 0.6s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+        transform: translateX(-31%) translateY(-50%);
+        transition: transform 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955), opacity 0.6s cubic-bezier(0.455, 0.030, 0.515, 0.955);
       }
     }
   `}

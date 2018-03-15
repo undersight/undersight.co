@@ -19,8 +19,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       ) {
         edges {
           node {
+            html
             frontmatter {
               path
+              title
+              type
+              order
+              thumbnail {
+                publicURL
+              }
             }
           }
         }
@@ -31,12 +38,22 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       return Promise.reject(result.errors);
     }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    const posts = result.data.allMarkdownRemark.edges
+
+    posts.forEach(({ node }, index) => {
+      const prevPost = index === 0 ? posts[posts.length-1].node : posts[index - 1].node
+      const nextPost = index === posts.length - 1 ? posts[0].node : posts[index + 1].node
+
       createPage({
         path: node.frontmatter.path,
         component: projectTemplate,
-        context: {}, // additional data can be passed via context
+        context: {
+          prev: prevPost,
+          next: nextPost
+        }, // additional data can be passed via context
       });
     });
+
+    return posts
   });
 };

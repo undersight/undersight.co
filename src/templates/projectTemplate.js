@@ -4,8 +4,21 @@ import Img from 'gatsby-image'
 import styled, { css } from "styled-components"
 import { rem, hideVisually } from "polished"
 
+import ProjectThumbnail from "../components/Project/project-thumbnail"
+
+const Post = styled.main`
+  width: 100%;
+`
 const PostContent = styled.section`
   width: 100%;
+  margin-top: ${rem(100)};
+  
+  @media ${props => props.theme.smallUp} {
+    margin-top: ${rem(130)};
+  }
+  @media ${props => props.theme.largeUp} {
+    margin-top: ${rem(150)};
+  }
 
   header {
     width: 80%;
@@ -50,6 +63,15 @@ const PostContent = styled.section`
     max-width: ${rem(800)};
     margin: ${rem(60)} auto;
 
+    a {
+      text-decoration: underline;
+      transition: color 0.2s ease-out;
+
+      &:hover {
+        color: ${props => props.theme.colorGreyDark};
+      }
+    }
+
     p {
       font-family: ${props => props.theme.ffPrimary};
       font-size: ${rem(24)};
@@ -69,14 +91,28 @@ const PostContent = styled.section`
     }
   }
 `
+const PostNavigation = styled.nav`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: calc(100vw + 80px);
+
+  @media ${props => props.theme.mediumUp} {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: calc(50vw + 100px);
+  }
+`
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
+  pathContext
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
+  const { next, prev } = pathContext;
+
   return (
-    <PostContent role="main">
+    <Post>
+      <PostContent role="main">
         <header>
           <h1>{frontmatter.title}</h1>
           <h2>{frontmatter.type}</h2>
@@ -86,7 +122,17 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-    </PostContent>
+      </PostContent>
+
+      <PostNavigation>
+        {prev && (
+          <ProjectThumbnail key={prev.id} project={prev} />
+        )}
+        {next && (
+          <ProjectThumbnail key={next.id} project={next} />
+        )}
+      </PostNavigation>
+    </Post>
   );
 }
 
@@ -98,6 +144,7 @@ export const pageQuery = graphql`
         path
         title
         type
+        order
       }
     }
   }
