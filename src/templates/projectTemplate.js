@@ -31,23 +31,6 @@ const PostContent = styled.section`
     font-weight: 300;
     margin-bottom: ${rem(24)};
   }
-  
-  @media ${props => props.theme.smallUp} {
-    margin-top: ${rem(130)};
-
-    p {
-      font-size: ${rem(28)};
-      margin-bottom: ${rem(28)};
-    }
-  }
-  @media ${props => props.theme.largeUp} {
-    p {
-      font-size: ${rem(32)};
-      margin-bottom: ${rem(32)};
-    }
-  @media ${props => props.theme.largeUp} {
-    margin-top: ${rem(150)};
-  }
 
   .blog-post-content {
     .copy {
@@ -64,6 +47,24 @@ const PostContent = styled.section`
         }
       }
     }
+  }
+  
+  @media ${props => props.theme.smallUp} {
+    margin-top: ${rem(130)};
+
+    p {
+      font-size: ${rem(28)};
+      margin-bottom: ${rem(28)};
+    }
+  }
+  @media ${props => props.theme.largeUp} {
+    p {
+      font-size: ${rem(32)};
+      margin-bottom: ${rem(32)};
+    }
+  }
+  @media ${props => props.theme.largeUp} {
+    margin-top: ${rem(150)};
   }
 `
 const PostNavigation = styled.nav`
