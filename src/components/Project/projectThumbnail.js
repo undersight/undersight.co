@@ -105,8 +105,6 @@ class ProjectThumbnail extends React.Component {
       let imageHeight = img.height
       let imageWidth = img.width
 
-      console.log(imageHeight)
-
       const frameCount = Math.floor(imageWidth / imageHeight)
       const startFrame = Math.floor(Math.random() * frameCount)
       
