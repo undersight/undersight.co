@@ -54,12 +54,12 @@ const PostContent = styled.section`
       font-weight: 300;
       margin-bottom: ${rem(24)};
 
-      @media ${props => props.theme.smallUp} {
+      @media (min-width: ${rem(480)}) {
         font-size: ${rem(28)};
         margin-bottom: ${rem(28)};
       }
 
-      @media ${props => props.theme.mediumUp} {
+      @media (min-width: ${rem(960)}) {
         font-size: ${rem(32)};
         margin-bottom: ${rem(32)};
       }
