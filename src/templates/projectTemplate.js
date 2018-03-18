@@ -43,10 +43,10 @@ const Post = styled.main`
     
       @media ${props => props.theme.smallUp} {
         font-size: ${rem(28)};
-      margin-bottom: ${rem(28)};
+        margin-bottom: ${rem(28)};
       }
 
-      @media ${props => props.theme.mediumUp} {
+      @media (min-width: 60.0625rem) {
         font-size: ${rem(32)};
         margin-bottom: ${rem(32)};
       }
