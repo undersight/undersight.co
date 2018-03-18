@@ -23,10 +23,28 @@ const Post = styled.main`
 const PostContent = styled.section`
   width: 100%;
   margin-top: ${rem(100)};
+
+  p {
+    font-family: ${props => props.theme.ffPrimary};
+    font-size: ${rem(24)};
+    line-height: 1.25;
+    font-weight: 300;
+    margin-bottom: ${rem(24)};
+  }
   
   @media ${props => props.theme.smallUp} {
     margin-top: ${rem(130)};
+
+    p {
+      font-size: ${rem(28)};
+      margin-bottom: ${rem(28)};
+    }
   }
+  @media ${props => props.theme.largeUp} {
+    p {
+      font-size: ${rem(32)};
+      margin-bottom: ${rem(32)};
+    }
   @media ${props => props.theme.largeUp} {
     margin-top: ${rem(150)};
   }
@@ -45,24 +63,6 @@ const PostContent = styled.section`
           color: ${props => props.theme.colorGreyDark};
         }
       }
-    }
-  }
-
-  p {
-    font-family: ${props => props.theme.ffPrimary};
-    font-size: ${rem(24)};
-    line-height: 1.25;
-    font-weight: 300;
-    margin-bottom: ${rem(24)};
-
-    @media ${props => props.theme.smallUp} {
-      font-size: ${rem(28)};
-      margin-bottom: ${rem(28)};
-    }
-
-    @media ${props => props.theme.mediumUp} {
-      font-size: ${rem(32)};
-      margin-bottom: ${rem(32)};
     }
   }
 `
