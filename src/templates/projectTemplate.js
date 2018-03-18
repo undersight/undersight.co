@@ -19,39 +19,6 @@ const Post = styled.main`
     opacity: 1;
     transform: none;
   }
-
-  .copy {
-    width: 80%;
-    max-width: ${rem(800)};
-    margin: ${rem(60)} auto;
-
-    a {
-      text-decoration: underline;
-      transition: color 0.2s ease-out;
-
-      &:hover {
-        color: ${props => props.theme.colorGreyDark};
-      }
-    }
-
-    p {
-      font-family: ${props => props.theme.ffPrimary};
-      font-size: ${rem(32)};
-      line-height: 1.25;
-      font-weight: 300;
-      margin-bottom: ${rem(24)};
-    
-      @media ${props => props.theme.smallUp} {
-        font-size: ${rem(28)};
-        margin-bottom: ${rem(28)};
-      }
-
-      @media ${props => props.theme.mediumUp} {
-        font-size: ${rem(32)};
-        margin-bottom: ${rem(32)};
-      }
-    }
-  }
 `
 const PostContent = styled.section`
   width: 100%;
@@ -62,6 +29,41 @@ const PostContent = styled.section`
   }
   @media ${props => props.theme.largeUp} {
     margin-top: ${rem(150)};
+  }
+
+  .blog-post-content {
+    .copy {
+      width: 80%;
+      max-width: ${rem(800)};
+      margin: ${rem(60)} auto;
+
+      a {
+        text-decoration: underline;
+        transition: color 0.2s ease-out;
+
+        &:hover {
+          color: ${props => props.theme.colorGreyDark};
+        }
+      }
+    }
+
+    p {
+      font-family: ${props => props.theme.ffPrimary};
+      font-size: ${rem(24)};
+      line-height: 1.25;
+      font-weight: 300;
+      margin-bottom: ${rem(24)};
+
+      @media ${props => props.theme.smallUp} {
+        font-size: ${rem(28)};
+        margin-bottom: ${rem(28)};
+      }
+
+      @media ${props => props.theme.mediumUp} {
+        font-size: ${rem(32)};
+        margin-bottom: ${rem(32)};
+      }
+    }
   }
 `
 const PostNavigation = styled.nav`
