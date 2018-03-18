@@ -4,14 +4,11 @@ import Img from 'gatsby-image'
 import styled, { css } from "styled-components"
 import { rem, hideVisually } from "polished"
 
-import ProjectContent from "../components/Project/projectContent"
 import ProjectThumbnail from "../components/Project/projectThumbnail"
 
-const Project = styled.main`
+const Post = styled.main`
   width: 100%;
   transition: all 0.2s ease-out;
-  opacity: 0;
-  transform: translateY(-${rem(20)});
 
   &.loading {
     opacity: 0;
@@ -22,8 +19,90 @@ const Project = styled.main`
     opacity: 1;
     transform: none;
   }
+
+  header {
+    width: 80%;
+    max-width: ${rem(800)};
+    margin: 0 auto ${rem(30)} auto;
+  }
+
+  h1 {
+    font-family: ${props => props.theme.ffPrimary};
+    font-size: ${rem(24)};
+    line-height: 1;
+    font-weight: 700;
+    margin: 0;
+
+    @media ${props => props.theme.smallUp} {
+      font-size: ${rem(36)};
+    }
+
+    @media ${props => props.theme.mediumUp} {
+      font-size: ${rem(48)};
+    }
+  }
+
+  h2 {
+    font-family: ${props => props.theme.ffSecondary};
+    font-size: ${rem(14)};
+    line-height: 1;
+    font-weight: 300;
+    margin-top: ${rem(10)};
+
+    @media ${props => props.theme.smallUp} {
+      font-size: ${rem(16)};
+    }
+
+    @media ${props => props.theme.mediumUp} {
+      font-size: ${rem(18)};
+    }
+  }
+
+  .copy {
+    width: 80%;
+    max-width: ${rem(800)};
+    margin: ${rem(60)} auto;
+
+    a {
+      text-decoration: underline;
+      transition: color 0.2s ease-out;
+
+      &:hover {
+        color: ${props => props.theme.colorGreyDark};
+      }
+    }
+
+    p {
+      font-family: ${props => props.theme.ffPrimary};
+      font-size: ${rem(24)};
+      line-height: 1.25;
+      font-weight: 300;
+      margin-bottom: ${rem(24)};
+    
+      @media ${props => props.theme.smallUp} {
+        font-size: ${rem(28)};
+      margin-bottom: ${rem(28)};
+      }
+
+      @media ${props => props.theme.mediumUp} {
+        font-size: ${rem(32)};
+        margin-bottom: ${rem(32)};
+      }
+    }
+  }
 `
-const ProjectNavigation = styled.nav`
+const PostContent = styled.section`
+  width: 100%;
+  margin-top: ${rem(100)};
+  
+  @media ${props => props.theme.smallUp} {
+    margin-top: ${rem(130)};
+  }
+  @media ${props => props.theme.largeUp} {
+    margin-top: ${rem(150)};
+  }
+`
+const PostNavigation = styled.nav`
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: calc(100vw + 80px);
@@ -34,7 +113,7 @@ const ProjectNavigation = styled.nav`
   }
 `
 
-class ProjectWrapper extends React.Component {
+class PostWrapper extends React.Component {
   constructor() {
     super()
 
@@ -51,9 +130,9 @@ class ProjectWrapper extends React.Component {
 
   render() {
     return (
-      <Project className={this.state.loadState}>
+      <Post className={this.state.loadState}>
         {this.props.children}
-      </Project>
+      </Post>
     )
   }
 }
@@ -67,8 +146,8 @@ export default function Template({
   const { next, prev } = pathContext;
 
   return (
-    <ProjectWrapper>
-      <ProjectContent role="main">
+    <PostWrapper>
+      <PostContent role="main">
         <header>
           <h1>{frontmatter.title}</h1>
           <h2>{frontmatter.type}</h2>
@@ -78,17 +157,17 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-      </ProjectContent>
+      </PostContent>
 
-      <ProjectNavigation>
+      <PostNavigation>
         {prev && (
           <ProjectThumbnail key={prev.id} project={prev} />
         )}
         {next && (
           <ProjectThumbnail key={next.id} project={next} />
         )}
-      </ProjectNavigation>
-    </ProjectWrapper>
+      </PostNavigation>
+    </PostWrapper>
   );
 }
 
