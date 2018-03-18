@@ -9,11 +9,8 @@ import ProjectThumbnail from "../components/Project/projectThumbnail"
 const Post = styled.main`
   width: 100%;
   transition: all 0.2s ease-out;
-
-  &.loading {
-    opacity: 0;
-    transform: translateY(-${rem(20)});
-  }
+  opacity: 0;
+  transform: translateY(-${rem(20)});
 
   &.loaded {
     opacity: 1;

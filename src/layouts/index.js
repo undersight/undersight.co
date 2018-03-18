@@ -18,6 +18,8 @@ const largeHeaderPages = [
 class TemplateWrapper extends React.Component {
   constructor(props) {
     super()
+
+    this.state = {loadState: "loading"}
   }
 
   componentDidMount = () => {
@@ -26,12 +28,13 @@ class TemplateWrapper extends React.Component {
         id: 'bhs8rbg'
       }
     });
+    this.setState({loadState: "loaded"})
   }
 
   render() {
     return (
       <ThemeProvider theme={theme}>
-        <div>
+        <div className={"site-wrapper " + this.state.loadState}>
           <Helmet
             title="Undersight.co"
             meta={[
