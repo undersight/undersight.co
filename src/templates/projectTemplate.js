@@ -21,7 +21,7 @@ const PostContent = styled.section`
   width: 100%;
   margin-top: ${rem(100)};
 
-  .copy {
+  article {
     width: 80%;
     max-width: ${rem(800)};
     margin: ${rem(60)} auto;
@@ -47,13 +47,13 @@ const PostContent = styled.section`
   @media ${props => props.theme.smallUp} {
     margin-top: ${rem(130)};
 
-    .copy p {
+    article p {
       font-size: ${rem(28)};
       margin-bottom: ${rem(28)};
     }
   }
   @media ${props => props.theme.largeUp} {
-    .copy p {
+    article p {
       font-size: ${rem(32)};
       margin-bottom: ${rem(32)};
     }
@@ -70,6 +70,12 @@ const PostNavigation = styled.nav`
   @media ${props => props.theme.mediumUp} {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: calc(50vw + 100px);
+  }
+
+  @media ${props => props.theme.mediumDown} {
+    article:first-of-type {
+      display: none;
+    }
   }
 `
 

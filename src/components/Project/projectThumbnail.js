@@ -16,7 +16,7 @@ const Thumbnail = styled.article`
   }
 `
 
-const ProjectImage = styled.article`
+const ProjectImage = styled.div`
   width: 100%;
   height: calc(100% - 80px);
   overflow: hidden;
