@@ -31,6 +31,24 @@ const PostContent = styled.section`
     margin-top: ${rem(150)};
   }
 
+  p {
+    font-family: ${props => props.theme.ffPrimary};
+    font-size: ${rem(24)};
+    line-height: 1.25;
+    font-weight: 300;
+    margin-bottom: ${rem(24)};
+
+    @media ${props => props.theme.smallUp} {
+      font-size: ${rem(28)};
+      margin-bottom: ${rem(28)};
+    }
+
+    @media ${props => props.theme.mediumUp} {
+      font-size: ${rem(32)};
+      margin-bottom: ${rem(32)};
+    }
+  }
+
   .blog-post-content {
     .copy {
       width: 80%;
@@ -44,24 +62,6 @@ const PostContent = styled.section`
         &:hover {
           color: ${props => props.theme.colorGreyDark};
         }
-      }
-    }
-
-    p {
-      font-family: ${props => props.theme.ffPrimary};
-      font-size: ${rem(24)};
-      line-height: 1.25;
-      font-weight: 300;
-      margin-bottom: ${rem(24)};
-
-      @media (min-width: ${rem(480)}) {
-        font-size: ${rem(28)};
-        margin-bottom: ${rem(28)};
-      }
-
-      @media (min-width: ${rem(960)}) {
-        font-size: ${rem(32)};
-        margin-bottom: ${rem(32)};
       }
     }
   }
