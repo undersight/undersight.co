@@ -20,44 +20,6 @@ const Post = styled.main`
     transform: none;
   }
 
-  header {
-    width: 80%;
-    max-width: ${rem(800)};
-    margin: 0 auto ${rem(30)} auto;
-  }
-
-  h1 {
-    font-family: ${props => props.theme.ffPrimary};
-    font-size: ${rem(24)};
-    line-height: 1;
-    font-weight: 700;
-    margin: 0;
-
-    @media ${props => props.theme.smallUp} {
-      font-size: ${rem(36)};
-    }
-
-    @media ${props => props.theme.mediumUp} {
-      font-size: ${rem(48)};
-    }
-  }
-
-  h2 {
-    font-family: ${props => props.theme.ffSecondary};
-    font-size: ${rem(14)};
-    line-height: 1;
-    font-weight: 300;
-    margin-top: ${rem(10)};
-
-    @media ${props => props.theme.smallUp} {
-      font-size: ${rem(16)};
-    }
-
-    @media ${props => props.theme.mediumUp} {
-      font-size: ${rem(18)};
-    }
-  }
-
   .copy {
     width: 80%;
     max-width: ${rem(800)};
@@ -113,6 +75,44 @@ const PostNavigation = styled.nav`
   }
 `
 
+const PostHeader = styled.header`
+  width: 80%;
+  max-width: ${rem(800)};
+  margin: 0 auto ${rem(30)} auto;
+`
+
+const PostTitle = styled.h1`
+  font-family: ${props => props.theme.ffPrimary};
+  font-size: ${rem(24)};
+  line-height: 1;
+  font-weight: 700;
+  margin: 0;
+
+  @media ${props => props.theme.smallUp} {
+    font-size: ${rem(36)};
+  }
+
+  @media ${props => props.theme.mediumUp} {
+    font-size: ${rem(48)};
+  } 
+`
+
+const PostType = styled.h2`
+  font-family: ${props => props.theme.ffSecondary};
+  font-size: ${rem(14)};
+  line-height: 1;
+  font-weight: 300;
+  margin-top: ${rem(10)};
+
+  @media ${props => props.theme.smallUp} {
+    font-size: ${rem(16)};
+  }
+
+  @media ${props => props.theme.mediumUp} {
+    font-size: ${rem(18)};
+  }
+`
+
 class PostWrapper extends React.Component {
   constructor() {
     super()
@@ -148,10 +148,10 @@ export default function Template({
   return (
     <PostWrapper>
       <PostContent role="main">
-        <header>
-          <h1>{frontmatter.title}</h1>
-          <h2>{frontmatter.type}</h2>
-        </header>
+        <PostHeader>
+          <PostTitle>{frontmatter.title}</PostTitle>
+          <PostType>{frontmatter.type}</PostType>
+        </PostHeader>
 
         <div
           className="blog-post-content"
