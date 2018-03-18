@@ -6,6 +6,15 @@
 
 const path = require("path");
 
+exports.modifyWebpackConfig = ({ config, stage }) => {
+  if (stage === "build-html") {
+    config.loader("null", {
+      test: /webfontloader/,
+      loader: "null-loader",
+    });
+  }
+};
+
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
@@ -50,7 +59,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         context: {
           prev: prevPost,
           next: nextPost
-        }, // additional data can be passed via context
+        },
       });
     });
 

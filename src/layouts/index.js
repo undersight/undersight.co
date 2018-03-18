@@ -40,7 +40,7 @@ class TemplateWrapper extends React.Component {
             ]}
           />
 
-          <Header headerSize={inRegexArray(location.pathname, largeHeaderPages) ? 'large' : 'small'} />
+          <Header headerSize={inRegexArray(this.props.location.pathname, largeHeaderPages) ? 'large' : 'small'} />
 
           <div>
             {this.props.children()}

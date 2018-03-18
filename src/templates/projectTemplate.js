@@ -4,10 +4,21 @@ import Img from 'gatsby-image'
 import styled, { css } from "styled-components"
 import { rem, hideVisually } from "polished"
 
-import ProjectThumbnail from "../components/Project/project-thumbnail"
+import ProjectThumbnail from "../components/Project/projectThumbnail"
 
 const Post = styled.main`
   width: 100%;
+  transition: all 0.2s ease-out;
+
+  &.loading {
+    opacity: 0;
+    transform: translateY(-${rem(20)});
+  }
+
+  &.loaded {
+    opacity: 1;
+    transform: none;
+  }
 `
 const PostContent = styled.section`
   width: 100%;
@@ -102,6 +113,30 @@ const PostNavigation = styled.nav`
   }
 `
 
+class PostWrapper extends React.Component {
+  constructor() {
+    super()
+
+    this.state = {loadState: "loading"}
+  }
+
+  componentDidMount() {
+    this.setState({loadState: "loaded"})
+  }
+
+  componentWillUnmount() {
+    this.setState({loadState: "loading"})
+  }
+
+  render() {
+    return (
+      <Post className={this.state.loadState}>
+        {this.props.children}
+      </Post>
+    )
+  }
+}
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
   pathContext
@@ -111,7 +146,7 @@ export default function Template({
   const { next, prev } = pathContext;
 
   return (
-    <Post>
+    <PostWrapper>
       <PostContent role="main">
         <header>
           <h1>{frontmatter.title}</h1>
@@ -132,7 +167,7 @@ export default function Template({
           <ProjectThumbnail key={next.id} project={next} />
         )}
       </PostNavigation>
-    </Post>
+    </PostWrapper>
   );
 }
 
