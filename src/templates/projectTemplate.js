@@ -31,6 +31,23 @@ const PostContent = styled.section`
     margin-top: ${rem(150)};
   }
 
+  .blog-post-content {
+    .copy {
+      width: 80%;
+      max-width: ${rem(800)};
+      margin: ${rem(60)} auto;
+
+      a {
+        text-decoration: underline;
+        transition: color 0.2s ease-out;
+
+        &:hover {
+          color: ${props => props.theme.colorGreyDark};
+        }
+      }
+    }
+  }
+
   p {
     font-family: ${props => props.theme.ffPrimary};
     font-size: ${rem(24)};
@@ -46,23 +63,6 @@ const PostContent = styled.section`
     @media ${props => props.theme.mediumUp} {
       font-size: ${rem(32)};
       margin-bottom: ${rem(32)};
-    }
-  }
-
-  .blog-post-content {
-    .copy {
-      width: 80%;
-      max-width: ${rem(800)};
-      margin: ${rem(60)} auto;
-
-      a {
-        text-decoration: underline;
-        transition: color 0.2s ease-out;
-
-        &:hover {
-          color: ${props => props.theme.colorGreyDark};
-        }
-      }
     }
   }
 `
