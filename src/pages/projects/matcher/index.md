@@ -1,6 +1,6 @@
 ---
 # Metadata
-title: "Matchers"
+title: "Matcher"
 type: "Branding + Web"
 
 # Thumbnails
@@ -13,7 +13,7 @@ order: 1
 
 <article class="copy" role="article">
 
-Sometimez, I have a slight tendency to over-complicate things. It's a flaw very few designers will admit to having, even though a good chunk of us share it. Occasionally, I will bump into a nagging issue, for which I know there are a million different solutions, and I will choose what is arguably the hardest, most time-consuming one. That's how Matcher came to be.
+Sometimes, I have a slight tendency to over-complicate things. It's a flaw very few designers will admit to having, even though a good chunk of us share it. Occasionally, I will bump into a nagging issue, for which I know there are a million different solutions, and I will choose what is arguably the hardest, most time-consuming one. That's how Matcher came to be.
 
 Matcher is a small Web app that seeks to solve a very specific problem: scheduling amateur sports matches. I used to play football with a few friends on a weekly basis, and after a short while the logistics of it got a bit out of hand. One of us would have to take the better part of a day off every time, to try and get everyone to RSVP, find a date and time that fit everyone's schedule and split the group into well-rounded teams. So I took the chance to scratch my own itch and designed a small Web app that fixed all of it for us. Only, I over-did it a bit.
 
