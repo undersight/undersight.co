@@ -69,7 +69,7 @@ const PostContent = styled.section`
     }
   }
 
-  article {
+  .copy {
     width: 80%;
     max-width: ${rem(800)};
     margin: ${rem(60)} auto;
