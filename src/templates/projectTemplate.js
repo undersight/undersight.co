@@ -36,7 +36,7 @@ const Post = styled.main`
 
     p {
       font-family: ${props => props.theme.ffPrimary};
-      font-size: ${rem(24)};
+      font-size: ${rem(32)};
       line-height: 1.25;
       font-weight: 300;
       margin-bottom: ${rem(24)};
@@ -46,7 +46,7 @@ const Post = styled.main`
         margin-bottom: ${rem(28)};
       }
 
-      @media (min-width: 60.0625rem) {
+      @media ${props => props.theme.mediumUp} {
         font-size: ${rem(32)};
         margin-bottom: ${rem(32)};
       }
