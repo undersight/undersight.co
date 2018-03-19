@@ -37,9 +37,9 @@ The idea of building organisations void of hierarchy sounded very exciting, but 
 
 We were brought on to the project at a very early stage of the company's inception—a time when they had a very clear image of how they wanted to operate, but were still unsure about the sort of businesses they would be investing on. So we had to build a brand that looked interesting and established some sort of connection with the company's core businesses, but was still broad and generic enough to allow for the company to explore several different business areas without feeling like they needed to rebrand every single time. All of this without being able to rely on any type of imagery — no product photos, no headquarters and no team photos.
 
-Our solution was to come up with a brand system that relied heavily on basic abstract shapes, paired with a set of warm gradients and snappy animation. We employed this system extensively [throughout the website](https://www.echo1.co) and the brand applications, creating a very tight and easily recognisable brand, that can evolve gracefully over time, as the products and companies Echo1 invests on begin to shape the company's values more clearly.
+Our solution was to come up with a brand system that relied heavily on basic abstract shapes, paired with a set of warm gradients and snappy animations. We employed this system extensively [throughout the website](https://www.echo1.co) and the brand applications, creating a very tight and easily recognisable brand, that can evolve gracefully over time, as the products and companies Echo1 invests on begin to shape the company's values more clearly.
 
-These shapes and colours are complemented by the very quirky [Niveau Grotesk](https://www.hvdfonts.com/fonts/niveau-grotesk) on headings, paired with the sobering [Warnock Pro](https://typekit.com/fonts/warnock) for body copy.
+These shapes and colours are complemented by the quirky [Niveau Grotesk](https://www.hvdfonts.com/fonts/niveau-grotesk) on headings, paired with the sobering [Warnock Pro](https://typekit.com/fonts/warnock) for body copy.
 
 </article>
 
