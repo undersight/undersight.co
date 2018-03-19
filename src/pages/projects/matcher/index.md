@@ -37,7 +37,7 @@ But first, we needed a brand.
 
 <article role="article">
 
-Quite frankly, this was one of the rare cases where the brand pretty much designed itself. For the logo, A2 Type's outstanding [Regular](https://www.a2-type.co.uk/regular) pulls most of the weight, paired with some scribbles straight out of Coaching 101. The scribbles follow a bit of a pattern, but can be used in a number of different ways, keeping the logo recognizable but never boring. As for the colour scheme, it's ripped right off of the courts we used to play in. Perhaps unsurprisingly, I've come to realize these look more or less the same anywhere in the world, almost always using a combination of 2 out of 4 possible colours. I simply added them all together, and we had a brand.
+Quite frankly, this was one of the rare cases where the brand pretty much designed itself. For the logo, A2 Type's outstanding [Regular](https://www.a2-type.co.uk/regular) pulls most of the weight, only being complemented by a few scribbles that mimic coaching instructions. These follow a bit of a pattern, but can be used in a number of different ways, keeping the logo recognizable but never boring. As for the colour scheme, it's ripped right off of the courts we used to play in. Perhaps unsurprisingly, I've come to realize these look more or less the same anywhere in the world, almost always using a combination of 2 out of 4 possible colours. By adding them all together, we had a brand palette.
 
 </article>
 
@@ -57,7 +57,7 @@ With the brand settled, it was time to move on to the UI. One of the biggest tem
 
 <article role="article">
 
-As soon as we had something that was barely usable, we started using it to schedule our own matches. Calling the first version we launched an MVP would be an overstatement, yet it worked surprisingly well for us so, after a few months of testing and improvements, I decided to open up a closed beta. I put together a small little promotional page for it, and used Mailchimp to set up an half-baked beta sign-up system. Because it's still a bare-bones app, hosted on a cheap heroku dyno, I'm taking a cautious approach and only letting in small groups of users at a time, but the response so far has been encouraging. Sadly, the amount of time I can invest in it at this point is very limited, so development at the moment feels a lot like what our football matches used to be: slow and largely uneventful, yet still immensely rewarding somehow.
+As soon as we had something that was barely usable, we started using it to schedule our own matches. Calling the first version we launched an MVP would be an overstatement, yet it worked surprisingly well for us so, after a few months of testing and improvements, I decided to open up a closed beta. I put together a small little promotional page for it, and used Mailchimp to set up an half-baked beta sign-up system. Because it's still a bare-bones app, hosted on a cheap heroku dyno, I'm taking a cautious approach and only letting in small groups of users at a time, but the response so far has been encouraging. Sadly, the amount of time I can invest in it at this point is very limited, so development at the moment feels a lot like what our football matches used to be: slow, largely uneventful and slightly embarassing, yet still immensely rewarding.
 
 </article>
 

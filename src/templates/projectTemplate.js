@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
+import Helmet from 'react-helmet'
 import styled, { css } from "styled-components"
 import { rem, hideVisually } from "polished"
 
@@ -17,7 +18,7 @@ const Post = styled.main`
     transform: none;
   }
 `
-const PostContent = styled.section`
+const ProjectContent = styled.section`
   width: 100%;
   margin-top: ${rem(100)};
 
@@ -62,7 +63,7 @@ const PostContent = styled.section`
     margin-top: ${rem(150)};
   }
 `
-const PostNavigation = styled.nav`
+const ProjectNavigation = styled.nav`
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: calc(100vw + 80px);
@@ -79,13 +80,13 @@ const PostNavigation = styled.nav`
   }
 `
 
-const PostHeader = styled.header`
+const ProjectHeader = styled.header`
   width: 80%;
   max-width: ${rem(800)};
   margin: 0 auto ${rem(30)} auto;
 `
 
-const PostTitle = styled.h1`
+const ProjectTitle = styled.h1`
   font-family: ${props => props.theme.ffPrimary};
   font-size: ${rem(24)};
   line-height: 1;
@@ -101,7 +102,7 @@ const PostTitle = styled.h1`
   } 
 `
 
-const PostType = styled.h2`
+const ProjectType = styled.h2`
   font-family: ${props => props.theme.ffSecondary};
   font-size: ${rem(14)};
   line-height: 1;
@@ -117,7 +118,7 @@ const PostType = styled.h2`
   }
 `
 
-class PostWrapper extends React.Component {
+class ProjectWrapper extends React.Component {
   constructor() {
     super()
 
@@ -150,28 +151,32 @@ export default function Template({
   const { next, prev } = pathContext;
 
   return (
-    <PostWrapper>
-      <PostContent role="main">
-        <PostHeader>
-          <PostTitle>{frontmatter.title}</PostTitle>
-          <PostType>{frontmatter.type}</PostType>
-        </PostHeader>
+    <div>
+      <Helmet title={frontmatter.title + " — Undersight.co"} />
 
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </PostContent>
+      <ProjectWrapper>
+        <ProjectContent role="main">
+          <ProjectHeader>
+            <ProjectTitle>{frontmatter.title}</ProjectTitle>
+            <ProjectType>{frontmatter.type}</ProjectType>
+          </ProjectHeader>
 
-      <PostNavigation>
-        {prev && (
-          <ProjectThumbnail key={prev.id} project={prev} />
-        )}
-        {next && (
-          <ProjectThumbnail key={next.id} project={next} />
-        )}
-      </PostNavigation>
-    </PostWrapper>
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </ProjectContent>
+
+        <ProjectNavigation>
+          {prev && (
+            <ProjectThumbnail key={prev.id} project={prev} />
+          )}
+          {next && (
+            <ProjectThumbnail key={next.id} project={next} />
+          )}
+        </ProjectNavigation>
+      </ProjectWrapper>
+    </div>
   );
 }
 
