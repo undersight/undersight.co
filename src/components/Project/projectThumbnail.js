@@ -152,7 +152,7 @@ class ProjectThumbnail extends React.Component {
 
   render() {
     return (
-      <Thumbnail onMouseEnter={this._mouseEnter} onMouseLeave={this._mouseLeave}>
+      <Thumbnail onMouseEnter={this._mouseEnter} onMouseLeave={this._mouseLeave} onTouchStart={this._mouseEnter} onTouchEnd={this._mouseLeave}>
         <Link to={this.state.project.frontmatter.path}>
           <ProjectImage>
             <img

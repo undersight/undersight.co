@@ -27,6 +27,13 @@ const ProjectContent = styled.section`
     max-width: ${rem(800)};
     margin: ${rem(60)} auto;
 
+    iframe {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: ${rem(48)};
+    }
+
     p {
       font-family: ${props => props.theme.ffPrimary};
       font-size: ${rem(24)};

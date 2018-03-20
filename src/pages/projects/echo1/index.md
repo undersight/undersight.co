@@ -39,7 +39,7 @@ We were brought on to the project at a very early stage of the company's incepti
 
 Our solution was to come up with a brand system that relied heavily on basic shapes, with a single line running through all of them—keeping everything connected, even if it means following the least obvious of paths. These were paired with a set of warm gradients and snappy animations, which we employed exhaustively [throughout the website](https://www.echo1.co) and the brand applications, creating a tight and easily recognisable brand that can evolve gracefully over time, as the products and companies Echo1 invests on begin to shape the company's values more clearly.
 
-These shapes and colours are complemented by [a quirky sans-serif font](https://www.hvdfonts.com/fonts/niveau-grotesk) for the headings, paired with [a serifed font that's sobering but full of personality](https://typekit.com/fonts/warnock) for body copy.
+These shapes and colours are complemented by [a quirky sans-serif font](https://www.hvdfonts.com/fonts/niveau-grotesk) for the headings, paired with [a serifed font](https://typekit.com/fonts/warnock) that's sobering but full of personality for body copy.
 
 </article>
 
@@ -51,3 +51,9 @@ These shapes and colours are complemented by [a quirky sans-serif font](https://
 ![Thumbnail](images/contact-page@2x.png)
 ![Thumbnail](images/phones@2x.png)
 ![Thumbnail](images/illustrator@2x.png)
+
+<article role="article">
+
+The brand and Website are, of course, just the start for Echo1. They are now actively seeking to gather a team of investors, researchers and entrepreneurs willing to establish new businesses that help improve sound and acoustics throughout the world. They have created a Slack channel where [everyone is invited](http://echo1.co/join-us) to share their ideas with the rest of the team and ask for help (financial or otherwise) making them happen.
+
+</article>

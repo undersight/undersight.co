@@ -154,6 +154,14 @@ const SiteByline = styled.p`
   font-weight: 300;
   margin-top: ${rem(20)};
 
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      color: ${props => props.theme.colorGreyDark};
+    }
+  }
+
   @media ${props => props.theme.mediumDown} {
     br { 
       display: none;
@@ -189,7 +197,7 @@ class Header extends React.Component {
           <SiteTitle><strong>Undersight.co</strong> is the digital playground of Eduardo Nunes.</SiteTitle>
           <SiteByline>
             Full-time graphic designer, part-time noise maker. <br />
-            Head of Design at Stockholm-based Kollegorna.
+            Head of Design at Stockholm-based <a href="https://www.kollegorna.se/en/" target="_blank" title="Kollegorna's Website">Kollegorna</a>.
           </SiteByline>
         </MainHeader>
       )
