@@ -51,6 +51,11 @@ const ProjectContent = styled.section`
       }
     }
   }
+
+  .fullwidth {
+    width: 100%;
+    height: auto;
+  }
   
   @media ${props => props.theme.smallUp} {
     margin-top: ${rem(130)};
