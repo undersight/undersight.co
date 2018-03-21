@@ -13,9 +13,9 @@ order: 4
 
 <article role="article">
 
-Lanneberg Bexelius is a Stockholm-based personal branding consulting company run by Pia Lanneberg and Kristina Bexelius. They work within a field that is increasingly relevant, but not always easy to describe - something I can definitely relate to. Put simply, Pia and Kristina are really good at sitting down with people, finding out what their personal and professional goals are, and figuring out ways in which their communication and thought process can be improved, to get as close as possible to achieving those results in as little time as possible.
+Lanneberg Bexelius is a Stockholm-based personal branding consulting company run by Pia Lanneberg and Kristina Bexelius. They work within a field that is increasingly relevant, but not always easy to describe—something I can relate to. Put simply, Pia and Kristina are really good at sitting down with people, finding out what their personal and professional goals are, and figuring out ways in which their communication and thought process can be improved, to get as close as possible to achieving those results in as little time as possible.
 
-They came to [Kollegorna](https://www.kollegorna.se/en/) asking for help setting up a couple of Websites: one they could use to promote their custom-tailored services (where they sit down with people and try to work through their specific goals), and another one where they would sell access to e-learning courses (essentially, video lectures and reading materials). Somewhat paradoxically, however, they had no visual identity, so I suggested we should start there.
+They came to [Kollegorna](https://www.kollegorna.se/en/) asking for help setting up a couple of Websites: one they could use to promote their custom-tailored services (where they work directly with people's specific goals), and another one where they would sell access to e-learning courses (essentially, video lectures and reading materials). Somewhat paradoxically, however, they had no visual identity, so I suggested we should start there.
 
 </article>
 
@@ -23,7 +23,7 @@ They came to [Kollegorna](https://www.kollegorna.se/en/) asking for help setting
 
 <article role="article">
 
-The brief for the brand was quite open, with only one request: don't make it too solemn. Because most of the clients they work with are people in leadership positions, companies operating in this segment of the market tend to look way too corporate. And boring. Lanneberg Bexelius wanted none of that. They didn't want to be seen as suits helping other suits. They wanted to be seen as people helping others find out how they are perceived by their peers, how they would like to be perceived, and what they can do to reconcile the two.
+The brief for the brand was quite open, with only one request: don't make it too solemn. Because most of the clients they work with are people in leadership positions, companies operating in this segment of the market tend to look way too corporate. And boring. Lanneberg Bexelius wanted none of that. They didn't want to be seen as suits helping other suits. They wanted to be seen as people helping others find out how they are perceived by their peers, how they _would like_ to be perceived, and what they can do to reconcile the two.
 
 We figured: if we're going to make something that feels personal and approachable, we might as well do it by designing the brand to channel Pia's and Kristina's personalities. So we spent some time floating ideas around, trying to boil their tastes and ideas down to a set of core elements we could combine to make up a brand. What we ended up with is a vibrant colour scheme, a pair of complementary typefaces and a bunch of simple but fun illustrations that establish a clear tone of voice for the brand. Tying it all together is a logo made up of their initials, seamlessly fused into an elegant monogram.
 
