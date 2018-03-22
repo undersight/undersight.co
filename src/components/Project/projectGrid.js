@@ -30,10 +30,10 @@ const Projects = styled.section`
     grid-auto-rows: calc(100vw / 3 + 100px);
   }
 
-  @media ${props => props.theme.xxxlargeUp} {
+  /* @media ${props => props.theme.xxxlargeUp} {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: calc(25vw + 100px);
-  }
+  } */
 `
 class ProjectGrid extends React.Component {
   constructor(props) {

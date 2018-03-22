@@ -5,6 +5,7 @@ import styled, { ThemeProvider } from "styled-components"
 import WebFont from 'webfontloader';
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import theme from "../themes/main.js"
 import inRegexArray from "../helpers/in-regex-array.js"
@@ -48,6 +49,8 @@ class TemplateWrapper extends React.Component {
           <div>
             {this.props.children()}
           </div>
+        
+          <Footer />
         </div>
       </ThemeProvider>
     )

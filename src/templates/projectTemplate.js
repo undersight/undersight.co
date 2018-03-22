@@ -52,9 +52,9 @@ const ProjectContent = styled.section`
     }
   }
 
-  .fullwidth {
+  .video {
     width: 100%;
-    height: auto;
+    height: 56.25vw;
   }
   
   @media ${props => props.theme.smallUp} {
