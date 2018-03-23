@@ -13,25 +13,25 @@ order: 2
 
 <article role="article">
 
-Echo1 is a Singapore-based company working towards improving sound culture across the globe. They manage and fund businesses working in sound-related areas, while at the same time promoting good business practices within the companies they are involved in. Together with the brilliant folks at [Kollegorna](https://www.kollegorna.se/en/), I helped build their brand and website in record-time, going from an humble pitch deck to release in a few weeks.
+Echo1 is a Singapore-based company working towards improving sound culture across the globe. They manage and fund businesses working in sound-related areas, while at the same time promoting good business practices within the companies they are involved in. Together with the brilliant folks at [Kollegorna](https://www.kollegorna.se/en/), I helped build their brand and website in record-time, going from a humble pitch deck to release in a few weeks.
 
 </article>
 
-![Thumbnail](images/slide-deck@2x.png)
-![Thumbnail](images/logo@2x.png)
-![Thumbnail](images/laptop@2x.png)
+![Slides taken out of a briefing deck we got from the client](images/slide-deck@2x.png)
+![Echo1's Final Logo](images/logo@2x.png)
+![echo1.co homepage as seen on a laptop](images/laptop@2x.png)
 
 <article role="article">
 
-When they first approached us, Echo1 had a bold vision for what the company of the future should look and behave like. I already knew Adrian Lo, the founder, from [previous](http://www.soundzipper.com/) [projects](http://celinebeyond.com/) we had worked on together, and I was aware of his stellar work ethic and the tireless work he put into all of his ventures. But this time he was looking to do some things slightly different. He was trying to build something bigger. He wanted his new company to be as transparent, diverse and holacratic as possible, and was looking to completely abolish hierarchies. His vision was that of a network where the power traditionally reserved for executives and managers would be equally spread across all employees. And he wanted us to design and build a website that put the ideology behind it front and center, while also fulfilling the more traditional role of promoting his company's services and portfolio.
+When they first approached us, Echo1 had a bold vision for what the company of the future should look and behave like. I already knew Adrian Lo, the founder, from [previous](http://www.soundzipper.com/) [projects](http://celinebeyond.com/) we had worked on together, and I was aware of his stellar work ethic and the tireless work he put into all of his ventures. But this time he was looking to do some things slightly different. He was trying to build something bigger. He wanted his new company to be as transparent, diverse and holacratic as possible, and was looking to completely abolish hierarchies. His vision was that of a network where the power traditionally reserved for executives and managers would be equally spread across all employees. And he wanted us to design and build a website that put the ideology behind it front and centre, while also fulfilling the more traditional role of promoting his company's services and portfolio.
 
-The idea of building organisations void of hierarchy sounded very exciting, but we also felt as though it could easily come to be dismissed as impractical and utopic by their target audience. So we set out to build a brand and website that felt fun and approachable, but still looked poised, serious and mature. We figured this would help get the message across, and circumvent any possible skepticism or animosity people could have towards a business that is looking to blow up the traditional image of what a company is.
+The idea of building organisations void of hierarchy sounded very exciting, but we also felt as though it could easily come to be dismissed as impractical and utopic by their target audience. So we set out to build a brand and website that felt fun and approachable but still looked poised, serious and mature. We figured this would help get the message across, and circumvent any possible scepticism or animosity people could have towards a business that is looking to blow up the traditional image of what a company is.
 
 </article>
 
-![Thumbnail](images/illustrations@2x.png)
-![Thumbnail](images/links@2x.png)
-![Thumbnail](images/floating-laptop@2x.png)
+![Misc brand illustrations and photographs](images/illustrations@2x.png)
+![Detail of a website section with links to related pages](images/links@2x.png)
+![Floating laptop showing the echo1.co homepage](images/floating-laptop@2x.png)
 
 <article role="article">
 
@@ -43,14 +43,14 @@ These shapes and colours are complemented by [a quirky sans-serif font](https://
 
 </article>
 
-![Thumbnail](images/proposal@2x.png)
-![Thumbnail](images/practices@2x.png)
-![Thumbnail](images/monitor@2x.png)
-![Thumbnail](images/pages@2x.png)
-![Thumbnail](images/how-it-works@2x.png)
-![Thumbnail](images/contact-page@2x.png)
-![Thumbnail](images/phones@2x.png)
-![Thumbnail](images/illustrator@2x.png)
+![Several slides from the brand proposal presentation we did](images/proposal@2x.png)
+![Detail of the website showcasing the company's practices](images/practices@2x.png)
+![Photo of a monitor showing artboards with work-in-progress](images/monitor@2x.png)
+![Screenshots of all pages on Echo1.co](images/pages@2x.png)
+![Detail of a graph detailing how Echo1's accelerator program works](images/how-it-works@2x.png)
+![Contact page on echo1.co, as seen on a laptop](images/contact-page@2x.png)
+![Two mobile phones showing the mobile version of echo1.co](images/phones@2x.png)
+![Screenshot of the early brand sketches on Adobe Illustrator](images/illustrator@2x.png)
 
 <article role="article">
 

@@ -23,7 +23,7 @@ Citizens for Europe is a platform for European-based citizens and civil society 
 
 The idea for the logo popped up soon after I saw the first sentence in the briefing documents we were handed. It read: “Citizens for Europe is an organisation run for and by citizens, working together towards a more participative and democratic Europe”. I highlighted the words citizens, together and Europe, and went looking for things that could broadly convey those concepts. Europe was quite obvious: one of the stars in the European flag. It was actually almost too obvious, and we debated whether we should resort to that kind of cliché or try to find something a bit more nuanced. In the end, though, we stuck to it, because it pieced together nicely with the other elements: fingerprints woven together, representing both citizenship and unity.
 
-I'll admit it sounds a bit far-stretched, when you try to explain the concept. And the first few sketches I came up didn't exactly help the cause, as they looked either forced or boring. But right as I was about to give up, things seemed to fall into place. I had a logo I was actually quite happy with, and that I felt managed to combine all three concepts into a single image.
+I'll admit it sounds a bit far-stretched when you try to explain the concept. And the first few sketches I came up didn't exactly help the cause, as they looked either forced or boring. But right as I was about to give up, things seemed to fall into place. I had a logo I was actually quite happy with, and that I felt managed to combine all three concepts into a single image.
 
 </article>
 
@@ -31,7 +31,7 @@ I'll admit it sounds a bit far-stretched, when you try to explain the concept. A
 
 <article role="article">
 
-The original proposal had an additional detail we ended up having to drop. At the time, I was looking for ways to increase engagement with the target audience, and I figured there was a clear opportunity to do it right in the organisation's name. If you simply replace the words Citizens and Europe, you can use the logo as a vessel for any personal or political message you want to broadcast. To allow for the brand not to get lost in the process, the word "for" was styled differently in the original logo, so that even when you take away the star and replace two thirds of the name, the brand is still recognizable.
+The original proposal had an additional detail we ended up having to drop. At the time, I was looking for ways to increase engagement with the target audience, and I figured there was a clear opportunity to do it right in the organisation's name. If you simply replace the words Citizens and Europe, you can use the logo as a vessel for any personal or political message you want to broadcast. To allow for the brand not to get lost in the process, the word "for" was styled differently in the original logo, so that even when you take away the star and replace two-thirds of the name, the brand is still recognizable.
 
 </article>
 
@@ -48,7 +48,7 @@ The original proposal had an additional detail we ended up having to drop. At th
 
 <article role="article">
 
-In the end, we dropped the idea because we felt like it was a logo in its own right, and that it would ultimately steal the spotlight away from the star. We felt like keeping both things would equate to having a logo that's actually made out of two different logos, so we had to choose one—and the star ultimately won. But I'm still very fond of this concept, and think it would really have shined at the several events Citizens for Europe regularly organizes across Europe.
+In the end, we dropped the idea because we thought it was a logo in its own right and that it would ultimately steal the spotlight away from the star. We felt like keeping both things would equate to having a logo that's actually made out of two different logos, so we had to choose one—and the star ultimately won. But I'm still very fond of this concept, and think it would really have shined at the several events Citizens for Europe regularly organizes across Europe.
 
 What we did keep was Mário Feliciano's stellar [Grotzec Condensed](http://www.felicianotypefoundry.com/cms/fonts/grotzec-condensed)—a font that turns anything it's typeset with into pure gold.
 

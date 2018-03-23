@@ -31,8 +31,8 @@ We figured: if we're going to make something that feels personal and approachabl
 
 ![Early Branding Sketches](images/brand_sketches@2x.png)
 ![Final Logo](images/logos@2x.png)
-![Illustration of an head with shapes floating around it](images/head@2x.png)
-![The brand applied on several different objects](images/brand_goods@2x.png)
+![Illustration of a head with shapes floating around it](images/head@2x.png)
+![Several different objects sporting the brand](images/brand_goods@2x.png)
 
 <article role="article">
 
@@ -49,6 +49,6 @@ Under the hood, we employed a static site generator—specifically, [Middleman](
 
 <article role="article">
 
-In the end, both we and the client were extremely happy with the final result. I wish I could say that is always the case but, as any designer will tell you, reality is a lot more complicated. Good design doesn't just require good designers, it needs good clients too. Clients who want to be involved in the process, but respect and understand the designer's craft and place their trust on his or her experience. By that measure, Lanneberg Bexelius would rank very highly on my client list. Their involvement was always constructive throughout, and they sought to give us the resources we needed in order to do our jobs properly, without getting in the way. It's largely thanks to them and their approach that we were able to put together a brand and Website they are still happy with today—and that I'm still very much proud of.
+In the end, both we and the client were extremely happy with the final result. I wish I could say that is always the case but, as any designer will tell you, reality is a lot more complicated. Good design doesn't just require good designers, it needs good clients too. Clients who want to be involved in the process, but respect and understand the designer's craft and place their trust in his or her experience. By that measure, Lanneberg Bexelius would rank very highly on my client list. Their involvement was always constructive throughout, and they sought to give us the resources we needed in order to do our jobs properly, without getting in the way. It's largely thanks to them and their approach that we were able to put together a brand and Website they are still happy with today—and that I'm still very much proud of.
 
 </article>

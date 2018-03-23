@@ -15,7 +15,7 @@ order: 1
 
 Sometimes, I have a slight tendency to over-complicate things. It's a flaw very few designers will admit to having, even though a good chunk of us share it. Occasionally, I will bump into a nagging issue, for which I know there are a million different solutions, and I will choose what is arguably the hardest, most time-consuming one. That's how Matcher came to be.
 
-Matcher is a small Web app that seeks to solve a very specific problem: scheduling amateur sports matches. I used to play football with a few friends on a weekly basis, and after a short while the logistics of it got a bit out of hand. One of us would have to take the better part of a day off every time, to try and get everyone to RSVP, find a date and time that fit everyone's schedule and split the group into well-rounded teams. So I took the chance to scratch my own itch and designed a small Web app that fixed all of it for us. Only, I over-did it a bit.
+Matcher is a small Web app that seeks to solve a very specific problem: scheduling amateur sports matches. I used to play football with a few friends on a weekly basis and, after a short while, the logistics of it got a bit out of hand. One of us would have to take the better part of a day off every time, to try and get everyone to RSVP, find a date and time that fit everyone's schedule and split the group into well-rounded teams. So I took the chance to scratch my own itch and designed a small Web app that fixed all of it for us. Only, I over-did it a bit.
 
 </article>
 
@@ -37,7 +37,7 @@ But first, we needed a brand.
 
 <article role="article">
 
-Quite frankly, this was one of the rare cases where the brand pretty much designed itself. For the logo, A2 Type's outstanding [Regular](https://www.a2-type.co.uk/regular) pulls most of the weight, only being complemented by a few scribbles that mimic coaching instructions. These follow a bit of a pattern, but can be used in a number of different ways, keeping the logo recognizable but never boring. As for the colour scheme, it's ripped right off of the courts we used to play in. Perhaps unsurprisingly, I've come to realize these look more or less the same anywhere in the world, almost always using a combination of 2 out of 4 possible colours. By adding them all together, we had a brand palette.
+Quite frankly, this was one of the rare cases where the brand pretty much designed itself. For the logo, A2 Type's outstanding [Regular](https://www.a2-type.co.uk/regular) pulls most of the weight, only being complemented by a few scribbles that mimic coaching instructions. These follow a bit of a pattern but can be used in a number of different ways, keeping the logo recognizable but never boring. As for the colour scheme, it's ripped right off of the courts we used to play in. Perhaps unsurprisingly, I've come to realize these look more or less the same anywhere in the world, almost always using a combination of 2 out of 4 possible colours. By adding them all together, we had a brand palette.
 
 </article>
 
@@ -57,7 +57,7 @@ With the brand settled, it was time to move on to the UI. One of the biggest tem
 
 <article role="article">
 
-As soon as we had something that was barely usable, we started using it to schedule our own matches. Calling the first version we launched an MVP would be an overstatement, yet it worked surprisingly well for us so, after a few months of testing and improvements, I decided to open up a closed beta. I put together a small little promotional page for it, and used Mailchimp to set up an half-baked beta sign-up system. Because it's still a bare-bones app, hosted on a cheap heroku dyno, I'm taking a cautious approach and only letting in small groups of users at a time, but the response so far has been encouraging. Sadly, the amount of time I can invest in it at this point is very limited, so development at the moment feels a lot like what our football matches used to be: slow, largely uneventful and slightly embarassing, yet still immensely rewarding.
+As soon as we had something that was barely usable, we started using it to schedule our own matches. Calling the first version we launched an MVP would be an overstatement, yet it worked surprisingly well for us so, after a few months of testing and improvements, I decided to open up a closed beta. I put together a small little promotional page for it, and used [MailChimp](https://mailchimp.com/) to set up a half-baked beta sign-up system. Because it's still a bare-bones app, hosted on a cheap [Heroku](https://www.heroku.com) server, I'm taking a cautious approach and only letting in small groups of users at a time, but the response so far has been encouraging. Sadly, the amount of time I can invest in it at this point is very limited, so development at the moment feels a lot like what our football matches used to be: slow, largely uneventful and slightly embarrassing, yet still immensely rewarding.
 
 </article>
 
