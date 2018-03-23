@@ -15,7 +15,7 @@ order: 3
 
 JustHostMe is a British Web hosting company founded over a decade ago. They provide traditional hosting solutions for individuals and businesses worldwide, and were trying to consolidate their position as one of the few hosting companies entirely based and staffed in the UK. They asked [Kollegorna](https://www.kollegorna.se/en/) to freshen up their brand and redesign their website, a process I was lucky enough to lead.
 
-After a few meetings, it became apparent the client was looking to cater to a mostly British audience, marketing themselves as a trustworthy national enterprise that, besides offering UK-based hosting services, would also provide customer support through a team of British-based staff members always ready to help out. So we set out to design a brand that hinted at British culture and pride, without making it feel exclusive or uninviting to customers worldwide.
+After our first few meetings, it became apparent the client was looking to cater to a mostly British audience, marketing themselves as a trustworthy national enterprise that, besides offering UK-based hosting services, would also provide customer support through a team of British-based staff members always ready to help out. So we set out to design a brand that hinted at British culture and pride, without making it feel exclusive or uninviting to customers worldwide.
 
 </article>
 
@@ -34,7 +34,7 @@ Because the brand was to be used almost exclusively on screen, we were able to m
 
 <article role="article">
 
-As we were planning the new site, we figured the one thing a Web hosting company cannot afford to have is a slow and bulky Website. Having a great infrastructure goes a long a way, of course, but we figured design could give them a bit of a push as well. So we designed the site to use **a total of zero bitmap images**; every single icon and illustration on the website is 100% vector. This makes every page on the site weigh less than 100Kb, which means it loads blazingly fast — almost uncannily so. We actually considered artificially delaying page loads, to make them look a bit more natural but, in the end, we just rolled with it. 💨
+As we were planning the new site, we figured the one thing a Web hosting company cannot afford to have is a slow and bulky Website. Having a great infrastructure goes a long a way, of course, but we figured design could give them a bit of a push as well. So we designed the site to use **a total of zero bitmap images**; every single icon and illustration on the website is 100% vector. This makes every page on the site weigh less than 100Kb, which means it loads blazingly fast — almost uncannily so. We actually considered artificially delaying page loads, to make them look a bit more natural but, in the end, we just rolled with it.
 
 </article>
 
@@ -42,3 +42,9 @@ As we were planning the new site, we figured the one thing a Web hosting company
 ![Built with Love](images/love@2x.png)
 ![Brand Applications](images/applications@2x.png)
 ![Brand Applications](images/proposal@2x.png)
+
+<article role="article">
+
+JustHostMe is a traditional Web hosting company operating at a time when the market space is rapidly being taken over by internet giants, whose infrastructure allows them to provide their services at close to no cost (or, to put it more bluntly, in exchange for their customer's data). So these are times that truly require a special effort. For JustHostMe, the strategy has been to target small creators and business owners who would rather pay an extra couple pounds for a service that feels personal and close to home, and that is willing to provide some hand-holding as they try to get their hobbies and businesses on-line. It's a model I have tremendous respect for, and that I felt honoured to be a small part of.
+
+</article>
