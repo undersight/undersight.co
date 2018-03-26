@@ -64,3 +64,9 @@ As soon as we had something that was barely usable, we started using it to sched
 ![Matcher.club Promo Homepage](images/promo-page1@2x.png)
 ![Matcher.club About Page](images/promo-page2@2x.png)
 ![Matcher. Beta Invitation E-mail](images/invite@2x.png)
+
+<article role="article">
+
+For a humble sideproject, built to tackle a minor inconvenience in our day-to-day lives, Matcher turned out to be a very enriching process. It gave me the opportunity to get some hand-on experience with Rails, at a time when I was increasingly in need of understanding it, and it provided an outlet for my desire to design the hell out of something without the middleman. But it also opened my eyes to what really is important about a service that's targeted at consumers: that they want to use it. Because I was meeting all of my users at least once a week—and because they had *a lot* to say about the product, as we were warming up before every match—I had a (seemingly never-ending) supply of invaluable and brutally honest user feedback. Therein lies, who knows, the solution every PM's been looking for. Just get your team to play football with your users—data will start pouring in immediately.
+
+</article>

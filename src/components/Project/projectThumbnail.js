@@ -18,7 +18,7 @@ const Thumbnail = styled.article`
 
 const ProjectImage = styled.div`
   width: 100%;
-  height: calc(100% - 80px);
+  height: calc(100% - 70px);
   overflow: hidden;
   position: relative;
   

@@ -13,7 +13,7 @@ order: 2
 
 <article role="article">
 
-Echo1 is a Singapore-based company working towards improving sound culture across the globe. They manage and fund businesses working in sound-related areas, while at the same time promoting good business practices within the companies they are involved in. Together with the brilliant folks at [Kollegorna](https://www.kollegorna.se/en/), I helped build their brand and website in record-time, going from a humble pitch deck to release in a few weeks.
+Echo1 is a Singapore-based company working towards improving sound culture across the globe. They manage and fund businesses working in sound-related areas, while at the same time promoting good business practices within the companies they are involved in. Together with the folks at [Kollegorna](https://www.kollegorna.se/en/), I helped build their brand and website in record-time, going from a humble pitch deck to release in a few weeks.
 
 </article>
 

@@ -96,7 +96,7 @@ class Footer extends React.Component {
     return (
     <MainFooter>
         <FooterLogo>
-            Undersight
+            <Link to="/">Undersight</Link>
         </FooterLogo>
         <FooterLinks>
             <a href="https://www.behance.net/eduardonunes" target="_blank"><img src={Behance} /> <span>Behance</span></a>
