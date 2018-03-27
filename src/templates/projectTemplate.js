@@ -24,8 +24,11 @@ const ProjectContent = styled.section`
 
   article {
     width: 80%;
-    max-width: ${rem(800)};
     margin: ${rem(60)} auto;
+
+    &:first-child {
+      margin-top: 0;
+    }
 
     iframe {
       display: block;
@@ -65,9 +68,32 @@ const ProjectContent = styled.section`
       margin-bottom: ${rem(28)};
     }
   }
-  @media ${props => props.theme.largeUp} {
+  @media ${props => props.theme.mediumUp} {
+    article {
+      max-width: ${rem(700)};
+    }
     article p {
       font-size: ${rem(32)};
+      margin-bottom: ${rem(32)};
+    }
+  }
+  @media ${props => props.theme.largeUp} {
+    article {
+      max-width: ${rem(800)};
+      margin: ${rem(80)} auto;
+    }
+    article p {
+      font-size: ${rem(36)};
+      margin-bottom: ${rem(36)};
+    }
+  }
+  @media ${props => props.theme.xxlargeUp} {
+    article {
+      max-width: ${rem(1100)};
+      margin: ${rem(120)} auto;
+    }
+    article p {
+      font-size: ${rem(48)};
       margin-bottom: ${rem(32)};
     }
   }
@@ -94,8 +120,19 @@ const ProjectNavigation = styled.nav`
 
 const ProjectHeader = styled.header`
   width: 80%;
-  max-width: ${rem(800)};
   margin: 0 auto ${rem(30)} auto;
+
+  @media ${props => props.theme.mediumUp} {
+    max-width: ${rem(700)};
+  }
+
+  @media ${props => props.theme.largeUp} {
+    max-width: ${rem(800)};
+  }
+
+  @media ${props => props.theme.xxlargeUp} {
+    max-width: ${rem(1100)};
+  }
 `
 
 const ProjectTitle = styled.h1`
@@ -110,8 +147,16 @@ const ProjectTitle = styled.h1`
   }
 
   @media ${props => props.theme.mediumUp} {
-    font-size: ${rem(48)};
-  } 
+    font-size: 4vw;
+  }
+
+  @media ${props => props.theme.largeUp} {
+    font-size: 3vw;
+  }
+  
+  @media ${props => props.theme.xxlargeUp} {
+    font-size: ${rem(72)};
+  }
 `
 
 const ProjectType = styled.h2`
@@ -127,6 +172,14 @@ const ProjectType = styled.h2`
 
   @media ${props => props.theme.mediumUp} {
     font-size: ${rem(18)};
+  }
+
+  @media ${props => props.theme.xlargeUp} {
+    font-size: ${rem(20)};
+  }
+
+  @media ${props => props.theme.xxlargeUp} {
+    font-size: ${rem(22)};
   }
 `
 
