@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled, { ThemeProvider } from "styled-components"
 import WebFont from 'webfontloader';
+import ReactGA from 'react-ga';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -30,6 +31,13 @@ class TemplateWrapper extends React.Component {
       }
     });
     this.setState({loadState: "loaded"})
+
+    ReactGA.initialize('UA-116544151-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+  
+  componentDidUpdate = () => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   render() {
@@ -45,15 +53,6 @@ class TemplateWrapper extends React.Component {
               { name: 'image', content: "/images/og.png" },
             ]}
           >
-
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116544151-1"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'UA-116544151-1');
-            </script>
 
             <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
             <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
