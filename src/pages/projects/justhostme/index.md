@@ -23,7 +23,9 @@ After our first few meetings, it became apparent the client was looking to cater
 
 <article role="article">
 
-We chose to start from a list of Great Britain's clichés, identify their core features and gradually remove any visual references to them, until we were left with a set of colours and a geometric sans-serif typeface that pays tribute to historically remarkable British typography. We turned their logo into a vessel: a small glowing container you can fill up with your own things, and that's yours to keep or share with the rest of the world.
+We chose to start from a list of Great Britain's clichés, identify their core features and gradually remove any visual references to them, until we were left with a set of colours and a geometric sans-serif typeface that pays tribute to historically remarkable British typography.
+
+> We turned their logo into a vessel: a small glowing container you can fill up with your own things, and that's yours to keep or share with the rest of the world.
 
 Because the brand was to be used almost exclusively on screen, we were able to make extensive use of gradients in the logo — something that wouldn't fly with a lot of clients. Luckily, this client was totally on board with it, especially after we presented the several ways in which the cube and the gradients could be used to convey information — which we ended up doing for the hosting plan icons.
 
@@ -34,7 +36,11 @@ Because the brand was to be used almost exclusively on screen, we were able to m
 
 <article role="article">
 
-As we were planning the new site, we figured the one thing a Web hosting company cannot afford to have is a slow and bulky Website. Having a great infrastructure goes a long a way, of course, but we figured design could give them a bit of a push as well. So we designed the site to use **a total of zero bitmap images**; every single icon and illustration on the website is 100% vector. This makes every page on the site weigh less than 100Kb, which means it loads blazingly fast — almost uncannily so. We actually considered artificially delaying page loads, to make them look a bit more natural but, in the end, we just rolled with it.
+As we were planning the new site, we figured the one thing a Web hosting company cannot afford to have is a slow and bulky Website. Having a great infrastructure goes a long a way, of course, but we figured design could give them a bit of a push as well.
+
+> So we designed the site to use **a total of zero bitmap images**; every single icon and illustration on the website is 100% vector.
+
+This makes every page on the site weigh less than 100Kb, which means it loads blazingly fast — almost uncannily so. We actually considered artificially delaying page loads, to make them look a bit more natural but, in the end, we just rolled with it.
 
 </article>
 

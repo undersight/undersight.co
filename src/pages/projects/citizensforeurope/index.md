@@ -21,7 +21,11 @@ Citizens for Europe is a platform for European-based citizens and civil society 
 
 <article role="article">
 
-The idea for the logo popped up soon after I saw the first sentence in the briefing documents we were handed. It read: “Citizens for Europe is an organisation run for and by citizens, working together towards a more participative and democratic Europe”. I highlighted the words citizens, together and Europe, and went looking for things that could broadly convey those concepts. Europe was quite obvious: one of the stars in the European flag. It was actually almost too obvious, and we debated whether we should resort to that kind of cliché or try to find something a bit more nuanced. In the end, though, we stuck to it, because it pieced together nicely with the other elements: fingerprints woven together, representing both citizenship and unity.
+The idea for the logo popped up soon after I saw the first sentence in the briefing documents we were handed. It read:
+
+> “Citizens for Europe is an organisation run for and by citizens, working together towards a more participative and democratic Europe”
+
+I highlighted the words citizens, together and Europe, and went looking for things that could broadly convey those concepts. Europe was quite obvious: one of the stars in the European flag. It was actually almost too obvious, and we debated whether we should resort to that kind of cliché or try to find something a bit more nuanced. In the end, though, we stuck to it, because it pieced together nicely with the other elements: fingerprints woven together, representing both citizenship and unity.
 
 I'll admit it sounds a bit far-stretched when you try to explain the concept. And the first few sketches I came up with didn't exactly help the cause, as they looked either forced or boring. But right as I was about to give up, things seemed to fall into place. I had a logo I was actually quite happy with, and that I felt managed to combine all three concepts into a single image.
 
@@ -31,7 +35,11 @@ I'll admit it sounds a bit far-stretched when you try to explain the concept. An
 
 <article role="article">
 
-The original proposal had an additional detail we ended up having to drop. At the time, I was looking for ways to increase engagement with the target audience, and I figured there was a clear opportunity to do it right in the organisation's name. If you simply replace the words Citizens and Europe, you can use the logo as a vessel for any personal or political message you want to broadcast. To allow for the brand not to get lost in the process, the word "for" was styled differently in the original logo, so that even when you take away the star and replace two-thirds of the name, the brand is still recognizable.
+The original proposal had an additional detail we ended up having to drop. At the time, I was looking for ways to increase engagement with the target audience, and I figured there was a clear opportunity to do it right in the organisation's name.
+
+> If you simply replace the words Citizens and Europe, you can use the logo as a vessel for any personal or political message you want to broadcast.
+
+To allow for the brand not to get lost in the process, the word "for" was styled differently in the original logo, so that even when you take away the star and replace two-thirds of the name, the brand is still recognizable.
 
 </article>
 
@@ -69,6 +77,8 @@ To do all of that, we got designer/developer whizz-kid [João Saraiva](https://d
 
 <article role="article">
 
-For a Website originally launched in early 2015, I think it has aged quite well. It's still actively used by Citizens for Europe's now [more than 400 members](http://www.citizensforeurope.eu/organisations/), and new content is published on a daily basis. The site's main goals are also still as relevant as ever—if not more—and will continue to be in a post-Brexit world, so it's comforting to see CFE are still actively trying to build a better European Union.
+> For a Website originally launched in early 2015, I think it has aged quite well.
+
+It's still actively used by Citizens for Europe's now [more than 400 members](http://www.citizensforeurope.eu/organisations/), and new content is published on a daily basis. The site's main goals are also still as relevant as ever—if not more—and will continue to be in a post-Brexit world, so it's comforting to see CFE are still actively trying to build a better European Union.
 
 </article>

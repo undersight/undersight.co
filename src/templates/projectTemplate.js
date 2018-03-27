@@ -45,6 +45,21 @@ const ProjectContent = styled.section`
       margin-bottom: ${rem(24)};
     }
 
+    blockquote {
+      p {
+        font-style: italic;
+        font-size: ${rem(28)};
+        line-height: 1.2;
+
+        strong {
+          font-weight: 500;
+        }
+        em {
+          font-weight: normal;
+        }
+      }
+    }
+
     a {
       text-decoration: underline;
       transition: color 0.2s ease-out;
@@ -67,6 +82,9 @@ const ProjectContent = styled.section`
       font-size: ${rem(28)};
       margin-bottom: ${rem(28)};
     }
+    article blockquote p {
+      font-size: ${rem(36)};
+    }
   }
   @media ${props => props.theme.mediumUp} {
     article {
@@ -75,6 +93,10 @@ const ProjectContent = styled.section`
     article p {
       font-size: ${rem(32)};
       margin-bottom: ${rem(32)};
+    }
+    article blockquote p {
+      font-size: ${rem(42)};
+      padding: 0 ${rem(32)};
     }
   }
   @media ${props => props.theme.largeUp} {
@@ -86,6 +108,10 @@ const ProjectContent = styled.section`
       font-size: ${rem(36)};
       margin-bottom: ${rem(36)};
     }
+    article blockquote p {
+      font-size: ${rem(48)};
+      padding: 0 ${rem(48)};
+    }
   }
   @media ${props => props.theme.xxlargeUp} {
     article {
@@ -95,6 +121,10 @@ const ProjectContent = styled.section`
     article p {
       font-size: ${rem(48)};
       margin-bottom: ${rem(32)};
+    }
+    article blockquote p {
+      font-size: ${rem(64)};
+      padding: 0 ${rem(48)};
     }
   }
   @media ${props => props.theme.largeUp} {

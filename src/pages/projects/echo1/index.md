@@ -23,7 +23,9 @@ Echo1 is a Singapore-based company working towards improving sound culture acros
 
 <article role="article">
 
-When they first approached us, Echo1 had a bold vision for what the company of the future should look and behave like. I already knew Adrian Lo, the founder, from [previous](http://www.soundzipper.com/) [projects](http://celinebeyond.com/) we had worked on together, and I was aware of his stellar work ethic and the tireless work he put into all of his ventures. But this time he was looking to do some things slightly different. He was trying to build something bigger. He wanted his new company to be as transparent, diverse and holacratic as possible, and was looking to completely abolish hierarchies. His vision was that of a network where the power traditionally reserved for executives and managers would be equally spread across all employees. And he wanted us to design and build a website that put the ideology behind it front and centre, while also fulfilling the more traditional role of promoting his company's services and portfolio.
+> When they first approached us, Echo1 had a bold vision for what the company of the future should look and behave like.
+
+I already knew Adrian Lo, the founder, from [previous](http://www.soundzipper.com/) [projects](http://celinebeyond.com/) we had worked on together, and I was aware of his stellar work ethic and the tireless work he put into all of his ventures. But this time he was looking to do some things slightly different. He was trying to build something bigger. He wanted his new company to be as transparent, diverse and holacratic as possible, and was looking to completely abolish hierarchies. His vision was that of a network where the power traditionally reserved for executives and managers would be equally spread across all employees. And he wanted us to design and build a website that put the ideology behind it front and centre, while also fulfilling the more traditional role of promoting his company's services and portfolio.
 
 The idea of building organisations void of hierarchy sounded very exciting, but we also felt as though it could easily come to be dismissed as impractical and utopic by their target audience. So we set out to build a brand and website that felt fun and approachable but still looked poised, serious and mature. We figured this would help get the message across, and circumvent any possible scepticism or animosity people could have towards a business that is looking to blow up the traditional image of what a company is.
 
@@ -54,6 +56,8 @@ These shapes and colours are complemented by [a quirky sans-serif font](https://
 
 <article role="article">
 
-The brand and Website are, of course, just the start for Echo1. They are now actively seeking to gather a team of investors, researchers and entrepreneurs willing to establish new businesses that help improve sound and acoustics throughout the world. They have created a Slack channel where [everyone is invited](http://echo1.co/join-us) to share their ideas with the rest of the team and ask for help (financially or otherwise) making them happen.
+> The brand and Website are, of course, just the start for Echo1.
+
+They are now actively seeking to gather a team of investors, researchers and entrepreneurs willing to establish new businesses that help improve sound and acoustics throughout the world. They have created a Slack channel where [everyone is invited](http://echo1.co/join-us) to share their ideas with the rest of the team and ask for help (financially or otherwise) making them happen.
 
 </article>

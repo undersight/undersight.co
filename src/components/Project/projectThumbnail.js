@@ -39,9 +39,13 @@ const ProjectMeta = styled.div`
   margin: 0;
   display: flex;
   padding: ${rem(26)} ${rem(30)};
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
   
   @media ${props => props.theme.mediumUp} {
     padding: ${rem(36)} ${rem(30)};
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
     border-right: 1px solid ${props => props.theme.colorBorderLight};
   }
 `
