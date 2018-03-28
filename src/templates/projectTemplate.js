@@ -22,6 +22,10 @@ const ProjectContent = styled.section`
   width: 100%;
   margin-top: ${rem(40)};
 
+  &:first-child {
+    margin-top: ${rem(10)};
+  }
+
   article {
     width: 80%;
     margin: ${rem(60)} auto;
@@ -78,6 +82,10 @@ const ProjectContent = styled.section`
   @media ${props => props.theme.smallUp} {
     margin-top: ${rem(50)};
 
+    &:first-child {
+      margin-top: ${rem(20)};
+    }
+
     article p {
       font-size: ${rem(28)};
       margin-bottom: ${rem(28)};
@@ -87,6 +95,10 @@ const ProjectContent = styled.section`
     }
   }
   @media ${props => props.theme.mediumUp} {
+    &:first-child {
+      margin-top: ${rem(50)};
+    }
+
     article {
       max-width: ${rem(700)};
     }
@@ -100,6 +112,10 @@ const ProjectContent = styled.section`
     }
   }
   @media ${props => props.theme.largeUp} {
+    &:first-child {
+      margin-top: ${rem(60)};
+    }
+
     article {
       max-width: ${rem(800)};
       margin: ${rem(80)} auto;
@@ -114,6 +130,10 @@ const ProjectContent = styled.section`
     }
   }
   @media ${props => props.theme.xxlargeUp} {
+    &:first-child {
+      margin-top: ${rem(70)};
+    }
+
     article {
       max-width: ${rem(900)};
       margin: ${rem(120)} auto;
