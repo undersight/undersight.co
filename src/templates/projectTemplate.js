@@ -20,7 +20,7 @@ const Post = styled.main`
 `
 const ProjectContent = styled.section`
   width: 100%;
-  margin-top: ${rem(100)};
+  margin-top: ${rem(40)};
 
   article {
     width: 80%;
@@ -76,7 +76,7 @@ const ProjectContent = styled.section`
   }
   
   @media ${props => props.theme.smallUp} {
-    margin-top: ${rem(130)};
+    margin-top: ${rem(50)};
 
     article p {
       font-size: ${rem(28)};
@@ -128,7 +128,7 @@ const ProjectContent = styled.section`
     }
   }
   @media ${props => props.theme.largeUp} {
-    margin-top: ${rem(150)};
+    margin-top: ${rem(80)};
   }
 `
 const ProjectNavigation = styled.nav`

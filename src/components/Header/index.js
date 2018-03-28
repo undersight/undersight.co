@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled, { css } from "styled-components"
 import { rem, hideVisually } from "polished"
+import Headroom from 'react-headroom'
 
 const MainHeader = styled.header`
   width: 100%;
@@ -29,9 +30,6 @@ const MainHeader = styled.header`
     border-bottom: 1px solid ${props => props.theme.colorBorderLighter};
     position: relative;
     transition: background 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955);
-    position: fixed;
-    top: 0;
-    left: 0;
     z-index: 9;
     
     small {
@@ -183,13 +181,15 @@ class Header extends React.Component {
   render() {
     if(this.props.headerSize === "small") {
       return (
-        <MainHeader size="small">
-          <Link to="/" title="Go to homepage">
-            <SiteTitle size="small">
-              <strong>Undersight.co</strong><small> is the digital playground of Eduardo Nunes.</small>
-            </SiteTitle>
-          </Link>
-        </MainHeader>
+        <Headroom>
+          <MainHeader size="small">
+            <Link to="/" title="Go to homepage">
+              <SiteTitle size="small">
+                <strong>Undersight.co</strong><small> is the digital playground of Eduardo Nunes.</small>
+              </SiteTitle>
+            </Link>
+          </MainHeader>
+        </Headroom>
       )
     } else {
       return (
