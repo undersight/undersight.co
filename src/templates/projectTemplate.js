@@ -177,11 +177,11 @@ const ProjectTitle = styled.h1`
   }
 
   @media ${props => props.theme.mediumUp} {
-    font-size: 4vw;
+    font-size: ${rem(48)};
   }
 
   @media ${props => props.theme.largeUp} {
-    font-size: 3vw;
+    font-size: ${rem(60)};
   }
   
   @media ${props => props.theme.xxlargeUp} {
