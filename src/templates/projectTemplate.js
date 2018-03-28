@@ -115,15 +115,15 @@ const ProjectContent = styled.section`
   }
   @media ${props => props.theme.xxlargeUp} {
     article {
-      max-width: ${rem(1100)};
+      max-width: ${rem(900)};
       margin: ${rem(120)} auto;
     }
     article p {
-      font-size: ${rem(48)};
-      margin-bottom: ${rem(32)};
+      font-size: ${rem(40)};
+      margin-bottom: ${rem(40)};
     }
     article blockquote p {
-      font-size: ${rem(64)};
+      font-size: ${rem(54)};
       padding: 0 ${rem(48)};
     }
   }
@@ -161,7 +161,7 @@ const ProjectHeader = styled.header`
   }
 
   @media ${props => props.theme.xxlargeUp} {
-    max-width: ${rem(1100)};
+    max-width: ${rem(900)};
   }
 `
 
