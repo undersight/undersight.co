@@ -38,9 +38,9 @@ const ProjectImage = styled.div`
 const ProjectMeta = styled.div`
   margin: 0;
   display: flex;
-  padding: ${rem(26)} ${rem(30)};
-  padding-left: max(${rem(30)}, env(safe-area-inset-left));
-  padding-right: max(${rem(30)}, env(safe-area-inset-right));
+  padding: ${rem(26)} ${rem(20)};
+  padding-left: max(${rem(20)}, env(safe-area-inset-left));
+  padding-right: max(${rem(20)}, env(safe-area-inset-right));
   
   @media ${props => props.theme.mediumUp} {
     padding: ${rem(36)} ${rem(30)};
