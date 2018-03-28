@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "BORE — 30"
-type: "Music EP"
+type: "EP"
 
 # Thumbnails
 thumbnail: "./thumbnail.png"
