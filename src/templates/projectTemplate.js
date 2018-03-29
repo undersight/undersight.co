@@ -44,7 +44,7 @@ const ProjectContent = styled.section`
     p {
       font-family: ${props => props.theme.ffPrimary};
       font-size: ${rem(24)};
-      line-height: 1.25;
+      line-height: 1.2;
       font-weight: 300;
       margin-bottom: ${rem(24)};
     }
@@ -53,7 +53,7 @@ const ProjectContent = styled.section`
       p {
         font-style: italic;
         font-size: ${rem(28)};
-        line-height: 1.2;
+        line-height: 1.1;
 
         strong {
           font-weight: 500;
