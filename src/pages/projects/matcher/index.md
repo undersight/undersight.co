@@ -53,7 +53,7 @@ As for the colour scheme, it's ripped right off of the courts we used to play in
 
 <article role="article">
 
-With the brand settled, it was time to move on to the UI. One of the biggest temptations, when you're designing an app like this, is to focus on the desktop experience first and then try to gracefully degrade it so it fits on smaller screens. I went with the opposite approach: started out by designing everything mobile-first, and then tried to scale it up so it looks good everywhere. In all fairness, the app still ended up looking better on phones than it does on desktop, but I'm happy to report that it's just as usable on every device — and all versions share the exact same set of features.
+With the brand settled, it was time to move on to the UI. One of the biggest temptations, when you're designing an app like this, is to focus on the desktop experience first and then try to gracefully degrade it so it fits on smaller screens. I went with the opposite approach: started out by designing everything mobile-first, and then tried to scale it up so it looks good everywhere. In all fairness, the app still ended up looking better on phones than it does on desktop, but I'm happy to report that it's just as usable on every deviceâ€”and all versions share the exact same set of features.
 
 </article>
 
@@ -81,6 +81,6 @@ For a humble sideproject, built to tackle a minor inconvenience in our day-to-da
 
 > But it also opened my eyes to what really is important about a service that's targeted at consumers: that they want to use it.
 
-Because I was meeting all of my users at least once a week—and because they had *a lot* to say about the product, as we were warming up before every match—I had a seemingly never-ending supply of invaluable and brutally honest user feedback. Therein lies, who knows, the solution every PM's been looking for. Just get your team to play football with your users—data will start pouring in immediately.
+Because I was meeting all of my users at least once a weekâ€”and because they had *a lot* to say about the product, as we were warming up before every matchâ€”I had a seemingly never-ending supply of invaluable and brutally honest user feedback. Therein lies, who knows, the solution every PM's been looking for. Just get your team to play football with your usersâ€”data will start pouring in immediately.
 
 </article>
