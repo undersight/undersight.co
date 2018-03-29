@@ -53,8 +53,8 @@ Under the hood, we employed a static site generator—specifically, [Middleman](
 
 In the end, both we and the client were extremely happy with the final result. I wish I could say that is always the case but, as any designer will tell you, reality is a lot more complicated.
 
-> Good design doesn't just require good designers, it needs good clients too.
+> Good design doesn't just require good designers, it needs thoughtful and respectful clients too.
 
-Clients who want to be involved in the process, but respect and understand the designer's craft and place their trust in his or her experience. By that measure, Lanneberg Bexelius would rank very highly on my client list. Their involvement was always constructive throughout, and they sought to give us the resources we needed in order to do our jobs properly, without getting in the way. It's largely thanks to them and their approach that we were able to put together a brand and Website they are still happy with today—and that I'm still very much proud of.
+Clients who are invested in the process, but understand the designer's craft and vision and place their trust in his or her experience. By that measure, Lanneberg Bexelius would rank very highly on my client list. Their involvement was always constructive throughout, and they sought to give us the resources we needed in order to do our jobs properly, without getting in the way. It's largely thanks to them and their approach that we were able to put together a brand and Website they are still happy with today—and that I'm still very much proud of.
 
 </article>
