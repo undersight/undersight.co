@@ -50,9 +50,10 @@ class TemplateWrapper extends React.Component {
               { name: 'name', content: 'Undersight.co' },
               { name: 'description', content: 'Undersight.co is the digital playground of Eduardo Nunes. Full-time graphic designer, part-time noise maker. Head of Design at Stockholm-based Kollegorna.' },
               { name: 'keywords', content: 'undersight, design, eduardo nunes, Web, development, frontend, graphic' },
-              { name: 'image', content: "/images/og.png" },
+              { name: 'image', content: "/images/og.png" }
             ]}
           >
+            <html lang="en" />
 
             <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
             <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
