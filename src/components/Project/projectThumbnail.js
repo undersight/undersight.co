@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
-import styled, { css } from "styled-components"
-import { rem, hideVisually } from "polished"
+import styled, { css } from 'styled-components'
+import { rem, hideVisually } from 'polished'
 
 const Thumbnail = styled.article`
   overflow: hidden;
@@ -21,7 +21,7 @@ const ProjectImage = styled.div`
   height: calc(100% - 70px);
   overflow: hidden;
   position: relative;
-  
+
   @media ${props => props.theme.mediumUp} {
     height: calc(100% - 100px);
   }
@@ -41,7 +41,7 @@ const ProjectMeta = styled.div`
   padding: ${rem(26)} ${rem(20)};
   padding-left: max(${rem(20)}, env(safe-area-inset-left));
   padding-right: max(${rem(20)}, env(safe-area-inset-right));
-  
+
   @media ${props => props.theme.mediumUp} {
     padding: ${rem(36)} ${rem(30)};
     padding-left: max(${rem(30)}, env(safe-area-inset-left));
@@ -57,7 +57,7 @@ const ProjectTitle = styled.h1`
   font-weight: 500;
   margin: 0;
   width: 50%;
-  
+
   @media ${props => props.theme.smallUp} {
     font-size: ${rem(28)};
   }
@@ -75,7 +75,7 @@ const ProjectType = styled.h2`
   margin: 0;
   width: 50%;
   text-align: right;
-  
+
   @media ${props => props.theme.smallUp} {
     font-size: ${rem(14)};
     line-height: ${rem(28)};
@@ -95,11 +95,11 @@ class ProjectThumbnail extends React.Component {
       frames: 1,
       imageWidth: 0,
       currentFrame: 0,
-      imageOffset: 0
+      imageOffset: 0,
     }
 
-    this._mouseEnter = this._mouseEnter.bind(this);
-    this._mouseLeave = this._mouseLeave.bind(this);
+    this._mouseEnter = this._mouseEnter.bind(this)
+    this._mouseLeave = this._mouseLeave.bind(this)
   }
 
   _randomizeImage() {
@@ -111,11 +111,11 @@ class ProjectThumbnail extends React.Component {
 
       const frameCount = Math.floor(imageWidth / imageHeight)
       const startFrame = Math.floor(Math.random() * frameCount)
-      
+
       this.setState({
         frames: frameCount,
         imageWidth: imageWidth,
-        currentFrame: startFrame
+        currentFrame: startFrame,
       })
     }
   }
@@ -124,7 +124,7 @@ class ProjectThumbnail extends React.Component {
     let currentFrame = this.state.currentFrame
 
     if (currentFrame < this.state.frames - 1) {
-      currentFrame ++
+      currentFrame++
     } else {
       currentFrame = 0
     }
@@ -134,16 +134,16 @@ class ProjectThumbnail extends React.Component {
 
   _updateBackground(currentFrame) {
     this.setState({
-      currentFrame: currentFrame
+      currentFrame: currentFrame,
     })
   }
-  
+
   _mouseEnter() {
     this._cycleImage()
 
     this.interval = setInterval(() => {
       this._cycleImage()
-    }, 600);
+    }, 600)
   }
 
   _mouseLeave() {
@@ -156,12 +156,21 @@ class ProjectThumbnail extends React.Component {
 
   render() {
     return (
-      <Thumbnail onMouseEnter={this._mouseEnter} onMouseLeave={this._mouseLeave} onTouchStart={this._mouseEnter} onTouchEnd={this._mouseLeave}>
+      <Thumbnail
+        onMouseEnter={this._mouseEnter}
+        onMouseLeave={this._mouseLeave}
+        onTouchStart={this._mouseEnter}
+        onTouchEnd={this._mouseLeave}
+      >
         <Link to={this.state.project.frontmatter.path}>
           <ProjectImage>
             <img
-              style={ { transform: `translateX(-${this.state.currentFrame * (100 / this.state.frames)}%)` } }
-              src={this.state.project.frontmatter.thumbnail.publicURL} />
+              style={{
+                transform: `translateX(-${this.state.currentFrame *
+                  (100 / this.state.frames)}%)`,
+              }}
+              src={this.state.project.frontmatter.thumbnail.publicURL}
+            />
           </ProjectImage>
           <ProjectMeta>
             <ProjectTitle>{this.state.project.frontmatter.title}</ProjectTitle>

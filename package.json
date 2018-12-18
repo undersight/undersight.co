@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "undersight.co",
+  "description": "Digital playground of Eduardo Nunes",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Eduardo Nunes <ed@undersight.co>",
   "dependencies": {
+    "fsevents": "^1.2.4",
     "gatsby": "^1.9.243",
     "gatsby-image": "^1.0.41",
     "gatsby-link": "^1.6.38",

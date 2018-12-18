@@ -1,26 +1,35 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# undersight.co
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+## Environments
 
-## Install
+### Production
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+https://undersight.co
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+## Running locally
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
-```
+### Setup
 
-## Deploy
+1. `npm install --global gatsby-cli`
+2. `yarn`
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+### Develop
+
+1. Run server
+  - Live development:
+
+    `gatsby develop`
+
+  - Live development with an access on local network:
+
+    `gatsby develop -H your-local-ip-address`
+
+  - Browse the build:
+
+    `gatsby build && gatsby serve`
+
+2. http://localhost:8000
+
+## Deployment
+
+Codeship automatically deploys to master
