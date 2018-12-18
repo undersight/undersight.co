@@ -15,7 +15,7 @@ const MainFooter = styled.footer`
   margin-right: auto;
   border-top: 1px solid ${props => props.theme.colorBorderLight};
   display: flex;
-  
+
   @media ${props => props.theme.mediumUp} {
     padding: ${rem(20)} ${rem(30)};
   }
@@ -102,7 +102,7 @@ class Footer extends React.Component {
             <a href="https://www.behance.net/eduardonunes" target="_blank"><img src={Behance} /> <span>Behance</span></a>
             <a href="https://dribbble.com/eduardonunes" target="_blank"><img src={Dribbble} /> <span>Dribbble</span></a>
             <a href="https://github.com/emmnunes" target="_blank"><img src={GitHub} /> <span>GitHub</span></a>
-            <a href="http://tumblr.eduardonunes.me/" target="_blank"><img src={Tumblr} /> <span>Tumblr</span></a>
+            <a href="http://tumblr.undersight.co/" target="_blank"><img src={Tumblr} /> <span>Tumblr</span></a>
         </FooterLinks>
     </MainFooter>
     )

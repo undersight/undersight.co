@@ -16,6 +16,15 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
 };
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
+  const { createRedirect } = boundActionCreators
+
+  createRedirect({
+    fromPath: `/ok`,
+    isPermanent: true,
+    redirectInBrowser: true,
+    toPath: `/bore`,
+  })
+
   const { createPage } = boundActionCreators;
 
   const projectTemplate = path.resolve(`src/templates/projectTemplate.js`);
