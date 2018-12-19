@@ -1,9 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Img from 'gatsby-image'
 import Helmet from 'react-helmet'
-import styled, { css } from "styled-components"
-import { rem, hideVisually } from "polished"
+import styled from "styled-components"
+import { rem } from "polished"
+import { graphql } from 'gatsby'
 
 import ProjectThumbnail from "../components/Project/projectThumbnail"
 
@@ -78,7 +77,7 @@ const ProjectContent = styled.section`
     width: 100%;
     height: 56.25vw;
   }
-  
+
   @media ${props => props.theme.smallUp} {
     margin-top: ${rem(50)};
 
@@ -203,7 +202,7 @@ const ProjectTitle = styled.h1`
   @media ${props => props.theme.largeUp} {
     font-size: ${rem(60)};
   }
-  
+
   @media ${props => props.theme.xxlargeUp} {
     font-size: ${rem(72)};
   }
@@ -259,11 +258,11 @@ class ProjectWrapper extends React.Component {
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
-  pathContext
+  pageContext
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
-  const { next, prev } = pathContext;
+  const { next, prev } = pageContext;
 
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from 'react'
-import styled, { ThemeProvider } from "styled-components"
-import { rem, hideVisually } from "polished"
+import styled from "styled-components"
+import { rem } from "polished"
 
 const Error = styled.section`
   width: 100%;
@@ -26,7 +26,7 @@ const Error = styled.section`
     @media ${props => props.theme.largeUp} {
       font-size: 3vw;
     }
-    
+
     @media ${props => props.theme.xxlargeUp} {
       font-size: ${rem(72)};
     }
@@ -36,7 +36,7 @@ const Error = styled.section`
 const NotFoundPage = () => (
   <div>
     <Error>
-      <h1>😔<br />Page not found...</h1>
+      <h1><span role="img" aria-label="Sad emoji">😔</span><br />Page not found...</h1>
     </Error>
   </div>
 )

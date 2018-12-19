@@ -31,13 +31,6 @@ class TemplateWrapper extends React.Component {
       }
     });
     this.setState({loadState: "loaded"})
-
-    ReactGA.initialize('UA-116544151-1');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
-  
-  componentDidUpdate = () => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   render() {
@@ -84,7 +77,7 @@ class TemplateWrapper extends React.Component {
           <div>
             {this.props.children()}
           </div>
-        
+
           <Footer />
         </div>
       </ThemeProvider>
