@@ -1,10 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import styled, { css } from "styled-components"
-import { rem, hideVisually } from "polished"
+import { graphql } from 'gatsby'
 
-import ProjectGrid from "../components/Project/projectGrid"
-import ProjectThumbnail from "../components/Project/projectThumbnail"
+import ProjectGrid from '../components/Project/projectGrid'
+import ProjectThumbnail from '../components/Project/projectThumbnail'
 
 const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
   const Posts = edges

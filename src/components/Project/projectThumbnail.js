@@ -153,6 +153,10 @@ class ProjectThumbnail extends React.Component {
     this._randomizeImage()
   }
 
+  componentWillUnmount() {
+    clearInterval(this.interval)
+  }
+
   render() {
     return (
       <Thumbnail

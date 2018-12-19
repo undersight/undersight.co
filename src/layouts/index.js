@@ -1,21 +1,29 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import styled, { ThemeProvider } from "styled-components"
-import WebFont from 'webfontloader';
-import ReactGA from 'react-ga';
+import { ThemeProvider } from 'styled-components'
+import ReactGA from 'react-ga'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-import theme from "../themes/main.js"
-import inRegexArray from "../helpers/in-regex-array.js"
+import theme from '../themes/main.js'
+import inRegexArray from '../helpers/in-regex-array.js'
 
-import "../assets/styles/reset.css"
+import '../assets/styles/reset.css'
 
 const largeHeaderPages = [
   /^\/$/, // index
 ]
+
+if (typeof window !== 'undefined') {
+  var WebFont = require('webfontloader')
+
+  WebFont.load({
+    typekit: {
+      id: 'bhs8rbg'
+    }
+  });
+}
 
 class TemplateWrapper extends React.Component {
   constructor(props) {
@@ -25,12 +33,14 @@ class TemplateWrapper extends React.Component {
   }
 
   componentDidMount = () => {
-    WebFont.load({
-      typekit: {
-        id: 'bhs8rbg'
-      }
-    });
     this.setState({loadState: "loaded"})
+
+    ReactGA.initialize('UA-116544151-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+
+  componentDidUpdate = () => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   render() {
@@ -74,19 +84,13 @@ class TemplateWrapper extends React.Component {
 
           <Header headerSize={inRegexArray(this.props.location.pathname, largeHeaderPages) ? 'large' : 'small'} />
 
-          <div>
-            {this.props.children()}
-          </div>
+          <div>{this.props.children}</div>
 
           <Footer />
         </div>
       </ThemeProvider>
     )
   }
-}
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
 }
 
 export default TemplateWrapper

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styled, { css } from "styled-components"
-import { rem, hideVisually } from "polished"
+import styled from "styled-components"
+import { rem } from "polished"
 
 import Behance from "../../assets/images/icons/behance.svg"
 import Dribbble from "../../assets/images/icons/dribbble.svg"
@@ -88,10 +88,6 @@ const FooterLinks = styled.nav`
 `
 
 class Footer extends React.Component {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
     <MainFooter>
@@ -99,10 +95,10 @@ class Footer extends React.Component {
             <Link to="/">Undersight</Link>
         </FooterLogo>
         <FooterLinks>
-            <a href="https://www.behance.net/eduardonunes" target="_blank"><img src={Behance} /> <span>Behance</span></a>
-            <a href="https://dribbble.com/eduardonunes" target="_blank"><img src={Dribbble} /> <span>Dribbble</span></a>
-            <a href="https://github.com/emmnunes" target="_blank"><img src={GitHub} /> <span>GitHub</span></a>
-            <a href="http://tumblr.undersight.co/" target="_blank"><img src={Tumblr} /> <span>Tumblr</span></a>
+            <a href="https://www.behance.net/eduardonunes" target="_blank" rel="noopener noreferrer"><img src={Behance} alt="Behance logo" /> <span>Behance</span></a>
+            <a href="https://dribbble.com/eduardonunes" target="_blank" rel="noopener noreferrer"><img src={Dribbble} alt="Dribbble logo" /> <span>Dribbble</span></a>
+            <a href="https://github.com/emmnunes" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="GitHub logo" /> <span>GitHub</span></a>
+            <a href="http://tumblr.undersight.co/" target="_blank" rel="noopener noreferrer"><img src={Tumblr} alt="Tumblr logo" /> <span>Tumblr</span></a>
         </FooterLinks>
     </MainFooter>
     )
