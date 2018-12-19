@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styled, { css } from "styled-components"
-import { rem, hideVisually } from "polished"
+import styled, { css } from 'styled-components'
+import { rem } from 'polished'
 import Headroom from 'react-headroom'
 
 const MainHeader = styled.header`
@@ -31,7 +31,7 @@ const MainHeader = styled.header`
     position: relative;
     transition: background 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955);
     z-index: 9;
-    
+
     small {
       display: none;
     }
@@ -50,7 +50,7 @@ const MainHeader = styled.header`
         width: 100%;
         height: 100%;
       }
-    
+
       strong,
       small {
         position: absolute;
@@ -117,7 +117,7 @@ const SiteTitle = styled.h1`
     font-size: 4.5vw;
     max-width: 50vw;
   }
-  
+
   ${props => props.size === 'small' && css`
     width: 100%;
     max-width: 100%;
@@ -161,11 +161,11 @@ const SiteByline = styled.p`
   }
 
   @media ${props => props.theme.mediumDown} {
-    br { 
+    br {
       display: none;
     }
   }
-  
+
   @media ${props => props.theme.smallUp} {
     font-size: ${rem(20)};
     line-height: 1.5;
@@ -174,10 +174,6 @@ const SiteByline = styled.p`
 `
 
 class Header extends React.Component {
-  constructor() {
-    super()
-  }
-
   render() {
     if(this.props.headerSize === "small") {
       return (
@@ -197,7 +193,7 @@ class Header extends React.Component {
           <SiteTitle><strong>Undersight.co</strong> is the digital playground of Eduardo Nunes.</SiteTitle>
           <SiteByline>
             Full-time graphic designer, part-time noise maker. <br />
-            Head of Design at Stockholm-based <a href="https://www.kollegorna.se/en/" target="_blank" title="Kollegorna's Website">Kollegorna</a>.
+            Head of Design at Stockholm-based <a href="https://www.kollegorna.se/en/" target="_blank" title="Kollegorna's Website" rel="noopener noreferrer">Kollegorna</a>.
           </SiteByline>
         </MainHeader>
       )

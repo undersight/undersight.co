@@ -1,8 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Img from 'gatsby-image'
-import styled, { css } from "styled-components"
-import { rem, hideVisually } from "polished"
+import styled from "styled-components"
+import { rem } from "polished"
 
 const Projects = styled.section`
   display: grid;
