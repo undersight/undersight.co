@@ -6,17 +6,20 @@
 
 const path = require("path");
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  if (stage === "build-html") {
-    config.loader("null", {
-      test: /webfontloader/,
-      loader: "null-loader",
-    });
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  switch (stage) {
+    case `build-html`:
+    actions.setWebpackConfig({
+      loader: ("null", {
+        test: /webfontloader/,
+        loader: "null-loader",
+      }),
+    })
   }
 };
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createRedirect } = boundActionCreators
+exports.createPages = ({ actions, graphql }) => {
+  const { createRedirect } = actions
 
   createRedirect({
     fromPath: `/ok`,
@@ -25,7 +28,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     toPath: `/bore`,
   })
 
-  const { createPage } = boundActionCreators;
+  const { createPage } = actions;
 
   const projectTemplate = path.resolve(`src/templates/projectTemplate.js`);
 

@@ -5,21 +5,24 @@
   "author": "Eduardo Nunes <ed@undersight.co>",
   "dependencies": {
     "fsevents": "^1.2.4",
-    "gatsby": "^1.9.243",
+    "gatsby": "^2.0.72",
     "gatsby-image": "^1.0.41",
-    "gatsby-link": "^1.6.38",
-    "gatsby-plugin-react-helmet": "^2.0.6",
-    "gatsby-plugin-sharp": "^1.6.41",
-    "gatsby-remark-images": "^1.5.56",
-    "gatsby-source-filesystem": "^1.5.27",
-    "gatsby-transformer-remark": "^1.7.36",
-    "gatsby-transformer-sharp": "^1.6.22",
-    "polished": "^1.9.2",
+    "gatsby-link": "^2.0.7",
+    "gatsby-plugin-layout": "^1.0.10",
+    "gatsby-plugin-react-helmet": "^3.0.4",
+    "gatsby-plugin-sharp": "^2.0.15",
+    "gatsby-remark-images": "^3.0.1",
+    "gatsby-source-filesystem": "^2.0.12",
+    "gatsby-transformer-remark": "^2.1.17",
+    "gatsby-transformer-sharp": "^2.1.9",
+    "polished": "^2.3.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-ga": "^2.4.1",
     "react-headroom": "^2.2.2",
     "react-helmet": "^5.2.0",
     "react-theme-provider": "^0.1.3",
-    "styled-components": "^3.2.1",
+    "styled-components": "^4.1.3",
     "webfontloader": "^1.6.28"
   },
   "keywords": [
@@ -34,5 +37,9 @@
   },
   "devDependencies": {
     "prettier": "^1.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/emmnunes/undersight.co"
   }
 }
