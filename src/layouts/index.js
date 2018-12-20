@@ -3,13 +3,13 @@ import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
 import ReactGA from 'react-ga'
 
+import '../assets/styles/reset.css'
+
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 import theme from '../themes/main.js'
 import inRegexArray from '../helpers/in-regex-array.js'
-
-import '../assets/styles/reset.css'
 
 const largeHeaderPages = [
   /^\/$/, // index

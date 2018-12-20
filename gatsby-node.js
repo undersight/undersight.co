@@ -7,11 +7,14 @@
 const path = require("path");
 
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  if (stage === "build-html") {
-    config.loader("null", {
-      test: /webfontloader/,
-      loader: "null-loader",
-    });
+  switch (stage) {
+    case `build-html`:
+    actions.setWebpackConfig({
+      loader: ("null", {
+        test: /webfontloader/,
+        loader: "null-loader",
+      }),
+    })
   }
 };
 
