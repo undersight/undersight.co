@@ -15,6 +15,7 @@
     "gatsby-transformer-remark": "^2.1.17",
     "gatsby-transformer-sharp": "^2.1.9",
     "polished": "^2.3.1",
+    "prettier": "^1.11.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-ga": "^2.4.1",
@@ -35,8 +36,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "fsevents": "^2.0.1",
-    "prettier": "^1.11.1"
+    "fsevents": "^2.0.1"
   },
   "repository": {
     "type": "git",
