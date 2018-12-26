@@ -33,4 +33,4 @@ https://undersight.co
 
 ## Deployment
 
-Pushing to master and staging automatically deploys to Netlify.
+Pushing to master or staging automatically deploys to Netlify.
