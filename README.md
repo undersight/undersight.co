@@ -16,20 +16,21 @@ https://undersight.co
 ### Develop
 
 1. Run server
-  - Live development:
 
-    `gatsby develop`
+- Live development:
 
-  - Live development with an access on local network:
+  `gatsby develop`
 
-    `gatsby develop -H your-local-ip-address`
+- Live development with an access on local network:
 
-  - Browse the build:
+  `gatsby develop -H your-local-ip-address`
 
-    `gatsby build && gatsby serve`
+- Browse the build:
+
+  `gatsby build && gatsby serve`
 
 2. http://localhost:8000
 
 ## Deployment
 
-Codeship automatically deploys to master
+Pushing to master and staging automatically deploys to Netlify.
