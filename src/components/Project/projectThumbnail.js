@@ -38,13 +38,13 @@ const ProjectMeta = styled.div`
   margin: 0;
   display: flex;
   padding: ${rem(26)} ${rem(20)};
-  padding-left: max(${rem(20)}, env(safe-area-inset-left));
-  padding-right: max(${rem(20)}, env(safe-area-inset-right));
+  padding-left: ${rem(20)};
+  padding-right: ${rem(20)};
 
   @media ${props => props.theme.mediumUp} {
     padding: ${rem(36)} ${rem(30)};
-    padding-left: max(${rem(30)}, env(safe-area-inset-left));
-    padding-right: max(${rem(30)}, env(safe-area-inset-right));
+    padding-left: ${rem(30)};
+    padding-right: ${rem(30)};
     border-right: 1px solid ${props => props.theme.colorBorderLight};
   }
 `
