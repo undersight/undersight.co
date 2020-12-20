@@ -3,6 +3,7 @@
 .cache
 node_modules
 yarn-error.log
+.DS_STORE
 
 # Build directory
 /public
