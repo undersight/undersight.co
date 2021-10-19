@@ -173,7 +173,7 @@ class ProjectThumbnail extends React.Component {
                   (100 / this.state.frames)}%)`,
               }}
               src={this.state.project.frontmatter.thumbnail.publicURL}
-              alt="{this.state.project.frontmatter.title}"
+              alt={this.state.project.frontmatter.title}
             />
           </ProjectImage>
           <ProjectMeta>
