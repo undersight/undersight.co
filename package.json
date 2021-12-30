@@ -38,6 +38,18 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "resolutions": {
+    "ansi-html": "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
+    "ansi-regex": "5.0.1",
+    "browserslist": "4.18.1",
+    "glob-parent": "6.0.1",
+    "immer": "9.0.7",
+    "nth-check": "2.0.1",
+    "object-path": "0.11.8",
+    "sanitize-html": "2.3.2",
+    "trim": "0.0.3",
+    "ws": "7.4.6"
+  },
   "repository": {
     "type": "git",
     "url": "https://bitbucket.org/emmnunes/undersight.co"
