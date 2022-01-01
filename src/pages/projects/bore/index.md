@@ -5,6 +5,7 @@ type: "Electronic Music"
 
 # Thumbnails
 thumbnail: "./thumbnail.jpg"
+og: "./og.png"
 
 # Options
 path: "/bore/"
