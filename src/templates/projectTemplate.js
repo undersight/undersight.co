@@ -270,10 +270,17 @@ export default function Template({
         title={frontmatter.title + " — Undersight.co"}
         meta={[
           { name: 'name', content: frontmatter.title + " — Undersight.co" },
+          { name: 'keywords', content: 'undersight, design, eduardo nunes, Web, development, frontend, graphic' },
           { name: 'image', content: "https://www.undersight.co" + frontmatter.og.publicURL },
+          { name: 'og:type', content: "website" },
+          { name: 'og:site_name', content: "Undersight.co" },
           { name: 'og:title', content: frontmatter.title },
           { name: 'og:image', content: "https://www.undersight.co" + frontmatter.og.publicURL },
+          { name: "twitter:card", content: "summary_large_image" },
+          { name: "twitter:title", content: "Undersight.co" },
           { name: "twitter:image:src", content: "https://www.undersight.co" + frontmatter.og.publicURL },
+          { name: "twitter:site", content: "@undersightco" },
+          { name: "twitter:creator", content: "@undersightco" },
         ]}
       />
 
