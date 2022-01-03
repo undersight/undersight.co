@@ -1,14 +1,14 @@
 ---
 # Metadata
 title: "Citizens for Europe"
-type: "Branding + Web"
+type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
 
 # Options
 path: "/citizensforeurope/"
-order: 6
+order: 8
 ---
 
 <article role="article">

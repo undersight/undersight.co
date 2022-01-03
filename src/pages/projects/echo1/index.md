@@ -1,14 +1,14 @@
 ---
 # Metadata
 title: "Echo1"
-type: "Branding + Web"
+type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
 
 # Options
 path: "/echo1/"
-order: 2
+order: 4
 ---
 
 <article role="article">

@@ -8,7 +8,7 @@ thumbnail: "./thumbnail.jpg"
 
 # Options
 path: "/bore/"
-order: 5
+order: 9
 ---
 
 <article role="article">

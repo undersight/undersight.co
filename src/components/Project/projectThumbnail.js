@@ -11,7 +11,7 @@ const Thumbnail = styled.article`
   }
 
   &:hover div {
-    background: ${props => props.theme.colorBorderLighter};
+    background: ${props => props.theme.colorYellow};
   }
 `
 
@@ -40,6 +40,7 @@ const ProjectMeta = styled.div`
   padding: ${rem(26)} ${rem(20)};
   padding-left: ${rem(20)};
   padding-right: ${rem(20)};
+  background: ${props => props.theme.colorWhite};
 
   @media ${props => props.theme.mediumUp} {
     padding: ${rem(36)} ${rem(30)};
@@ -142,7 +143,7 @@ class ProjectThumbnail extends React.Component {
 
     this.interval = setInterval(() => {
       this._cycleImage()
-    }, 600)
+    }, 500)
   }
 
   _mouseLeave() {

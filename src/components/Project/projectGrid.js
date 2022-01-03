@@ -7,6 +7,7 @@ const Projects = styled.section`
   grid-template-columns: 1fr;
   grid-auto-rows: calc(100vw + 80px);
   transition: all 0.2s ease-out;
+  background: ${props => props.theme.colorBorderLight};
 
   &.loading {
     opacity: 0;
@@ -23,7 +24,7 @@ const Projects = styled.section`
     grid-auto-rows: calc(50vw + 100px);
   }
 
-  @media ${props => props.theme.xxlargeUp} {
+  @media ${props => props.theme.xlargeUp} {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: calc(100vw / 3 + 100px);
   }

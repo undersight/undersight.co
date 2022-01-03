@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Matcher"
-type: "Branding + Web"
+type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
