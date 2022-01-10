@@ -190,10 +190,22 @@ class Header extends React.Component {
     } else {
       return (
         <MainHeader>
-          <SiteTitle><strong>Undersight.co</strong> is the digital playground of Eduardo Nunes.</SiteTitle>
+          <SiteTitle>
+            <strong>Undersight.co</strong> is the digital playground of Eduardo
+            Nunes.
+          </SiteTitle>
           <SiteByline>
-            Full-time graphic designer, part-time noise maker. <br />
-            Head of Design at Stockholm-based <a href="https://www.odd.camp" target="_blank" title="Odd Camp's Website" rel="noopener noreferrer">Odd Camp</a>.
+            Designer & creative developer from Portugal. <br />
+            Head of Design at Stockholm-based{' '}
+            <a
+              href="https://www.odd.camp"
+              target="_blank"
+              title="Odd Camp's Website"
+              rel="noopener noreferrer"
+            >
+              Odd Camp
+            </a>
+            .
           </SiteByline>
         </MainHeader>
       )

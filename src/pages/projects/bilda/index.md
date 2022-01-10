@@ -5,10 +5,11 @@ type: "UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
+og: "./og.png"
 
 # Options
 path: "/bilda/"
-order: 3
+order: 5
 ---
 
 <article role="article">

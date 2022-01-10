@@ -5,10 +5,11 @@ type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
+og: "./og.png"
 
 # Options
 path: "/oddcamp/"
-order: 2
+order: 3
 ---
 
 <article role="article">

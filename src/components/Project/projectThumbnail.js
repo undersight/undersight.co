@@ -51,37 +51,37 @@ const ProjectMeta = styled.div`
 `
 
 const ProjectTitle = styled.h1`
-  font-family: ${props => props.theme.ffPrimary};
+  font-family: ${(props) => props.theme.ffPrimary};
   font-size: ${rem(20)};
   line-height: 1;
   font-weight: 500;
   margin: 0;
-  width: 50%;
+  width: 60%;
 
-  @media ${props => props.theme.smallUp} {
+  @media ${(props) => props.theme.smallUp} {
     font-size: ${rem(28)};
   }
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     font-size: ${rem(32)};
   }
 `
 
 const ProjectType = styled.h2`
-  font-family: ${props => props.theme.ffSecondary};
+  font-family: ${(props) => props.theme.ffSecondary};
   font-size: ${rem(12)};
   line-height: ${rem(20)};
   font-weight: 300;
   margin: 0;
-  width: 50%;
+  width: 40%;
   text-align: right;
 
-  @media ${props => props.theme.smallUp} {
+  @media ${(props) => props.theme.smallUp} {
     font-size: ${rem(14)};
     line-height: ${rem(28)};
   }
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     line-height: ${rem(32)};
   }
 `

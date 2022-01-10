@@ -5,10 +5,11 @@ type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.jpg"
+og: "./og.png"
 
 # Options
 path: "/lexnova/"
-order: 6
+order: 4
 ---
 
 <article role="article">

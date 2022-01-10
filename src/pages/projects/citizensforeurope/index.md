@@ -4,12 +4,12 @@ title: "Citizens for Europe"
 type: "Branding + UI"
 
 # Thumbnails
-thumbnail: "./thumbnail.svg"
+thumbnail: "./thumbnail.jpg"
 og: "./og.png"
 
 # Options
 path: "/citizensforeurope/"
-order: 8
+order: 9
 ---
 
 <article role="article">
