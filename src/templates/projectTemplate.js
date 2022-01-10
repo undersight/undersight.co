@@ -266,7 +266,23 @@ export default function Template({
 
   return (
     <div>
-      <Helmet title={frontmatter.title + " — Undersight.co"} />
+      <Helmet
+        title={frontmatter.title + " — Undersight.co"}
+        meta={[
+          { name: 'name', content: frontmatter.title + " — Undersight.co" },
+          { name: 'keywords', content: 'undersight, design, eduardo nunes, Web, development, frontend, graphic' },
+          { name: 'image', content: "https://www.undersight.co" + frontmatter.og.publicURL },
+          { property: 'og:type', content: "website" },
+          { property: 'og:site_name', content: "Undersight.co" },
+          { property: 'og:title', content: frontmatter.title },
+          { property: 'og:image', content: "https://www.undersight.co" + frontmatter.og.publicURL },
+          { name: "twitter:card", content: "summary_large_image" },
+          { name: "twitter:title", content: "Undersight.co" },
+          { name: "twitter:image:src", content: "https://www.undersight.co" + frontmatter.og.publicURL },
+          { name: "twitter:site", content: "@undersightco" },
+          { name: "twitter:creator", content: "@undersightco" },
+        ]}
+      />
 
       <ProjectWrapper>
         <ProjectContent role="main">
@@ -303,6 +319,9 @@ export const pageQuery = graphql`
         title
         type
         order
+        og {
+          publicURL
+        }
       }
     }
   }

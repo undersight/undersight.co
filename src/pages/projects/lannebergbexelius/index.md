@@ -5,6 +5,7 @@ type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
+og: "./og.png"
 
 # Options
 path: "/lannebergbexelius/"
@@ -15,7 +16,7 @@ order: 7
 
 Lanneberg Bexelius is a Stockholm-based personal branding consulting company run by Pia Lanneberg and Kristina Bexelius. They work within a field that is increasingly relevant, but not always easy to describe—something I can relate to. Put simply, Pia and Kristina are really good at sitting down with people, finding out what their personal and professional goals are, and figuring out ways in which their communication and thought process can be improved, to get as close as possible to achieving those results in as little time as possible.
 
-They came to [Kollegorna](https://www.kollegorna.se/en/) asking for help setting up a couple of Websites: one they could use to promote their custom-tailored services (where they work directly with people's specific goals), and another one where they would sell access to e-learning courses (essentially, video lectures and reading materials). Somewhat paradoxically, however, they had no visual identity, so I suggested we should start there.
+They came to [Odd Camp](https://www.odd.camp/) asking for help setting up a couple of Websites: one they could use to promote their custom-tailored services (where they work directly with people's specific goals), and another one where they would sell access to e-learning courses (essentially, video lectures and reading materials). Somewhat paradoxically, however, they had no visual identity, so I suggested we should start there.
 
 </article>
 

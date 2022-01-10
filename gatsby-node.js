@@ -49,6 +49,9 @@ exports.createPages = ({ actions, graphql }) => {
               thumbnail {
                 publicURL
               }
+              og {
+                publicURL
+              }
             }
           }
         }

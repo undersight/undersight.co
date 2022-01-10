@@ -5,6 +5,7 @@ type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
+og: "./og.png"
 
 # Options
 path: "/echo1/"
@@ -13,11 +14,10 @@ order: 4
 
 <article role="article">
 
-Echo1 is a Singapore-based company working towards improving sound culture across the globe. They manage and fund businesses working in sound-related areas, while at the same time promoting good business practices within the companies they are involved in. Together with the folks at [Kollegorna](https://www.kollegorna.se/en/), I helped build their brand and website in record-time, going from a humble pitch deck to release in a few weeks.
+Echo1 is a Singapore-based company working towards improving sound culture across the globe. They manage and fund businesses working in sound-related areas, while at the same time promoting good business practices within the companies they are involved in. Together with the folks at [Odd Camp](https://www.odd.camp/), I helped build their brand and website in record-time, going from a humble pitch deck to release in a few weeks.
 
 </article>
 
-![Slides taken out of a briefing deck we got from the client](images/slide-deck@2x.png)
 ![Echo1's Final Logo](images/logo@2x.png)
 ![echo1.co homepage as seen on a laptop](images/laptop@2x.png)
 
