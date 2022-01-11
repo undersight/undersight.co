@@ -4,15 +4,16 @@ import { graphql } from 'gatsby'
 import ProjectGrid from '../components/Project/projectGrid'
 import ProjectThumbnail from '../components/Project/projectThumbnail'
 
-const IndexPage = ({ data: { allMarkdownRemark: { edges } } }) => {
-  const Posts = edges
-    .map(edge => <ProjectThumbnail key={edge.node.id} project={edge.node} />);
+const IndexPage = ({
+  data: {
+    allMarkdownRemark: { edges },
+  },
+}) => {
+  const Posts = edges.map((edge) => (
+    <ProjectThumbnail key={edge.node.id} project={edge.node} />
+  ))
 
-  return(
-    <ProjectGrid>
-      {Posts}
-    </ProjectGrid>
-  )
+  return <ProjectGrid>{Posts}</ProjectGrid>
 }
 
 export default IndexPage
@@ -35,4 +36,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

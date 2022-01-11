@@ -11,7 +11,7 @@ const Thumbnail = styled.article`
   }
 
   &:hover div {
-    background: ${props => props.theme.colorYellow};
+    background: ${(props) => props.theme.colorYellow};
   }
 `
 
@@ -21,7 +21,7 @@ const ProjectImage = styled.div`
   overflow: hidden;
   position: relative;
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     height: calc(100% - 100px);
   }
 
@@ -40,13 +40,13 @@ const ProjectMeta = styled.div`
   padding: ${rem(26)} ${rem(20)};
   padding-left: ${rem(20)};
   padding-right: ${rem(20)};
-  background: ${props => props.theme.colorWhite};
+  background: ${(props) => props.theme.colorWhite};
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     padding: ${rem(36)} ${rem(30)};
     padding-left: ${rem(30)};
     padding-right: ${rem(30)};
-    border-right: 1px solid ${props => props.theme.colorBorderLight};
+    border-right: 1px solid ${(props) => props.theme.colorBorderLight};
   }
 `
 
@@ -170,8 +170,9 @@ class ProjectThumbnail extends React.Component {
           <ProjectImage>
             <img
               style={{
-                transform: `translateX(-${this.state.currentFrame *
-                  (100 / this.state.frames)}%)`,
+                transform: `translateX(-${
+                  this.state.currentFrame * (100 / this.state.frames)
+                }%)`,
               }}
               src={this.state.project.frontmatter.thumbnail.publicURL}
               alt={this.state.project.frontmatter.title}
