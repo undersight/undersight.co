@@ -5061,7 +5061,7 @@ gatsby-react-router-scroll@^5.5.0:
 
 "gatsby-remark-images-modal@git+https://github.com/undersight/gatsby-remark-images-modal":
   version "0.0.4"
-  resolved "git+https://github.com/undersight/gatsby-remark-images-modal#d27053de17700b36bdd32eee1a7e544a0d65d0ad"
+  resolved "git+https://github.com/undersight/gatsby-remark-images-modal#fca5c1810150934f8ba015591b593ba04c082a91"
 
 gatsby-remark-images@^6.4.0:
   version "6.5.1"
