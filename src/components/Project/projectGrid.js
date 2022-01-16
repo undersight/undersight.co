@@ -24,7 +24,7 @@ const Projects = styled.section`
     grid-auto-rows: calc(50vw + 100px);
   }
 
-  @media ${(props) => props.theme.xlargeUp} {
+  @media ${(props) => props.theme.xxlargeUp} {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: calc(100vw / 3 + 100px);
   }
