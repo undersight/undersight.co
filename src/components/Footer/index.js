@@ -110,7 +110,7 @@ class Footer extends React.Component {
             <img src={Dribbble} alt="Dribbble logo" /> <span>Dribbble</span>
           </a>
           <a
-            href="https://github.com/emmnunes"
+            href="https://github.com/undersight"
             target="_blank"
             rel="noopener noreferrer"
           >
