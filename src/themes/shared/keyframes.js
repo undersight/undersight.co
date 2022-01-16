@@ -1,5 +1,5 @@
-import { keyframes } from "styled-components"
-import { rem } from "polished"
+import { keyframes } from 'styled-components'
+import { rem } from 'polished'
 
 const fadeIn = keyframes`
   0% {
@@ -11,7 +11,7 @@ const fadeIn = keyframes`
   }
 `
 
-const slideInDown = ({pos = 20}) => (keyframes`
+const slideInDown = ({ pos = 20 }) => keyframes`
   0% {
     transform: translateY(${rem(-pos)});
   }
@@ -19,11 +19,11 @@ const slideInDown = ({pos = 20}) => (keyframes`
   100% {
     transform: translateY(0);
   }
-`)
+`
 
 const kfs = {
   fadeIn: fadeIn,
-  slideInDown: slideInDown
+  slideInDown: slideInDown,
 }
 
 export default kfs

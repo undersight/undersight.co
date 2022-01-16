@@ -1,12 +1,13 @@
 import React from 'react'
-import styled from "styled-components"
-import { rem } from "polished"
+import styled from 'styled-components'
+import { rem } from 'polished'
 
 const Projects = styled.section`
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: calc(100vw + 80px);
   transition: all 0.2s ease-out;
+  background: ${(props) => props.theme.colorBorderLight};
 
   &.loading {
     opacity: 0;
@@ -18,17 +19,17 @@ const Projects = styled.section`
     transform: none;
   }
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: calc(50vw + 100px);
   }
 
-  @media ${props => props.theme.xxlargeUp} {
+  @media ${(props) => props.theme.xxlargeUp} {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: calc(100vw / 3 + 100px);
   }
 
-  /* @media ${props => props.theme.xxxlargeUp} {
+  /* @media ${(props) => props.theme.xxxlargeUp} {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: calc(25vw + 100px);
   } */
@@ -37,21 +38,21 @@ class ProjectGrid extends React.Component {
   constructor(props) {
     super()
 
-    this.state = {loadState: "loading"}
+    this.state = { loadState: 'loading' }
   }
 
   componentDidMount() {
-    this.setState({loadState: "loaded"})
+    this.setState({ loadState: 'loaded' })
   }
 
   componentWillUnmount() {
-    this.setState({loadState: "loading"})
+    this.setState({ loadState: 'loading' })
   }
 
   render() {
     return (
       <Projects className={this.state.loadState}>
-          {this.props.children}
+        {this.props.children}
       </Projects>
     )
   }

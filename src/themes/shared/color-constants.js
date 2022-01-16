@@ -1,5 +1,5 @@
 const colorConstants = {
-  colorConstWhite: "#FFFFFF",
+  colorConstWhite: '#FFFFFF',
 }
 
 export default colorConstants

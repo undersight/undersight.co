@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Echo1"
-type: "Branding + Web"
+type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
@@ -18,7 +18,6 @@ Echo1 is a Singapore-based company working towards improving sound culture acros
 
 </article>
 
-![Slides taken out of a briefing deck we got from the client](images/slide-deck@2x.png)
 ![Echo1's Final Logo](images/logo@2x.png)
 ![echo1.co homepage as seen on a laptop](images/laptop@2x.png)
 

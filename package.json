@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "author": "Eduardo Nunes <ed@undersight.co>",
   "dependencies": {
+    "ansi-html": "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^4.4.0",
-    "gatsby-cli": "^4.4.0",
+    "gatsby-cli": "^4.5.1",
     "gatsby-image": "^3.11.0",
     "gatsby-link": "^4.4.0",
     "gatsby-plugin-layout": "^3.4.0",
@@ -14,6 +15,7 @@
     "gatsby-plugin-sharp": "^4.4.0",
     "gatsby-plugin-styled-components": "^5.4.0",
     "gatsby-remark-images": "^6.4.0",
+    "gatsby-remark-images-modal": "git+https://github.com/undersight/gatsby-remark-images-modal",
     "gatsby-source-filesystem": "^4.4.0",
     "gatsby-transformer-remark": "^5.4.0",
     "gatsby-transformer-sharp": "^4.4.0",
@@ -42,6 +44,8 @@
     "ansi-html": "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
     "ansi-regex": "5.0.1",
     "browserslist": "4.18.1",
+    "engine.io": "4.1.2",
+    "follow-redirects": "1.14.7",
     "glob-parent": "6.0.1",
     "immer": "9.0.7",
     "nth-check": "2.0.1",
@@ -52,6 +56,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/emmnunes/undersight.co"
+    "url": "https://github.com/undersight/undersight.co"
   }
 }

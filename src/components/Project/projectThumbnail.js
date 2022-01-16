@@ -11,7 +11,7 @@ const Thumbnail = styled.article`
   }
 
   &:hover div {
-    background: ${props => props.theme.colorBorderLighter};
+    background: ${(props) => props.theme.colorYellow};
   }
 `
 
@@ -21,7 +21,7 @@ const ProjectImage = styled.div`
   overflow: hidden;
   position: relative;
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     height: calc(100% - 100px);
   }
 
@@ -40,47 +40,48 @@ const ProjectMeta = styled.div`
   padding: ${rem(26)} ${rem(20)};
   padding-left: ${rem(20)};
   padding-right: ${rem(20)};
+  background: ${(props) => props.theme.colorWhite};
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     padding: ${rem(36)} ${rem(30)};
     padding-left: ${rem(30)};
     padding-right: ${rem(30)};
-    border-right: 1px solid ${props => props.theme.colorBorderLight};
+    border-right: 1px solid ${(props) => props.theme.colorBorderLight};
   }
 `
 
 const ProjectTitle = styled.h1`
-  font-family: ${props => props.theme.ffPrimary};
+  font-family: ${(props) => props.theme.ffPrimary};
   font-size: ${rem(20)};
   line-height: 1;
   font-weight: 500;
   margin: 0;
-  width: 50%;
+  width: 60%;
 
-  @media ${props => props.theme.smallUp} {
+  @media ${(props) => props.theme.smallUp} {
     font-size: ${rem(28)};
   }
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     font-size: ${rem(32)};
   }
 `
 
 const ProjectType = styled.h2`
-  font-family: ${props => props.theme.ffSecondary};
+  font-family: ${(props) => props.theme.ffSecondary};
   font-size: ${rem(12)};
   line-height: ${rem(20)};
   font-weight: 300;
   margin: 0;
-  width: 50%;
+  width: 40%;
   text-align: right;
 
-  @media ${props => props.theme.smallUp} {
+  @media ${(props) => props.theme.smallUp} {
     font-size: ${rem(14)};
     line-height: ${rem(28)};
   }
 
-  @media ${props => props.theme.mediumUp} {
+  @media ${(props) => props.theme.mediumUp} {
     line-height: ${rem(32)};
   }
 `
@@ -142,7 +143,7 @@ class ProjectThumbnail extends React.Component {
 
     this.interval = setInterval(() => {
       this._cycleImage()
-    }, 600)
+    }, 500)
   }
 
   _mouseLeave() {
@@ -169,8 +170,9 @@ class ProjectThumbnail extends React.Component {
           <ProjectImage>
             <img
               style={{
-                transform: `translateX(-${this.state.currentFrame *
-                  (100 / this.state.frames)}%)`,
+                transform: `translateX(-${
+                  this.state.currentFrame * (100 / this.state.frames)
+                }%)`,
               }}
               src={this.state.project.frontmatter.thumbnail.publicURL}
               alt={this.state.project.frontmatter.title}
