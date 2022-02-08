@@ -39,7 +39,7 @@ We figured: if we're going to make something that feels personal and approachabl
 
 <article role="article">
 
-For the [promotional website](https://www.lannebergbexelius.se/), we made extensive use of the brand's vibrant colour scheme, quirky illustrations and wide typographic range. These, along with some brilliant copywriting, make for a Website that feels light and is a joy to use.
+For the promotional website, we made extensive use of the brand's vibrant colour scheme, quirky illustrations and wide typographic range. These, along with some brilliant copywriting, make for a Website that feels light and is a joy to use.
 
 Under the hood, we employed a static site generator—specifically, [Middleman](https://middlemanapp.com/)—to turn the Ruby-flavoured code into plain HTML. The only exception being the blog section, for which we decided to use WordPress with a custom-built theme that makes the transition between both platforms seamless for the end user.
 
@@ -56,6 +56,8 @@ In the end, both we and the client were extremely happy with the final result. I
 
 > Good design doesn't just require good designers, it needs thoughtful and respectful clients too.
 
-Clients who are invested in the process, but understand the designer's craft and vision and place their trust in his or her experience. By that measure, Lanneberg Bexelius would rank very highly on my client list. Their involvement was always constructive throughout, and they sought to give us the resources we needed in order to do our jobs properly, without getting in the way. It's largely thanks to them and their approach that we were able to put together a brand and Website they are still happy with today—and that I'm still very much proud of.
+Clients who are invested in the process, but understand the designer's craft and vision and place their trust in his or her experience. By that measure, Lanneberg Bexelius would rank very highly on my client list. Their involvement was always constructive throughout, and they sought to give us the resources we needed in order to do our jobs properly, without getting in the way. It's largely thanks to them and their approach that we were able to put together a brand and Website they were very happy with.
+
+As of 2022, Pia and Kristina have parted ways, with Pia Lanneberg continuing their legacy under the name [Innerbrand](https://www.innerbrand.se/). No involvement from my part in the current design work, except for providing support in updating the monogram—from LB to IB. Surprisingly, I think it holds up.
 
 </article>
