@@ -91,9 +91,7 @@ class Footer extends React.Component {
   render() {
     return (
       <MainFooter>
-        <FooterLogo>
-          <Link to="/">Undersight</Link>
-        </FooterLogo>
+        <FooterLogo>ed @ undersight.co</FooterLogo>
         <FooterLinks>
           <a
             href="https://www.linkedin.com/in/emnunes/"

@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Odd Camp"
-type: "Branding + UI"
+type: "Naming + Branding"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
@@ -9,14 +9,14 @@ og: "./og.png"
 
 # Options
 path: "/oddcamp/"
-order: 3
+order: 1
 ---
 
 <article role="article">
 
-Lanneberg Bexelius is a Stockholm-based personal branding consulting company run by Pia Lanneberg and Kristina Bexelius. They work within a field that is increasingly relevant, but not always easy to describe—something I can relate to. Put simply, Pia and Kristina are really good at sitting down with people, finding out what their personal and professional goals are, and figuring out ways in which their communication and thought process can be improved, to get as close as possible to achieving those results in as little time as possible.
+Back in 2015, I was teaching design, working part-time at a design studio, and moonlighting as a frontend developer—a very exhausting and productive period of my life. My distrust of social networks had not yet fully materialized, and though I wasn't exactly keen on over-sharing, I was a relatively active member of a few online communities. Through one of those communities, the folks at what was then called Kollegorna (a small Webshop based in Stockholm that had started exploring the concept of going entirely remote) saw my work and reached out to me. They were looking for a designer who could code and figured I might fit the bill. I decided to give it a go. Fast forward a couple of years, and I'm being invited to become a partner and take up the role of Head of Design. I was still figuring out how to pronounce "Kollegorna" but agreed nonetheless.
 
-They came to [Kollegorna](https://www.kollegorna.se/en/) asking for help setting up a couple of Websites: one they could use to promote their custom-tailored services (where they work directly with people's specific goals), and another one where they would sell access to e-learning courses (essentially, video lectures and reading materials). Somewhat paradoxically, however, they had no visual identity, so I suggested we should start there.
+We grew a fairly solid reputation in and around Stockholm, but as we started taking in work from outside of Sweden, the company's name became increasingly problematic. So I used what little influence I now had to push for a name change and all of our public communication to default to English—everyone speaks it in Sweden anyway. It took some convincing, but I eventually got my partners on board. In early 2021, as the world naively prepared to put a shitshow of a year behind it (which, as we now know, worked out great), we decided the time was right to rename and rebrand ourselves.
 
 </article>
 
@@ -24,11 +24,13 @@ They came to [Kollegorna](https://www.kollegorna.se/en/) asking for help setting
 
 <article role="article">
 
-The brief for the brand was quite open, with only one request: don't make it too solemn. Because most of the clients they work with are people in leadership positions, companies operating in this segment of the market tend to look way too corporate. And boring. Lanneberg Bexelius wanted none of that. They didn't want to be seen as suits helping other suits.
+I have this document where I usually write down random thoughts and ideas that cross my mind on occasion. It's where the vast majority of my ideas go to die. Now and then, I manage to repurpose one of these assorted thoughts into something useful that I can incorporate into my work. When we started brainstorming a new name for Kollegorna, I went to see if my little idea book could be of use. I came across Odd Camp—a combination of words I had written down for a reason I can no longer recall—and something about it felt right.
 
-> They wanted to be seen as people helping others find out how they are perceived by their peers, how they **would like** to be perceived, and what they can do to reconcile the two.
+> It sounded different yet strangely familiar and projected this rugged and independent image, but not in a cheap or amateurish way. Plus, it really rolled off the tongue.
 
-We figured: if we're going to make something that feels personal and approachable, we might as well do it by designing the brand to channel Pia's and Kristina's personalities. So we spent some time floating ideas around, trying to boil their tastes and influences down to a set of core elements we could combine to make up a brand. What we ended up with is a vibrant colour scheme, a pair of complementary typefaces and a bunch of simple but fun illustrations that establish a clear tone of voice for the brand. Tying it all together is a logo made up of their initials, seamlessly fused into an elegant monogram.
+It was available for trademarking in both Sweden and the EU, the .com wasn't taken, and—much to my surprise—neither was [odd.camp](https://odd.camp). It all clicked into place.
+
+We ran some very unscientific user research to make sure the name wouldn't come back to bite us for some reason we couldn't foresee (did you know: ODD is the acronym for Oppositional Defiant Disorder, and there are actual ODD Camps?). Luckily, it all turned out pretty solid, so we were off. Now we just needed a brand.
 
 </article>
 
@@ -39,9 +41,11 @@ We figured: if we're going to make something that feels personal and approachabl
 
 <article role="article">
 
-For the [promotional website](https://www.lannebergbexelius.se/), we made extensive use of the brand's vibrant colour scheme, quirky illustrations and wide typographic range. These, along with some brilliant copywriting, make for a Website that feels light and is a joy to use.
+We had just recently grown our design team—by hiring two brilliant designers I had met back in college (Diana & Joana)—so this was the perfect opportunity to dip our toes into some branding work. We had a very clear idea of what sort of concepts we wanted the brand to communicate: that we blend design and engineering in equal parts; that we are curious; that our team is culturally diverse yet bound together by common interests, backgrounds, and cultural references; that we think of technology as a means to an end, not as an end in and of itself; that we don't take ourselves too seriously. Putting all of it into a brand is no easy task, so the first attempts were, understandably, failures.
 
-Under the hood, we employed a static site generator—specifically, [Middleman](https://middlemanapp.com/)—to turn the Ruby-flavoured code into plain HTML. The only exception being the blog section, for which we decided to use WordPress with a custom-built theme that makes the transition between both platforms seamless for the end user.
+Early in the process, I got attached to the idea of badges—as in the kind you might get at a summer camp. I have zero personal experience with summer camps, so I have no idea what I'm talking about, but there was something about the concept of highlighting and rewarding different types of skills equally that resonated with me. Also, my daughter was going through a big [Hey Duggee](https://www.heyduggee.com/) phase, so that may have helped. We tried out different ideas around it but kept coming up short: everything ended up being too rigid and leaning too heavily on the summer camp association—which felt excessive with the name and all.
+
+But then, as Diana began to branch out of the original concept, some of her sketches started to look less like badges and more like the old-school tag clouds we all remember fondly from our days as young, clueless kids exploring the Web for the first time. Others reminded us of the stickers most of us slap all over our laptops. And as we started to steer away from the illustration-heavy universe of camp badges into a more typographic realm, that made it much easier for us to give the brand a unique voice through text while still connecting to all of those visual metaphors.
 
 </article>
 
@@ -52,10 +56,8 @@ Under the hood, we employed a static site generator—specifically, [Middleman](
 
 <article role="article">
 
-In the end, both we and the client were extremely happy with the final result. I wish I could say that is always the case but, as any designer will tell you, reality is a lot more complicated.
+The final brand consists of a modular logo and a set of badges that complement it. Badges can be used in several different ways, from headings on documents to labels or tags on our website. We use them in business cards and e-mail signatures. They can be used to inform, to tell a story, or as a joke. And, so long as all badges follow the same set of rules and tone of voice, they allow the brand to sprawl and evolve cohesively. We even devised a simple tool that lets anyone in the team build badges according to this spec, regardless of their experience with design (Figma turned out to be perfect for this). We called it Badger.
 
-> Good design doesn't just require good designers, it needs thoughtful and respectful clients too.
-
-Clients who are invested in the process, but understand the designer's craft and vision and place their trust in his or her experience. By that measure, Lanneberg Bexelius would rank very highly on my client list. Their involvement was always constructive throughout, and they sought to give us the resources we needed in order to do our jobs properly, without getting in the way. It's largely thanks to them and their approach that we were able to put together a brand and Website they are still happy with today—and that I'm still very much proud of.
+Finally, we sprinkled a few extras on top—like the shapes framing the photographs or the colorful abstract clouds seen in some backgrounds—and packaged it all into [these brand guidelines](https://www.figma.com/proto/D4c6PmplUVPbTYtmZZuGga/Odd-Camp-Brand-Guidelines?page-id=455%3A11&node-id=455%3A404&viewport=477%2C48%2C0.12&scaling=min-zoom&starting-point-node-id=455%3A404).
 
 </article>
