@@ -38,7 +38,7 @@ We ran some very unscientific user research to make sure the name wouldn't come 
 
 <article role="article">
 
-We had just recently grown our design team—by hiring Diana and Joana, two brilliant designers I had met back in college—so this was the perfect opportunity to dip our toes into some branding work. We had a very clear idea of what sort of concepts we wanted the brand to communicate: that we blend design and engineering in equal parts; that we are curious; that our team is culturally diverse yet bound together by common interests, backgrounds, and cultural references; that we think of technology as a means to an end, not as an end in and of itself; that we don't take ourselves too seriously. Putting all of it into a brand is no easy task, so the first attempts were a bit off.
+We had just recently grown our design team—by hiring [Diana](https://www.oddcamp.com/diana) and [Joana](https://www.oddcamp.com/joana), two brilliant designers I had met back in college—so this was the perfect opportunity to dip our toes into some branding work. We had a very clear idea of what sort of concepts we wanted the brand to communicate: that we blend design and engineering in equal parts; that we are curious; that our team is culturally diverse yet bound together by common interests, backgrounds, and cultural references; that we think of technology as a means to an end, not as an end in and of itself; that we don't take ourselves too seriously. Putting all of it into a brand is no easy task, so the first attempts were a bit off.
 
 Early in the process, I got attached to the idea of badges—as in the kind you might get at a summer camp. I have zero personal experience with summer camps, so I have no idea what I'm talking about, but there was something about the concept of using badges to highlight different types of skills, valuing them all equally, that resonated with me (also, my daughter was going through a big [Hey Duggee](https://www.heyduggee.com/) phase, so that may have helped). We tried out different ideas around it but kept coming up short: everything ended up being too rigid and leaning too heavily on the summer camp association.
 
@@ -50,10 +50,9 @@ But then, as Diana began to branch out of the original concept, some of her sket
 ![Birthday cards for the team](images/birthday_cards@2x.jpg)
 ![Business cards](images/cards@2x.png)
 ![Team page on oddcamp.com](images/team@2x.jpg)
-![Website about page on a desktop computer](images/smorgasbord@2x.png)
+![Page from the Odd Camp website as seen on a desktop computer](images/smorgasbord@2x.png)
 ![Letter sent to the Odd Camp team, featuring one of the badges as a refrigerator magnet](images/food_camp@2x.jpg)
-![Projects from the Odd Camp portfolio shown in a slider](images/projects@2x.png)
-![Badger, a badge-generator built for the brand](images/badger@2x.png)
+![Left: Badger, a badge-generator built for the brand; Right: an example of the brand badges in use as hover labels](images/details@2x.png)
 ![Screenshot depicting several pages from the Brand Guidelines](images/guidelines@2x.png)
 ![Construction rules for the logo and badges](images/logo_construction@2x.png)
 
