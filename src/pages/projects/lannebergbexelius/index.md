@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/lannebergbexelius/"
-order: 7
+order: 6
 ---
 
 <article role="article">
