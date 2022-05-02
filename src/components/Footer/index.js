@@ -1,10 +1,9 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { rem } from 'polished'
 
 import LinkedIn from '../../assets/images/icons/linkedin.svg'
-import Dribbble from '../../assets/images/icons/dribbble.svg'
+import Twitter from '../../assets/images/icons/twitter.svg'
 import GitHub from '../../assets/images/icons/github.svg'
 import Tumblr from '../../assets/images/icons/tumblr.svg'
 
@@ -91,10 +90,15 @@ class Footer extends React.Component {
   render() {
     return (
       <MainFooter>
-        <FooterLogo>
-          <Link to="/">Undersight</Link>
-        </FooterLogo>
+        <FooterLogo>ed @ undersight.co</FooterLogo>
         <FooterLinks>
+          <a
+            href="https://github.com/undersight"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={GitHub} alt="GitHub logo" /> <span>GitHub</span>
+          </a>
           <a
             href="https://www.linkedin.com/in/emnunes/"
             target="_blank"
@@ -103,18 +107,11 @@ class Footer extends React.Component {
             <img src={LinkedIn} alt="LinkedIn logo" /> <span>LinkedIn</span>
           </a>
           <a
-            href="https://dribbble.com/eduardonunes"
+            href="https://twitter.com/undersightco"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Dribbble} alt="Dribbble logo" /> <span>Dribbble</span>
-          </a>
-          <a
-            href="https://github.com/undersight"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={GitHub} alt="GitHub logo" /> <span>GitHub</span>
+            <img src={Twitter} alt="Twitter logo" /> <span>Twitter</span>
           </a>
           <a
             href="http://tumblr.undersight.co/"

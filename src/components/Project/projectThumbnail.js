@@ -46,7 +46,6 @@ const ProjectMeta = styled.div`
     padding: ${rem(36)} ${rem(30)};
     padding-left: ${rem(30)};
     padding-right: ${rem(30)};
-    border-right: 1px solid ${(props) => props.theme.colorBorderLight};
   }
 `
 
@@ -83,6 +82,10 @@ const ProjectType = styled.h2`
 
   @media ${(props) => props.theme.mediumUp} {
     line-height: ${rem(32)};
+  }
+
+  @media ${(props) => props.theme.xlargeUp} {
+    font-size: ${rem(16)};
   }
 `
 
