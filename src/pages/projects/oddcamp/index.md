@@ -50,6 +50,7 @@ But then, as Diana began to branch out of the original concept, some of her sket
 ![Birthday cards for the team](images/birthday_cards@2x.jpg)
 ![Business cards](images/cards@2x.png)
 ![Team page on oddcamp.com](images/team@2x.jpg)
+![Close-up of contact icons on team page](images/icons@2x.png)
 ![Page from the Odd Camp website as seen on a desktop computer](images/smorgasbord@2x.png)
 ![Letter sent to the Odd Camp team, featuring one of the badges as a refrigerator magnet](images/food_camp@2x.jpg)
 ![Left: Badger, a badge-generator built for the brand; Right: an example of the brand badges in use as hover labels](images/details@2x.png)
