@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Odd Camp"
-type: "Naming + Branding"
+type: "Branding"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
