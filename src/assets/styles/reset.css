@@ -75,6 +75,10 @@ ul, ol {
 	list-style: none;
 }
 
+del {
+  text-decoration: line-through;
+}
+
 strong {
 	font-weight: bolder;
 }
@@ -118,6 +122,10 @@ input::-ms-clear	{ display: none; }
 input::-webkit-input-placeholder	{ opacity: 1; }
 input::-moz-placeholder			      { opacity: 1; }
 input:-ms-input-placeholder		    { opacity: 1; }
+
+.modal {
+  font-family: 'base-mono-wide','Andale Mono','AndaleMono','Lucida Console','Lucida Sans Typewriter','Bitstream Vera Sans Mono',monospace;
+}
 
 /* Hide FOUT */
 .wf-loading > * {
