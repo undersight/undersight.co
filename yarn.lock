@@ -5143,9 +5143,9 @@ gatsby-react-router-scroll@^5.5.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-"gatsby-remark-images-modal@git+https://github.com/undersight/gatsby-remark-images-modal":
+"gatsby-remark-images-modal@git+https://github.com/undersight/gatsby-remark-images-modal#v0.0.4":
   version "0.0.4"
-  resolved "git+https://github.com/undersight/gatsby-remark-images-modal#d27053de17700b36bdd32eee1a7e544a0d65d0ad"
+  resolved "git+https://github.com/undersight/gatsby-remark-images-modal#07ad62e13aa86cdaf975561a814d0fbb706f2df7"
 
 gatsby-remark-images@^6.4.0:
   version "6.5.1"
