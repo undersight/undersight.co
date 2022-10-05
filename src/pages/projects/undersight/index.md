@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Undersight"
-type: "Branding"
+type: "Branding + UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
