@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/citizensforeurope/"
-order: 7
+order: 8
 ---
 
 <article role="article">

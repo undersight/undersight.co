@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/matcher/"
-order: 3
+order: 2
 ---
 
 <article role="article">
