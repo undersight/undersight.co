@@ -29,8 +29,4 @@ https://undersight.co
 
   `gatsby build && gatsby serve`
 
-2. http://localhost:8000
-
-## Deployment
-
-Pushing to master or staging automatically deploys to Netlify.
+2. http://localhost:8000 (for `develop`) or http://localhost:9000 (for `serve`)
