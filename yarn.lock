@@ -5147,19 +5147,19 @@ gatsby-react-router-scroll@^5.5.0:
   version "0.0.4"
   resolved "git+https://github.com/undersight/gatsby-remark-images-modal#07ad62e13aa86cdaf975561a814d0fbb706f2df7"
 
-gatsby-remark-images@^6.4.0:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-6.5.1.tgz#b230c84d5049a14c3a7c5fcde05c3e7d6ec46474"
-  integrity sha512-qutISPPdjd6Ld3YGNmSY3DiVZBcaprmJqn1wOnXZ5qGYSfizC0CUEdneJYdYQb2tyBEq7oNn2Stuln5A2sA8jw==
+gatsby-remark-images@^6.24.0:
+  version "6.24.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-6.24.0.tgz#e9d9058eee58548a33a2b514d92538b0dd59443b"
+  integrity sha512-NnKoPn9jo7ZQ3PqyCChmRlyfAahhNVDcO/I1+oyMocIKL1+GmTR00WkGLCzuw5rFIdCU9YkqJ8ouhAgb9DPWew==
   dependencies:
     "@babel/runtime" "^7.15.4"
+    "@gatsbyjs/potrace" "^2.3.0"
     chalk "^4.1.2"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^3.5.1"
+    gatsby-core-utils "^3.24.0"
     is-relative-url "^3.0.0"
     lodash "^4.17.21"
     mdast-util-definitions "^4.0.0"
-    potrace "^2.1.8"
     query-string "^6.14.1"
     unist-util-select "^3.0.4"
     unist-util-visit-parents "^3.1.1"
