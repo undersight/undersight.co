@@ -19,15 +19,6 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
 };
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createRedirect } = actions
-
-  createRedirect({
-    fromPath: `/ok`,
-    isPermanent: true,
-    redirectInBrowser: true,
-    toPath: `/bore`,
-  })
-
   const { createPage } = actions;
 
   const projectTemplate = path.resolve(`src/templates/projectTemplate.js`);
