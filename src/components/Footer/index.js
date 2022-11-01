@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { rem } from 'polished'
 
 import LinkedIn from '../../assets/images/icons/linkedin.svg'
-import Twitter from '../../assets/images/icons/twitter.svg'
 import GitHub from '../../assets/images/icons/github.svg'
 import Tumblr from '../../assets/images/icons/tumblr.svg'
 
