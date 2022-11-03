@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/juni/"
-order: 2
+order: 1
 ---
 
 <article role="article">
@@ -19,6 +19,8 @@ The happiest day of my life was a Thursday in 2019. Just an unremarkable blip in
 A couple of months later, I realized I had been way off. For the first six months or so, everything was much, much harder than I had anticipated. Our daughter turned out to be extremely colicky, which resulted in very long, very intense crying sessions. She would spend most of her waking time screaming her little heart out, and she would only calm down if we held or rocked her to sleep pretty much 24/7. Because we were living far away from family and friends, that task fell exclusively on me and my wife. We would take turns holding her, and sleep whenever we could. Eating became secondary. Showers were an occasional luxury. So my wife and I did the logical thing: we decided to start a side project.
 
 </article>
+
+![Portrait of me, my wife, and our daughter, as displayed on Juni's website](images/self-portrait@2x.jpg)
 
 <article role="article">
 
@@ -32,6 +34,12 @@ Over time we grew our inventory, and we put together a collection we were happy 
 
 </article>
 
+![Promotional shots featuring some of the earrings as worn by models](images/collection@2x.jpg)
+
+![Logo](images/logo@2x.jpg)
+
+![Screenshots from juni.us](images/website@2x.png)
+
 <article role="article">
 
 This being mainly the result of my wife's vision, I wanted to model the brand after her personal taste. I knew she would want it to have a floral theme, and for it to look elegant and mature.
@@ -44,12 +52,30 @@ The floral motifs take center stage and remain more or less unchanged across all
 
 </article>
 
+![Packaging Bag](images/bag-closed@2x.jpg)
+
+![Promotional image for Valentine's Day Sale](images/valentines@2x.jpg)
+
+![Promotional image for the Summer 2020 collection](images/summer@2x.jpg)
+
 <article role="article">
 
 > An aspect we put a lot of thought into was the packaging. We devised a solution that is practical and safe, with a minimal carbon footprint.
- 
+
 It consists of a piece of recycled paper, that protects the earrings during shipment but can act as a display stand for them as well. It has a pair of die-cut holes to hold a spare set of ear lobe savers—two little pieces of white rubber that slide into a slot in the earring's clips, to reduce pressure on the ear when in use. Once folded, the card slides into a compostable bag made out of fermented corn starch. A logo printed on the bag lines up with the pattern on the card, giving the brand an extra bit of depth. These bags are then shipped inside envelopes padded with a recycled paper filling—an alternative to the more common bubblewrap ones—which means we use no plastic in the entire process.
 
 </article>
 
+![Multiple details of the packaging used for shipping earrings](images/packaging@2x.jpg)
 
+<iframe class="video" src="https://player.vimeo.com/video/766703097?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="4800" height="2700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<article role="article">
+
+In hindsight, the reason we decided to launch ourselves into a side business like this, at a time when our lives were already going through massive change, is obvious. We were looking for something to keep us grounded. Being a first-time parent can be brutal—more so if you don't have a proper support network close by. And it's very easy to let yourself get sucked into a spiral of despair.
+
+> For me and my wife, having a goal we could work towards, outside of parenting, was crucial. It kept us sane and in touch with the world outside. And that made us better parents.
+
+I'm glad we did it, and I'm happy to report we're still running our small side-business from our home office to this day. Now with the help of our beautiful daughter.
+
+</article>
