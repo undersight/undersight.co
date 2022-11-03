@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/bore/"
-order: 8
+order: 7
 ---
 
 <article role="article">
@@ -20,9 +20,9 @@ I am, by no means, a musician. But I grew up surrounded by them: my father and o
 
 To be immersed in my own world, headphones on, time flying out the window. So I set up a small studio in my home office and restarted making music. I'm still rusty and trying to get the hang of it again (switching to [Ableton Live](https://www.ableton.com/en/live/) meant I had to re-learn a lot of things) but I forced myself to send something out into the world before I turned 31. So on October 30th 2017 I released a small EP, under the name BORE. I called it 30. It's an homage to turning thirty and being scared shitless but still feeling insanely grateful and happy to be alive.
 
-<iframe src="https://open.spotify.com/embed/album/5IeVUbqOvGMqY1vsSQVV6P" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=1143290857/size=large/bgcol=ffffff/linkcol=1A1A1A/transparent=true/" seamless><a href="https://bore.bandcamp.com/album/30">30 by BORE</a></iframe>
 
-It's made up of 3½ instrumental tracks I composed and produced over the course of two months back in 2017. It's available on [Spotify](https://open.spotify.com/album/5IeVUbqOvGMqY1vsSQVV6P?si=l1lCUiuSQg29nnToPtEjMg), [Apple Music](https://itunes.apple.com/us/album/30-ep/1302089702), [Google Play](https://play.google.com/store/music/album/BORE_30?id=Befmhd4kzihyswra4hb5vxdwlq4), [Tidal](https://tidal.com/browse/album/80544698), [Deezer](https://www.deezer.com/en/album/50648552) and [Bandcamp](https://bore.bandcamp.com/releases).
+It's made up of 3½ instrumental tracks I composed and produced over the course of two months back in 2017. It's available on [Bandcamp](https://bore.bandcamp.com/releases).
 
 The cover art is a small illustration I repurposed from an abandoned side project of mine, which I felt fit the tone of the record perfectly.
 
@@ -42,10 +42,12 @@ I don't have the time—nor, more importantly and tragically, the skill—to tur
 
 <article role="article">
 
-<iframe src="https://open.spotify.com/embed/album/5lMfxeFeDKS0dX2kwxHX9Y" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe style="border: 0; width: 350px; height: 522px;" src="https://bandcamp.com/EmbeddedPlayer/album=1731683899/size=large/bgcol=ffffff/linkcol=233CEF/transparent=true/" seamless><a href="https://bore.bandcamp.com/album/ok">OK by BORE</a></iframe>
 
 The title track is a longer, perkier track than the stuff I'm usually into. It's my attempt at making a danceable track for people blessed with two left feet. 🕺
 
 The second track gets its title from the portuguese word for Vinegar and was heavily inspired by a long-time favorite poem of mine: [Portugal](http://ensina.rtp.pt/artigo/portugal-de-jorge-sousa-braga/), by Jorge de Sousa Braga.
+
+In 2019, I unfortunately couldn't find any time to keep the momentum going. And though a global lock-down sounds like the perfect excuse to put more hours into your sideprojects, by 2020 I was a newly-minted father and was (am? 🤔) still trying to get the hang of it. So nothing new for now. But one can dream...
 
 </article>
