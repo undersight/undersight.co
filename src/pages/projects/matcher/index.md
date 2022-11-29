@@ -66,9 +66,9 @@ With the brand settled, it was time to move on to the UI. One of the biggest tem
 
 <article role="article">
 
-As soon as we had something that was barely usable, we started using it to schedule our own matches. Calling the first version we launched an MVP would be an overstatement, yet it worked surprisingly well for us so, after a few months of testing and improvements, I decided to open up a closed beta. I put together a small little [promotional page](https://matcher.club/) for it and used [MailChimp](https://mailchimp.com/) to set up a half-baked beta sign-up system.
+As soon as we had something that was barely usable, we started using it to schedule our own matches. Calling the first version we launched an MVP would be an overstatement, yet it worked surprisingly well for us so, after a few months of testing and improvements, I decided to open up a closed beta. I put together a small little promotional page for it and used MailChimp to set up a half-baked beta sign-up system.
 
-Because it's still a bare-bones app, hosted on a cheap [Heroku](https://www.heroku.com) server, I'm taking a cautious approach and only letting in small groups of users at a time, but the response so far has been encouraging. Sadly, the amount of time I can invest in it at this point is very limited, so development at the moment feels a lot like what our football matches used to be: slow, largely uneventful and slightly embarrassing, yet still immensely rewarding.
+Because it was still a bare-bones app, hosted on a cheap Heroku server, I took a cautious approach and only let in small groups of users at a time, but the response was encouraging nonetheless. Sadly, the amount of time I could invest in it dwindled, and development eventually felt a lot like what our football matches used to be: slow, largely uneventful and slightly embarrassing (if still rewarding). It also didn't help that I picked up a pretty nasty ankle injury, and stopped playing football for good—which took away part of my motivation to work on it. So I decided to sunset it in 2022.
 
 </article>
 
