@@ -202,17 +202,8 @@ class Header extends React.Component {
             Nunes.
           </SiteTitle>
           <SiteByline>
-            Designer & creative developer from Portugal. <br />
-            Head of Design at Stockholm-based{' '}
-            <a
-              href="https://www.odd.camp"
-              target="_blank"
-              title="Odd Camp's Website"
-              rel="noopener noreferrer"
-            >
-              Odd Camp
-            </a>
-            .
+            Designer & creative developer from Portugal.<br />
+            Part-time noise maker, amateur bicycle rider.
           </SiteByline>
         </MainHeader>
       )

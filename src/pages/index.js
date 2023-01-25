@@ -19,7 +19,7 @@ const IndexPage = ({
           {
             name: 'description',
             content:
-              'Undersight.co is the digital playground of Eduardo Nunes. Designer & creative developer from Portugal. Head of Design at Stockholm-based Odd Camp.',
+              'Undersight.co is the digital playground of Eduardo Nunes. Designer & creative developer from Portugal.',
           },
           {
             name: 'keywords',
@@ -33,7 +33,7 @@ const IndexPage = ({
           {
             property: 'og:description',
             content:
-              'Undersight.co is the digital playground of Eduardo Nunes. Designer & creative developer from Portugal. Head of Design at Stockholm-based Odd Camp.',
+              'Undersight.co is the digital playground of Eduardo Nunes. Designer & creative developer from Portugal.',
           },
           {
             property: 'og:image',
@@ -49,7 +49,7 @@ const IndexPage = ({
           {
             name: 'twitter:description',
             content:
-              'Undersight.co is the digital playground of Eduardo Nunes. Designer & creative developer from Portugal. Head of Design at Stockholm-based Odd Camp.',
+              'Undersight.co is the digital playground of Eduardo Nunes. Designer & creative developer from Portugal.',
           },
           {
             name: 'twitter:image:src',
@@ -61,7 +61,7 @@ const IndexPage = ({
           {
             itemprop: 'description',
             content:
-              'Undersight.co is the digital playground of Eduardo Nunes. Designer & creative developer from Portugal. Head of Design at Stockholm-based Odd Camp.',
+              'Undersight.co is the digital playground of Eduardo Nunes. Designer & creative developer from Portugal.',
           },
           {
             itemprop: 'image',
