@@ -203,7 +203,7 @@ class Header extends React.Component {
           </SiteTitle>
           <SiteByline>
             Designer & creative developer from Portugal.<br />
-            Part-time noise maker, amateur bicycle rider.
+            ———— ed at undersight dot co
           </SiteByline>
         </MainHeader>
       )
