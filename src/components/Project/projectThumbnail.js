@@ -17,12 +17,12 @@ const Thumbnail = styled.article`
 
 const ProjectImage = styled.div`
   width: 100%;
-  height: calc(100% - 70px);
+  height: calc(100% - 60px);
   overflow: hidden;
   position: relative;
 
   @media ${(props) => props.theme.mediumUp} {
-    height: calc(100% - 100px);
+    height: calc(100% - 90px);
   }
 
   img {
@@ -37,47 +37,46 @@ const ProjectImage = styled.div`
 const ProjectMeta = styled.div`
   margin: 0;
   display: flex;
-  padding: ${rem(26)} ${rem(20)};
-  padding-left: ${rem(20)};
-  padding-right: ${rem(20)};
+  align-items: center;
+  justify-content: space-between;
+  height: ${rem(60)};
   background: ${(props) => props.theme.colorWhite};
+  padding-left: ${rem(15)};
+  padding-right: ${rem(15)};
 
   @media ${(props) => props.theme.mediumUp} {
-    padding: ${rem(36)} ${rem(30)};
     padding-left: ${rem(30)};
     padding-right: ${rem(30)};
+    height: ${rem(90)};
   }
 `
 
 const ProjectTitle = styled.h1`
   font-family: ${(props) => props.theme.ffPrimary};
-  font-size: ${rem(20)};
+  font-size: ${rem(16)};
   line-height: 1;
-  font-weight: 500;
+  font-weight: bold;
+  text-transform: uppercase;
   margin: 0;
-  width: 60%;
 
   @media ${(props) => props.theme.smallUp} {
-    font-size: ${rem(28)};
+    font-size: ${rem(18)};
   }
 
   @media ${(props) => props.theme.mediumUp} {
-    font-size: ${rem(32)};
+    font-size: ${rem(20)};
   }
 `
 
 const ProjectType = styled.h2`
   font-family: ${(props) => props.theme.ffSecondary};
   font-size: ${rem(12)};
-  line-height: ${rem(20)};
   font-weight: 300;
   margin: 0;
-  width: 40%;
-  text-align: right;
+  font-variation-settings: 'wght' 500, 'wdth' 110;
 
   @media ${(props) => props.theme.smallUp} {
     font-size: ${rem(14)};
-    line-height: ${rem(28)};
   }
 
   @media ${(props) => props.theme.mediumUp} {
