@@ -11,16 +11,16 @@ const MainHeader = styled.header`
   margin-right: auto;
 
   @media ${(props) => props.theme.smallUp} {
-    padding: ${rem(75)};
+    padding: ${rem(75)} ${rem(70)};
   }
   @media ${(props) => props.theme.mediumUp} {
-    padding: ${rem(100)};
+    padding: ${rem(100)} ${rem(80)};
   }
   @media ${(props) => props.theme.largeUp} {
-    padding: ${rem(120)};
+    padding: ${rem(120)} ${rem(100)};
   }
   @media ${(props) => props.theme.xlargeUp} {
-    padding: ${rem(150)};
+    padding: ${rem(150)} ${rem(100)};
   }
 
   ${(props) =>
@@ -114,12 +114,8 @@ const SiteTitle = styled.h1`
   }
 
   @media ${(props) => props.theme.smallUp} {
-    font-size: 5vw;
+    font-size: calc(1em + 2.4vw);
     line-height: 1.2;
-  }
-
-  @media ${(props) => props.theme.xlargeUp} {
-    font-size: calc(0.7em + 3vw);
   }
 
   ${(props) =>
