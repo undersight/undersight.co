@@ -103,7 +103,7 @@ const MainHeader = styled.header`
 
 const SiteTitle = styled.h1`
   font-family: ${(props) => props.theme.ffPrimary};
-  font-size: ${rem(28)};
+  font-size: ${rem(22)};
   line-height: 1.4;
   font-weight: normal;
   max-width: 25ch;
