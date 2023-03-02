@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import ReactGA from 'react-ga'
 
 import '../assets/styles/reset.css'
+import '../assets/styles/fonts.css'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -14,16 +15,6 @@ import inRegexArray from '../helpers/in-regex-array.js'
 const largeHeaderPages = [
   /^\/$/, // index
 ]
-
-if (typeof window !== 'undefined') {
-  var WebFont = require('webfontloader')
-
-  WebFont.load({
-    typekit: {
-      id: 'bhs8rbg',
-    },
-  })
-}
 
 class TemplateWrapper extends React.Component {
   constructor(props) {

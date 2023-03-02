@@ -89,7 +89,7 @@ const MainHeader = styled.header`
         border-color: ${(props) => props.theme.colorYellow};
 
         strong {
-          transform: translateX(-190%) translateY(-50%);
+          transform: translateX(-200%) translateY(-50%);
         }
         small {
           opacity: 1;
@@ -104,22 +104,22 @@ const MainHeader = styled.header`
 const SiteTitle = styled.h1`
   font-family: ${(props) => props.theme.ffPrimary};
   font-size: ${rem(28)};
-  line-height: 1.2;
-  font-weight: 300;
+  line-height: 1.4;
+  font-weight: normal;
+  max-width: 25ch;
+  letter-spacing: -0.02em;
 
   strong {
-    font-weight: 700;
+    font-weight: bold;
   }
 
   @media ${(props) => props.theme.smallUp} {
     font-size: 5vw;
-    max-width: 55vw;
-    line-height: 1;
+    line-height: 1.2;
   }
 
   @media ${(props) => props.theme.xlargeUp} {
-    font-size: 4.5vw;
-    max-width: 50vw;
+    font-size: calc(0.7em + 3vw);
   }
 
   ${(props) =>
@@ -127,8 +127,8 @@ const SiteTitle = styled.h1`
     css`
       width: 100%;
       max-width: 100%;
-      font-size: ${rem(18)};
-      font-weight: 300;
+      font-size: ${rem(16)};
+      font-weight: normal;
       line-height: 1;
       transition: border 0.4s;
       display: table;
@@ -137,14 +137,18 @@ const SiteTitle = styled.h1`
       margin-right: auto;
       text-align: center;
 
+      strong {
+        font-weight: normal;
+      }
+
       @media ${(props) => props.theme.smallUp} {
-        font-size: ${rem(20)};
+        font-size: ${rem(18)};
         width: 100%;
         max-width: 100%;
       }
 
       @media ${(props) => props.theme.xlargeUp} {
-        font-size: ${rem(24)};
+        font-size: ${rem(20)};
         width: 100%;
         max-width: 100%;
       }
@@ -153,10 +157,11 @@ const SiteTitle = styled.h1`
 
 const SiteByline = styled.p`
   font-family: ${(props) => props.theme.ffSecondary};
-  font-size: ${rem(14)};
+  font-size: ${rem(16)};
+  font-variation-settings: 'wght' 420, 'wdth' 105;
   line-height: 1.4;
-  font-weight: 300;
-  margin-top: ${rem(20)};
+  font-weight: normal;
+  margin-top: ${rem(10)};
 
   a {
     text-decoration: underline;
@@ -166,16 +171,9 @@ const SiteByline = styled.p`
     }
   }
 
-  @media ${(props) => props.theme.mediumDown} {
-    br {
-      display: none;
-    }
-  }
-
   @media ${(props) => props.theme.smallUp} {
-    font-size: ${rem(20)};
-    line-height: 1.5;
-    margin-top: ${rem(50)};
+    font-size: calc(1em + 0.3vw);
+    margin-top: 1.4em;
   }
 `
 
@@ -203,7 +201,7 @@ class Header extends React.Component {
           </SiteTitle>
           <SiteByline>
             Designer & creative developer from Portugal.<br />
-            ———— ed at undersight dot co
+            — ed at undersight dot co
           </SiteByline>
         </MainHeader>
       )
