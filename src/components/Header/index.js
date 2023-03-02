@@ -171,6 +171,15 @@ const SiteByline = styled.p`
     }
   }
 
+  @media ${(props) => props.theme.smallDown} {
+    br {
+      display: none;
+    }
+    span {
+      margin-left: 0.5em;
+    }
+  }
+
   @media ${(props) => props.theme.smallUp} {
     font-size: calc(1em + 0.3vw);
     margin-top: 1.4em;
@@ -201,7 +210,7 @@ class Header extends React.Component {
           </SiteTitle>
           <SiteByline>
             Designer & creative developer from Portugal.<br />
-            — ed at undersight dot co
+            <span>— ed at undersight dot co</span>
           </SiteByline>
         </MainHeader>
       )
