@@ -24,7 +24,7 @@ Matcher is a small Web app I built to solve a very specific problem. I used to p
 
 I started out by enlisting the help of my good friend and developer‑extraordinaire Filipe Pires to put together an algorithm that would take a certain number of players, along with some skill stats we got everyone to compile, and generate the most tightly balanced set of teams possible. It worked nicely for a while, but because we had to feed the algorithm all of the stats manually, it actually turned out to require more work than before, so we went looking for a way to automate the process somehow.
 
-> The answer was a small Web app where users could do it all: rate people they've played with according to a set of stats, create matches, invite other players, set up balanced teams, etc.
+> The answer was a small website where users could do it all: rate people they've played with according to a set of stats, create matches, invite other players, set up balanced teams, etc.
 
 I had just started working at [Odd Camp](https://www.odd.camp/), where Ruby on Rails was king, so I took the chance to teach myself some Rails and started building what would eventually become Matcher.
 
