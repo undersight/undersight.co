@@ -43,6 +43,7 @@ const ProjectContent = styled.section`
 
     p {
       font-family: ${(props) => props.theme.ffPrimary};
+      font-feature-settings: 'dlig', 'liga', 'calt';
       font-size: ${rem(16)};
       line-height: 1.6;
       margin: 0 auto 1em auto;
@@ -56,8 +57,10 @@ const ProjectContent = styled.section`
 
       p {
         font-style: italic;
+        font-feature-settings: 'dlig', 'liga', 'calt';
         font-size: ${rem(22)};
-        letter-spacing: -0.02em;
+        letter-spacing: -0.03em;
+
         line-height: 1.4;
         margin: 1.4em auto;
         max-width: 35ch;
@@ -121,6 +124,21 @@ const ProjectContent = styled.section`
       margin: ${rem(80)} auto;
     }
     article p {
+      font-size: ${rem(22)};
+    }
+    article blockquote p {
+      font-size: ${rem(30)};
+    }
+  }
+  @media ${(props) => props.theme.xxlargeUp} {
+    &:first-child {
+      margin-top: ${rem(60)};
+    }
+
+    article {
+      margin: ${rem(80)} auto;
+    }
+    article p {
       font-size: ${rem(26)};
     }
     article blockquote p {
@@ -148,8 +166,21 @@ const ProjectNavigation = styled.nav`
 
 const ProjectHeader = styled.header`
   width: 90%;
-  max-width: ${rem(740)};
+  max-width: 28.5em;
   margin: 0 auto ${rem(30)} auto;
+
+  @media ${(props) => props.theme.smallUp} {
+    font-size: ${rem(18)};
+  }
+  @media ${(props) => props.theme.mediumUp} {
+    font-size: ${rem(20)};
+  }
+  @media ${(props) => props.theme.largeUp} {
+    font-size: ${rem(22)};
+  }
+  @media ${(props) => props.theme.xxlargeUp} {
+    font-size: ${rem(26)};
+  }
 `
 
 const ProjectTitle = styled.h1`
