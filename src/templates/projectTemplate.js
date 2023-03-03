@@ -43,6 +43,7 @@ const ProjectContent = styled.section`
 
     p {
       font-family: ${(props) => props.theme.ffPrimary};
+      font-feature-settings: 'dlig', 'liga', 'calt';
       font-size: ${rem(16)};
       line-height: 1.6;
       margin: 0 auto 1em auto;
@@ -56,8 +57,10 @@ const ProjectContent = styled.section`
 
       p {
         font-style: italic;
+        font-feature-settings: 'dlig', 'liga', 'calt';
         font-size: ${rem(22)};
-        letter-spacing: -0.02em;
+        letter-spacing: -0.03em;
+
         line-height: 1.4;
         margin: 1.4em auto;
         max-width: 35ch;
