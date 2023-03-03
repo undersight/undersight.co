@@ -28,7 +28,7 @@ The idea for the logo popped up soon after I saw the first sentence in the brief
 
 I highlighted the words citizens, together and Europe, and went looking for things that could broadly convey those concepts. Europe was quite obvious: one of the stars in the European flag. It was actually almost too obvious, and we debated whether we should resort to that kind of cliché or try to find something a bit more nuanced. In the end, though, we stuck to it, because it pieced together nicely with the other elements: fingerprints woven together, representing both citizenship and unity.
 
-I'll admit it sounds a bit far‑stretched when you try to explain the concept. And the first few sketches I came up with didn't exactly help the cause, as they looked either forced or boring. But right as I was about to give up, things seemed to fall into place. I had a logo I was actually quite happy with, and that I felt managed to combine all three concepts into a single image.
+I'll admit it sounds a bit of a stretch when you try to explain the concept. And the first few sketches I came up with didn't exactly help the cause, as they looked either forced or boring. But right as I was about to give up, things seemed to fall into place. I had a logo I was actually quite happy with, and that I felt managed to combine all three concepts into a single image.
 
 </article>
 
