@@ -14,7 +14,7 @@ order: 5
 
 <article role="article">
 
-Echo1 is a Singapore-based company working towards improving sound culture across the globe. They manage and fund businesses working in sound-related areas, while at the same time promoting good business practices within the companies they are involved in. Together with the folks at [Odd Camp](https://www.odd.camp/), I helped build their brand and website in record-time, going from a humble pitch deck to release in a few weeks.
+Echo1 is a Singapore‑based company working towards improving sound culture across the globe. They manage and fund businesses working in sound‑related areas, while at the same time promoting good business practices within the companies they are involved in. Together with the folks at [Odd Camp](https://www.odd.camp/), I helped build their brand and website in record-time, going from a humble pitch deck to release in a few weeks.
 
 </article>
 
@@ -41,13 +41,13 @@ We were brought on to the project at a very early stage of the company's incepti
 
 Our solution was to come up with a brand system that relied heavily on basic shapes, with a single line running through all of them—keeping everything connected, even if it means following the least obvious of paths. These were paired with a set of warm gradients and snappy animations, which we employed exhaustively [throughout the website](https://www.echo1.co) and the brand applications, creating a tight and easily recognisable brand that can evolve gracefully over time, as the products and companies Echo1 invests on begin to shape the company's values more clearly.
 
-These shapes and colours are complemented by [a quirky sans-serif font](https://www.hvdfonts.com/fonts/niveau-grotesk) for headings and [a sobering serif](https://typekit.com/fonts/warnock) for body copy.
+These shapes and colours are complemented by [a quirky sans‑serif font](https://www.hvdfonts.com/fonts/niveau-grotesk) for headings and [a sobering serif](https://typekit.com/fonts/warnock) for body copy.
 
 </article>
 
 ![Several slides from the brand proposal presentation we did](images/proposal@2x.png)
 ![Detail of the website showcasing the company's practices](images/practices@2x.png)
-![Photo of a monitor showing artboards with work-in-progress](images/monitor@2x.png)
+![Photo of a monitor showing artboards with work‑in‑progress](images/monitor@2x.png)
 ![Screenshots of all pages on Echo1.co](images/pages@2x.png)
 ![Detail of a graph detailing how Echo1's accelerator program works](images/how-it-works@2x.png)
 ![Contact page on echo1.co, as seen on a laptop](images/contact-page@2x.png)
