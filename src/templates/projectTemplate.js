@@ -48,29 +48,20 @@ const ProjectContent = styled.section`
       line-height: 1.6;
       margin: 0 auto 1em auto;
       max-width: 44ch;
-      letter-spacing: -0.01em;
+      letter-spacing: -0.018em;
       hyphens: none;
     }
 
     blockquote {
-      text-align: center;
-
       p {
         font-style: italic;
         font-feature-settings: 'dlig', 'liga', 'calt';
-        font-size: ${rem(22)};
+        font-size: ${rem(20)};
         letter-spacing: -0.03em;
 
         line-height: 1.4;
-        margin: 1.4em auto;
+        margin: 1em 0;
         max-width: 35ch;
-
-        strong {
-          font-weight: bold;
-        }
-        em {
-          font-weight: normal;
-        }
       }
     }
 
@@ -101,7 +92,7 @@ const ProjectContent = styled.section`
       margin-bottom: ${rem(28)};
     }
     article blockquote p {
-      font-size: ${rem(28)};
+      font-size: ${rem(22)};
     }
   }
   @media ${(props) => props.theme.mediumUp} {
@@ -112,7 +103,7 @@ const ProjectContent = styled.section`
       font-size: ${rem(20)};
     }
     article blockquote p {
-      font-size: ${rem(26)};
+      font-size: ${rem(24)};
     }
   }
   @media ${(props) => props.theme.largeUp} {
@@ -127,7 +118,7 @@ const ProjectContent = styled.section`
       font-size: ${rem(22)};
     }
     article blockquote p {
-      font-size: ${rem(30)};
+      font-size: ${rem(28)};
     }
   }
   @media ${(props) => props.theme.xxlargeUp} {
@@ -142,7 +133,7 @@ const ProjectContent = styled.section`
       font-size: ${rem(26)};
     }
     article blockquote p {
-      font-size: ${rem(36)};
+      font-size: ${rem(32)};
     }
   }
 `
