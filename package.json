@@ -7,7 +7,7 @@
     "ansi-html": "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.4.0",
-    "gatsby-cli": "^4.5.1",
+    "gatsby-cli": "^5.7.0",
     "gatsby-image": "^3.11.0",
     "gatsby-link": "^4.4.0",
     "gatsby-plugin-layout": "^3.4.0",
