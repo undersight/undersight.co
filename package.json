@@ -5,7 +5,7 @@
   "author": "Eduardo Nunes <ed@undersight.co>",
   "dependencies": {
     "ansi-html": "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
-    "babel-plugin-styled-components": "^1.12.0",
+    "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.4.0",
     "gatsby-cli": "^4.5.1",
     "gatsby-image": "^3.11.0",
