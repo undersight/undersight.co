@@ -28,7 +28,7 @@ const MainFooter = styled.footer`
 const FooterLogo = styled.p`
   font-family: ${(props) => props.theme.ffSecondary};
   font-size: ${rem(12)};
-  font-weight: 300;
+  font-variation-settings: 'wght' 500, 'wdth' 110;
   width: 50%;
   line-height: ${rem(42)};
 
@@ -47,7 +47,7 @@ const FooterLinks = styled.nav`
   font-family: ${(props) => props.theme.ffSecondary};
   font-size: ${rem(12)};
   line-height: 1.2;
-  font-weight: 300;
+  font-variation-settings: 'wght' 500, 'wdth' 105;
   width: 50%;
   text-align: right;
   line-height: ${rem(42)};

@@ -11,16 +11,16 @@ const MainHeader = styled.header`
   margin-right: auto;
 
   @media ${(props) => props.theme.smallUp} {
-    padding: ${rem(75)};
+    padding: ${rem(75)} ${rem(70)};
   }
   @media ${(props) => props.theme.mediumUp} {
-    padding: ${rem(100)};
+    padding: ${rem(100)} ${rem(80)};
   }
   @media ${(props) => props.theme.largeUp} {
-    padding: ${rem(120)};
+    padding: ${rem(120)} ${rem(100)};
   }
   @media ${(props) => props.theme.xlargeUp} {
-    padding: ${rem(150)};
+    padding: ${rem(150)} ${rem(100)};
   }
 
   ${(props) =>
@@ -103,23 +103,19 @@ const MainHeader = styled.header`
 
 const SiteTitle = styled.h1`
   font-family: ${(props) => props.theme.ffPrimary};
-  font-size: ${rem(28)};
-  line-height: 1.2;
-  font-weight: 300;
+  font-size: ${rem(22)};
+  line-height: 1.4;
+  font-weight: normal;
+  max-width: 25ch;
+  letter-spacing: -0.02em;
 
   strong {
-    font-weight: 700;
+    font-weight: bold;
   }
 
   @media ${(props) => props.theme.smallUp} {
-    font-size: 5vw;
-    max-width: 55vw;
-    line-height: 1;
-  }
-
-  @media ${(props) => props.theme.xlargeUp} {
-    font-size: 4.5vw;
-    max-width: 50vw;
+    font-size: calc(1em + 2.4vw);
+    line-height: 1.2;
   }
 
   ${(props) =>
@@ -127,8 +123,8 @@ const SiteTitle = styled.h1`
     css`
       width: 100%;
       max-width: 100%;
-      font-size: ${rem(18)};
-      font-weight: 300;
+      font-size: ${rem(16)};
+      font-weight: normal;
       line-height: 1;
       transition: border 0.4s;
       display: table;
@@ -138,13 +134,13 @@ const SiteTitle = styled.h1`
       text-align: center;
 
       @media ${(props) => props.theme.smallUp} {
-        font-size: ${rem(20)};
+        font-size: ${rem(18)};
         width: 100%;
         max-width: 100%;
       }
 
       @media ${(props) => props.theme.xlargeUp} {
-        font-size: ${rem(24)};
+        font-size: ${rem(20)};
         width: 100%;
         max-width: 100%;
       }
@@ -153,10 +149,11 @@ const SiteTitle = styled.h1`
 
 const SiteByline = styled.p`
   font-family: ${(props) => props.theme.ffSecondary};
-  font-size: ${rem(14)};
+  font-size: ${rem(16)};
+  font-variation-settings: 'wght' 420, 'wdth' 105;
   line-height: 1.4;
-  font-weight: 300;
-  margin-top: ${rem(20)};
+  font-weight: normal;
+  margin-top: ${rem(10)};
 
   a {
     text-decoration: underline;
@@ -166,16 +163,18 @@ const SiteByline = styled.p`
     }
   }
 
-  @media ${(props) => props.theme.mediumDown} {
+  @media ${(props) => props.theme.smallDown} {
     br {
       display: none;
+    }
+    span {
+      margin-left: 0.5em;
     }
   }
 
   @media ${(props) => props.theme.smallUp} {
-    font-size: ${rem(20)};
-    line-height: 1.5;
-    margin-top: ${rem(50)};
+    font-size: calc(1em + 0.3vw);
+    margin-top: 1.4em;
   }
 `
 
@@ -202,17 +201,8 @@ class Header extends React.Component {
             Nunes.
           </SiteTitle>
           <SiteByline>
-            Designer & creative developer from Portugal. <br />
-            Head of Design at Stockholm-based{' '}
-            <a
-              href="https://www.odd.camp"
-              target="_blank"
-              title="Odd Camp's Website"
-              rel="noopener noreferrer"
-            >
-              Odd Camp
-            </a>
-            .
+            Designer & creative developer from Portugal.<br />
+            <span>— ed at undersight dot co</span>
           </SiteByline>
         </MainHeader>
       )

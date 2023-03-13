@@ -26,7 +26,8 @@ const ProjectContent = styled.section`
   }
 
   article {
-    width: 80%;
+    width: 90%;
+    max-width: ${rem(740)};
     margin: ${rem(60)} auto;
 
     &:first-child {
@@ -42,24 +43,25 @@ const ProjectContent = styled.section`
 
     p {
       font-family: ${(props) => props.theme.ffPrimary};
-      font-size: ${rem(24)};
-      line-height: 1.2;
-      font-weight: 300;
-      margin-bottom: ${rem(24)};
+      font-feature-settings: 'dlig', 'liga', 'calt';
+      font-size: ${rem(16)};
+      line-height: 1.6;
+      margin: 0 auto 1em auto;
+      max-width: 44ch;
+      letter-spacing: -0.018em;
+      hyphens: none;
     }
 
     blockquote {
       p {
         font-style: italic;
-        font-size: ${rem(28)};
-        line-height: 1.1;
+        font-feature-settings: 'dlig', 'liga', 'calt';
+        font-size: ${rem(20)};
+        letter-spacing: -0.03em;
 
-        strong {
-          font-weight: 500;
-        }
-        em {
-          font-weight: normal;
-        }
+        line-height: 1.4;
+        margin: 1em 0;
+        max-width: 35ch;
       }
     }
 
@@ -86,28 +88,22 @@ const ProjectContent = styled.section`
     }
 
     article p {
-      font-size: ${rem(28)};
+      font-size: ${rem(18)};
       margin-bottom: ${rem(28)};
     }
     article blockquote p {
-      font-size: ${rem(36)};
+      font-size: ${rem(22)};
     }
   }
   @media ${(props) => props.theme.mediumUp} {
     &:first-child {
       margin-top: ${rem(50)};
     }
-
-    article {
-      max-width: ${rem(700)};
-    }
     article p {
-      font-size: ${rem(32)};
-      margin-bottom: ${rem(32)};
+      font-size: ${rem(20)};
     }
     article blockquote p {
-      font-size: ${rem(42)};
-      padding: 0 ${rem(32)};
+      font-size: ${rem(24)};
     }
   }
   @media ${(props) => props.theme.largeUp} {
@@ -116,40 +112,32 @@ const ProjectContent = styled.section`
     }
 
     article {
-      max-width: ${rem(800)};
       margin: ${rem(80)} auto;
     }
     article p {
-      font-size: ${rem(36)};
-      margin-bottom: ${rem(36)};
+      font-size: ${rem(22)};
     }
     article blockquote p {
-      font-size: ${rem(48)};
-      padding: 0 ${rem(48)};
+      font-size: ${rem(28)};
     }
   }
   @media ${(props) => props.theme.xxlargeUp} {
     &:first-child {
-      margin-top: ${rem(70)};
+      margin-top: ${rem(60)};
     }
 
     article {
-      max-width: ${rem(900)};
-      margin: ${rem(120)} auto;
+      margin: ${rem(80)} auto;
     }
     article p {
-      font-size: ${rem(40)};
-      margin-bottom: ${rem(40)};
+      font-size: ${rem(26)};
     }
     article blockquote p {
-      font-size: ${rem(54)};
-      padding: 0 ${rem(48)};
+      font-size: ${rem(32)};
     }
   }
-  @media ${(props) => props.theme.largeUp} {
-    margin-top: ${rem(80)};
-  }
 `
+
 const ProjectNavigation = styled.nav`
   display: grid;
   grid-template-columns: 1fr;
@@ -168,19 +156,21 @@ const ProjectNavigation = styled.nav`
 `
 
 const ProjectHeader = styled.header`
-  width: 80%;
+  width: 90%;
+  max-width: 28.5em;
   margin: 0 auto ${rem(30)} auto;
 
+  @media ${(props) => props.theme.smallUp} {
+    font-size: ${rem(18)};
+  }
   @media ${(props) => props.theme.mediumUp} {
-    max-width: ${rem(700)};
+    font-size: ${rem(20)};
   }
-
   @media ${(props) => props.theme.largeUp} {
-    max-width: ${rem(800)};
+    font-size: ${rem(22)};
   }
-
   @media ${(props) => props.theme.xxlargeUp} {
-    max-width: ${rem(900)};
+    font-size: ${rem(26)};
   }
 `
 
@@ -188,32 +178,25 @@ const ProjectTitle = styled.h1`
   font-family: ${(props) => props.theme.ffPrimary};
   font-size: ${rem(24)};
   line-height: 1;
-  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  font-weight: bold;
   margin: 0;
 
   @media ${(props) => props.theme.smallUp} {
-    font-size: ${rem(36)};
-  }
-
-  @media ${(props) => props.theme.mediumUp} {
-    font-size: ${rem(48)};
+    font-size: ${rem(26)};
   }
 
   @media ${(props) => props.theme.largeUp} {
-    font-size: ${rem(60)};
-  }
-
-  @media ${(props) => props.theme.xxlargeUp} {
-    font-size: ${rem(72)};
-  }
+    font-size: ${rem(32)};
 `
 
 const ProjectType = styled.h2`
   font-family: ${(props) => props.theme.ffSecondary};
   font-size: ${rem(14)};
   line-height: 1;
-  font-weight: 300;
-  margin-top: ${rem(10)};
+  font-variation-settings: 'wght' 500, 'wdth' 110;
+  margin-top: ${rem(15)};
 
   @media ${(props) => props.theme.smallUp} {
     font-size: ${rem(16)};
@@ -225,10 +208,6 @@ const ProjectType = styled.h2`
 
   @media ${(props) => props.theme.xlargeUp} {
     font-size: ${rem(20)};
-  }
-
-  @media ${(props) => props.theme.xxlargeUp} {
-    font-size: ${rem(22)};
   }
 `
 
