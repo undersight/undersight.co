@@ -89,7 +89,7 @@ const MainHeader = styled.header`
         border-color: ${(props) => props.theme.colorYellow};
 
         strong {
-          transform: translateX(-200%) translateY(-50%);
+          transform: translateX(-190%) translateY(-50%);
         }
         small {
           opacity: 1;
@@ -132,10 +132,6 @@ const SiteTitle = styled.h1`
       margin-left: auto;
       margin-right: auto;
       text-align: center;
-
-      strong {
-        font-weight: normal;
-      }
 
       @media ${(props) => props.theme.smallUp} {
         font-size: ${rem(18)};
