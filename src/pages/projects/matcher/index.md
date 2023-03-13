@@ -36,21 +36,17 @@ But first, we needed a brand.
 
 ![Matcher Logo](images/logos@2x.png)
 
-<article role="article">
-
-Quite frankly, this was one of the rare cases where the brand pretty much designed itself. For the logo, A2 Type's outstanding [Regular](https://www.a2-type.co.uk/regular) pulls most of the weight, only being complemented by a few scribbles that mimic coaching instructions. These follow a bit of a pattern but can be used in a number of different ways, keeping the logo recognizable but never boring.
-
-As for the colour scheme, it's ripped right off of the courts we used to play in. Perhaps unsurprisingly, I've come to realize these look more or less the same anywhere in the world, almost always using a combination of 2 out of 4 possible colours. By adding them all together, we had a brand palette.
-
-</article>
-
 ![Colour scheme inspiration](images/colours@2x.png)
 
 ![Kit Combinations](images/kits@2x.png)
 
 <article role="article">
 
-With the brand settled, it was time to move on to the UI. One of the biggest temptations, when you're designing an app like this, is to focus on the desktop experience first and then try to gracefully degrade it so it fits on smaller screens. I went with the opposite approach: started out by designing everything mobile‑first, and then tried to scale it up so it looks good everywhere. In all fairness, the app still ended up looking better on phones than it does on desktop, but I'm happy to report that it's just as usable on every device—and all versions share the exact same set of features.
+Quite frankly, this was one of the rare cases where the brand pretty much designed itself. For the logo, A2 Type's outstanding [Regular](https://www.a2-type.co.uk/regular) pulls most of the weight, only being complemented by a few scribbles that mimic coaching instructions. These follow a bit of a pattern but can be used in a number of different ways, keeping the logo recognizable but never boring.
+
+As for the colour scheme, it's ripped right off of the courts we used to play in. Perhaps unsurprisingly, I've come to realize these look more or less the same anywhere in the world, almost always using a combination of 2 out of 4 possible colours. By adding them all together, we had a brand palette.
+
+With the brand settled, it was time to move on to the UI. I fully committed to a mobile‑first approach, designing the interface to feel as close to a native app as possible and then slowly scaling everything up so it looked good on larger screens as well. In all fairness, the app still ended up looking better on phones than it does on desktop, but I'm happy to report that it's just as usable on every device—and all versions share the exact same set of features.
 
 </article>
 
