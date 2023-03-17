@@ -60,9 +60,11 @@ I eventually found something that I felt conveyed those exact feelings. It's so 
 
 ![Letterhead, made up of two overlapping stamps on an orange paper stock](images/letterhead@2x.jpg)
 
+![Photo of a group of Western Union Messengers in Norfolk, scribbled](images/bicycles@2x.jpg)
+
 <article role="article">
 
-I've paired it with Pangram Pangram's [Neue Machina](https://pangrampangram.com/products/neue-machina) where needed—though, frankly, I'm pretty happy using as little type as possible for it. I printed no stationery. Everything is created on the fly, as needed, with paper stock, envelopes, and a couple of rubber stamps.
+I've paired it with Pangram Pangram's [Neue Machina](https://pangrampangram.com/products/neue-machina) and Pyte Foundry's [Tryptich](https://thepytefoundry.net/typefaces/triptych/) (which the text you're reading right now is set in). But I'm pretty happy using as little type as possible for it. I printed no stationery. Everything is created on the fly, as needed, with paper stock, envelopes, and a couple of rubber stamps.
 
 I eventually stopped doing freelance, but I kept the name, the domain, and this website. I've lived with it for a few years now, and I'm still pretty happy.
 

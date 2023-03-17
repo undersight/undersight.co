@@ -4,6 +4,8 @@ import styled, { css } from 'styled-components'
 import { rem } from 'polished'
 import Headroom from 'react-headroom'
 
+import Mark from '../../assets/images/mark.svg'
+
 const MainHeader = styled.header`
   width: 100%;
   padding: ${rem(30)};
@@ -64,13 +66,10 @@ const MainHeader = styled.header`
           transition: transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         }
         small {
+          opacity: 0;
           display: inline-block;
           transition: transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955),
             opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-        }
-
-        small {
-          opacity: 0;
         }
       }
       @media ${(props) => props.theme.largeUp} {
@@ -89,6 +88,7 @@ const MainHeader = styled.header`
         border-color: ${(props) => props.theme.colorYellow};
 
         strong {
+          opacity: 1;
           transform: translateX(-190%) translateY(-50%);
         }
         small {
@@ -147,6 +147,15 @@ const SiteTitle = styled.h1`
     `}
 `
 
+const SiteLogo = styled.img`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 60%;
+  width: auto;
+  transform: translate(-50%, -50%);
+`
+
 const SiteByline = styled.p`
   font-family: ${(props) => props.theme.ffSecondary};
   font-size: ${rem(16)};
@@ -185,6 +194,8 @@ class Header extends React.Component {
         <Headroom>
           <MainHeader size="small">
             <Link to="/" title="Go to homepage">
+              <SiteLogo src={Mark} alt="=)" />
+
               <SiteTitle size="small">
                 <strong>Undersight.co</strong>
                 <small> is the digital playground of Eduardo Nunes.</small>
