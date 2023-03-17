@@ -131,3 +131,7 @@ input:-ms-input-placeholder		    { opacity: 1; }
 .wf-loading > * {
 	opacity: 0;
 }
+
+.gatsby-resp-image-wrapper:hover {
+  cursor: pointer !important;
+}
