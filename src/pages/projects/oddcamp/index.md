@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/oddcamp/"
-order: 3
+order: 4
 ---
 
 <article role="article">
