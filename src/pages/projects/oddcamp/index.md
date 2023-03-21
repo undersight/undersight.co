@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Odd Camp"
-type: "Branding + UI"
+type: "Branding, UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/oddcamp/"
-order: 3
+order: 5
 ---
 
 <article role="article">

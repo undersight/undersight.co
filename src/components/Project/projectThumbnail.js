@@ -73,7 +73,7 @@ const ProjectType = styled.h2`
   font-size: ${rem(12)};
   font-weight: 300;
   margin: 0;
-  font-variation-settings: 'wght' 500, 'wdth' 110;
+  font-variation-settings: 'wght' 500, 'wdth' 105;
 
   @media ${(props) => props.theme.smallUp} {
     font-size: ${rem(14)};

@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "Eduardo Nunes <ed@undersight.co>",
   "dependencies": {
-    "ansi-html": "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.4.0",
     "gatsby-cli": "^5.7.0",
@@ -37,11 +36,11 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "clean": "gatsby clean",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "resolutions": {
-    "ansi-html": "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
     "ansi-regex": "5.0.1",
     "browserslist": "4.18.1",
     "engine.io": "4.1.2",

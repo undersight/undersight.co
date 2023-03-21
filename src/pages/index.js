@@ -24,7 +24,7 @@ const IndexPage = ({
           {
             name: 'keywords',
             content:
-              'undersight, design, eduardo nunes, Web, development, frontend, graphic',
+              'undersight, design, eduardo nunes, Web, Frontendelopment, frontend, graphic',
           },
           { name: 'image', content: '/images/og.png' },
           { property: 'og:type', content: 'website' },

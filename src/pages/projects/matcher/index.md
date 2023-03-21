@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Matcher"
-type: "Branding + UI"
+type: "Branding, UI, Full Stack"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/matcher/"
-order: 1
+order: 5
 ---
 
 <article role="article">

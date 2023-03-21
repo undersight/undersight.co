@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Echo1"
-type: "Branding + UI"
+type: "Branding, UI, Frontend"
 
 # Thumbnails
 thumbnail: "./thumbnail.svg"
@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/echo1/"
-order: 5
+order: 6
 ---
 
 <article role="article">
