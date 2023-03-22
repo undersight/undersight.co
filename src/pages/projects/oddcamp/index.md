@@ -4,7 +4,7 @@ title: "Odd Camp"
 type: "Branding, UI"
 
 # Thumbnails
-thumbnail: "./thumbnail.svg"
+thumbnail: "./thumbnail.png"
 og: "./og.png"
 
 # Options

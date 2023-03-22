@@ -4,7 +4,7 @@ title: "Lanneberg Bexelius"
 type: "Branding, UI, Frontend"
 
 # Thumbnails
-thumbnail: "./thumbnail.svg"
+thumbnail: "./thumbnail.png"
 og: "./og.png"
 
 # Options

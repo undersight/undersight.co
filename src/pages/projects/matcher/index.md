@@ -4,12 +4,12 @@ title: "Matcher"
 type: "Branding, UI, Full Stack"
 
 # Thumbnails
-thumbnail: "./thumbnail.svg"
+thumbnail: "./thumbnail.png"
 og: "./og.png"
 
 # Options
 path: "/matcher/"
-order: 5
+order: 4
 ---
 
 <article role="article">
