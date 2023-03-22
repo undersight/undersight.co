@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { rem } from 'polished'
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const Thumbnail = styled.article`
   overflow: hidden;
@@ -18,19 +19,21 @@ const Thumbnail = styled.article`
 const ProjectImage = styled.div`
   width: 100%;
   height: calc(100% - 60px);
-  overflow: hidden;
   position: relative;
 
   @media ${(props) => props.theme.mediumUp} {
     height: calc(100% - 90px);
   }
 
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: auto;
+  div[data-placeholder-image] {
+    display: none;
+  }
+
+  .gatsby-image-wrapper img {
+    position: static !important;
+    width: auto !important;
+    height: 100% !important;
+    transform: translateX(-${props => props.position || "0"}%);
   }
 `
 
@@ -105,21 +108,17 @@ class ProjectThumbnail extends React.Component {
   }
 
   _randomizeImage() {
-    let img = new Image()
-    img.src = this.state.project.frontmatter.thumbnail.publicURL
-    img.onload = () => {
-      let imageHeight = img.height
-      let imageWidth = img.width
+    let imageHeight = this.state.project.frontmatter.thumbnail.childImageSharp.original.height
+    let imageWidth = this.state.project.frontmatter.thumbnail.childImageSharp.original.width
 
-      const frameCount = Math.floor(imageWidth / imageHeight)
-      const startFrame = Math.floor(Math.random() * frameCount)
+    const frameCount = Math.floor(imageWidth / imageHeight)
+    const startFrame = Math.floor(Math.random() * frameCount)
 
-      this.setState({
-        frames: frameCount,
-        imageWidth: imageWidth,
-        currentFrame: startFrame,
-      })
-    }
+    this.setState({
+      frames: frameCount,
+      imageWidth: imageWidth,
+      currentFrame: startFrame,
+    })
   }
 
   _cycleImage() {
@@ -135,6 +134,7 @@ class ProjectThumbnail extends React.Component {
   }
 
   _updateBackground(currentFrame) {
+
     this.setState({
       currentFrame: currentFrame,
     })
@@ -169,15 +169,15 @@ class ProjectThumbnail extends React.Component {
         onTouchEnd={this._mouseLeave}
       >
         <Link to={this.state.project.frontmatter.path}>
-          <ProjectImage>
-            <img
-              style={{
-                transform: `translateX(-${
-                  this.state.currentFrame * (100 / this.state.frames)
-                }%)`,
-              }}
-              src={this.state.project.frontmatter.thumbnail.publicURL}
+          <ProjectImage position={this.state.currentFrame * (100 / this.state.frames)}>
+            <GatsbyImage
+              image={this.state.project.frontmatter.thumbnail.childImageSharp.gatsbyImageData}
               alt={this.state.project.frontmatter.title}
+              style={{
+                width: `auto`,
+                height: `100%`,
+                position: `absolute`
+              }}
             />
           </ProjectImage>
           <ProjectMeta>

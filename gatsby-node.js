@@ -39,6 +39,13 @@ exports.createPages = ({ actions, graphql }) => {
               order
               thumbnail {
                 publicURL
+                childImageSharp {
+                  gatsbyImageData(layout: FIXED)
+                  original {
+                    width
+                    height
+                  }
+                }
               }
               og {
                 publicURL

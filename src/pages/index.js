@@ -90,6 +90,13 @@ export const pageQuery = graphql`
             type
             thumbnail {
               publicURL
+              childImageSharp {
+                gatsbyImageData(layout: FIXED)
+                original {
+                  width
+                  height
+                }
+              }
             }
           }
         }
