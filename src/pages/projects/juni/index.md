@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/juni/"
-order: 2
+order: 1
 ---
 
 <article role="article">

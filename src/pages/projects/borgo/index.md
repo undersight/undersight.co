@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Borgo"
-type: "UI, Frontend"
+type: "Branding, UI, Frontend"
 
 # Thumbnails
 thumbnail: "./thumbnail.jpg"
@@ -14,7 +14,7 @@ order: 2
 
 <article role="article">
 
-Borgo is a Swedish fintech, originally founded as a mortgage aggregator. After being handed a license to provide a wider range of financial services by Swedish legislators, it became clear to them they would need to adapt their existing brand to fit their new strategy—with a matching website and app. I was very happy to help lead that project.
+Borgo is a Swedish fintech, originally founded as a mortgage aggregator. After being handed a license to provide a wider range of financial services by Swedish legislators, it became clear to them they would need to adapt their existing brand to fit their new strategy—with a matching website and app. I was very happy to help lead that project, while at [Odd Camp](/oddcamp).
 
 </article>
 
@@ -26,19 +26,19 @@ Their original brand had been designed by another agency, not long before we wer
 
 > So we sat down with the client, walked them through some of the brand's limitations, and explained what we could do to overcome them.
 
-It started with keeping the existing core elements (logo and illustrations) and expanding outwards from there. We tweaked the color palette to fit their tone of voice, added a serifed typeface to expand their typographical range, and developed ways to combine everything into coherent yet flexible compositions. We brought Jonathan back in and asked him to make his illustrations move.
+We suggested not a rebrand, but an upbrand—scaling the existing brand up to more adequately match real-world scenarios. We kept the existing core elements (logo and illustrations) and expanded outwards from there. We tweaked the color palette to fit their tone of voice, added a serifed typeface to expand their typographical range, and developed ways to combine everything into coherent yet flexible compositions.
 
 </article>
 
 ![Patterns made out of details from the illustrations](images/pattern@2x.png)
 
-<video autoplay muted loop>
+<video controls muted playsinline preload="metadata" poster="/videos/borgo/brand.png">
   <source src="/videos/borgo/brand.mp4" type="video/mp4" />
 </video>
 
 <article role="article">
 
-...
+Throughout all steps of the process, we took great care in ensuring the updates moved the brand closer to what
 
 </article>
 
@@ -46,6 +46,6 @@ It started with keeping the existing core elements (logo and illustrations) and 
 
 ![View of UI in Borgo's user dashboard](images/dashboard@2x.png)
 
-<video autoplay muted loop>
+<video controls muted playsinline preload="metadata" poster="/videos/borgo/app.png">
   <source src="/videos/borgo/app.mp4" type="video/mp4" />
 </video>
