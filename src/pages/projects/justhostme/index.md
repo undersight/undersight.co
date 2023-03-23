@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "JustHostMe"
-type: "Branding + UI"
+type: "Branding, UI, Frontend"
 
 # Thumbnails
 thumbnail: "./thumbnail.jpg"
@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/justhostme/"
-order: 6
+order: 7
 ---
 
 <article role="article">

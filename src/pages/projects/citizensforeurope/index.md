@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "Citizens for Europe"
-type: "Branding + UI"
+type: "Branding, UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.jpg"
@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/citizensforeurope/"
-order: 9
+order: 10
 ---
 
 <article role="article">

@@ -30,7 +30,7 @@ const FooterLogo = styled.p`
   font-size: ${rem(12)};
   font-variation-settings: 'wght' 500, 'wdth' 110;
   width: 50%;
-  line-height: ${rem(42)};
+  line-height: ${rem(48)};
 
   @media ${(props) => props.theme.smallUp} {
     font-size: ${rem(14)};
@@ -50,7 +50,7 @@ const FooterLinks = styled.nav`
   font-variation-settings: 'wght' 500, 'wdth' 105;
   width: 50%;
   text-align: right;
-  line-height: ${rem(42)};
+  line-height: ${rem(48)};
 
   @media ${(props) => props.theme.mediumUp} {
     font-size: ${rem(14)};
@@ -59,10 +59,15 @@ const FooterLinks = styled.nav`
   a {
     display: inline-block;
     margin-right: ${rem(5)};
-    line-height: ${rem(42)};
+    line-height: ${rem(48)};
+    height: ${rem(48)};
 
     @media ${(props) => props.theme.mediumUp} {
       margin-right: ${rem(30)};
+    }
+
+    @media ${(props) => props.theme.mediumDown} {
+      width: ${rem(32)};
     }
 
     &:hover {

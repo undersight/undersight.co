@@ -1,7 +1,7 @@
 ---
 # Metadata
 title: "European Hub"
-type: "Branding + UI"
+type: "Branding, UI"
 
 # Thumbnails
 thumbnail: "./thumbnail.jpg"

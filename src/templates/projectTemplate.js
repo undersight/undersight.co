@@ -60,8 +60,8 @@ const ProjectContent = styled.section`
         letter-spacing: -0.03em;
 
         line-height: 1.4;
-        margin: 1em 0;
-        max-width: 35ch;
+        margin: 1em auto;
+        max-width: 35.5ch;
       }
     }
 
@@ -73,6 +73,11 @@ const ProjectContent = styled.section`
         color: ${(props) => props.theme.colorGreyDark};
       }
     }
+  }
+
+  video {
+    width: 100%;
+    height: auto;
   }
 
   .video {
@@ -248,7 +253,7 @@ export default function Template({
           {
             name: 'keywords',
             content:
-              'undersight, design, eduardo nunes, Web, development, frontend, graphic',
+              'undersight, design, eduardo nunes, Web, Frontend, frontend, graphic',
           },
           {
             name: 'image',

@@ -1,15 +1,15 @@
 ---
 # Metadata
 title: "Lanneberg Bexelius"
-type: "Branding + UI"
+type: "Branding, UI, Frontend"
 
 # Thumbnails
-thumbnail: "./thumbnail.svg"
+thumbnail: "./thumbnail.png"
 og: "./og.png"
 
 # Options
 path: "/lannebergbexelius/"
-order: 8
+order: 9
 ---
 
 <article role="article">
