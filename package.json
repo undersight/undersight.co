@@ -12,7 +12,7 @@
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-layout": "^3.4.0",
     "gatsby-plugin-react-helmet": "^5.4.0",
-    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-plugin-styled-components": "^5.24.0",
     "gatsby-remark-images": "^6.4.0",
     "gatsby-remark-images-modal": "git+https://github.com/undersight/gatsby-remark-images-modal#v0.0.4",
