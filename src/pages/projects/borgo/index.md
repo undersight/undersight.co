@@ -40,7 +40,7 @@ We suggested not a rebrand, but an upbrand—scaling the existing brand to more 
 
 It's not uncommon for the line between branding and UI design to be blurred on projects like this. That was very much the case here: as we began to prototype, we started to develop a library of UI components that not only inherited heavily from the branding work but also fed design decisions back to it, influencing the end result. I like to think this helped make all aspects of the brand feel whole, while at the same time being mindful of the requirements and affordances of each medium—website, application, social media, and corporate communication channels, among others.
 
-Every aspect of the interface was componentized in Figma, and then implemented as [ViewComponents](https://viewcomponent.org/). This ensured consistency across all areas of the service, but still allow for flexibility to be dialled into every component—enabling most of them to be easily employed in different contexts with minimal adjustments required.
+Every aspect of the interface was componentized in Figma, and then implemented as [ViewComponents](https://viewcomponent.org/). This ensured consistency across all areas of the service, but still allowed for flexibility to be dialled into every component—enabling most of them to be easily employed in different contexts with minimal adjustments required.
 
 </article>
 
