@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/justhostme/"
-order: 7
+order: 8
 ---
 
 <article role="article">
@@ -24,16 +24,16 @@ After our first few meetings, it became apparent the client was looking to cater
 
 <article role="article">
 
-We chose to start from a list of Great Britain's clichés, identify their core features and gradually remove any visual references to them, until we were left with a set of colours and a geometric sans‑serif typeface that pays tribute to historically remarkable British typography.
+We chose to start from a list of Great Britain’s clichés, identify their core features and gradually remove any visual references to them, until we were left with a set of colours and a geometric sans‑serif typeface that pays tribute to historically remarkable British typography.
 
-> We turned their logo into a vessel: a small glowing container you can fill up with your own things, and that's yours to keep or share with the rest of the world.
+> We turned their logo into a vessel: a small glowing container you can fill up with your own things, and that’s yours to keep or share with the rest of the world.
 
-Because the brand was to be used almost exclusively on screen, we were able to make extensive use of gradients in the logo — something that wouldn't fly with a lot of clients. Luckily, this client was totally on board with it, especially after we presented the several ways in which the cube and the gradients could be used to convey information — which we ended up doing for the hosting plan icons.
+Because the brand was to be used almost exclusively on screen, we were able to make extensive use of gradients in the logo — something that wouldn’t fly with a lot of clients. Luckily, this client was totally on board with it, especially after we presented the several ways in which the cube and the gradients could be used to convey information — which we ended up doing for the hosting plan icons.
 
 </article>
 
-![JustHostMe's New Logo](images/logo@2x.png)
-![JustHostMe's New Website](images/landing-page@2x.png)
+![JustHostMe’s New Logo](images/logo@2x.png)
+![JustHostMe’s New Website](images/landing-page@2x.png)
 
 <article role="article">
 
@@ -52,6 +52,6 @@ This makes every page on the site weigh less than 100Kb, which means it loads bl
 
 <article role="article">
 
-JustHostMe is a traditional Web hosting company operating at a time when the market space is rapidly being taken over by internet giants, whose infrastructure allows them to provide their services at close to no cost. So the amount of effort required to just keep your business afloat increases exponentially. For JustHostMe, the strategy has been to target small creators and business owners who would rather pay an extra couple pounds for a service that feels personal and close to home, and that is willing to provide some hand‑holding as they try to get their hobbies and businesses on‑line. It's a model I have great respect for, and that I felt honoured to be a small part of.
+JustHostMe is a traditional Web hosting company operating at a time when the market space is rapidly being taken over by internet giants, whose infrastructure allows them to provide their services at close to no cost. So the amount of effort required to just keep your business afloat increases exponentially. For JustHostMe, the strategy has been to target small creators and business owners who would rather pay an extra couple pounds for a service that feels personal and close to home, and that is willing to provide some hand‑holding as they try to get their hobbies and businesses on‑line. It’s a model I have great respect for, and that I felt honoured to be a small part of.
 
 </article>
