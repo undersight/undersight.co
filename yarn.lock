@@ -2776,14 +2776,14 @@ babel-plugin-remove-graphql-queries@^4.25.0:
     "@babel/types" "^7.15.4"
     gatsby-core-utils "^3.25.0"
 
-babel-plugin-remove-graphql-queries@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-5.8.0.tgz#1a447c11f60fb626e28bc226762ca7f270018535"
-  integrity sha512-eq7d8O+0b24mRfnJOkMbLphMQq1x68i7M9EhyFMAfvzLbZRd3DzW4BrDZ1jPcwFWz0pcQtPc7ihCTPB62+JuzQ==
+babel-plugin-remove-graphql-queries@^5.9.0:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-5.9.0.tgz#e649a6f63ed373607aa831b2813325560cebf96f"
+  integrity sha512-moGeKUT+QZ+jZ3/PCUjNitp9ZEqQChm3FUjtoH97UlqbtzlA88SSBq/4uTnCXiXCVy+R6wHu/jhTp6U2dOBOnA==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@babel/types" "^7.20.7"
-    gatsby-core-utils "^4.8.0"
+    gatsby-core-utils "^4.9.0"
 
 "babel-plugin-styled-components@>= 1.12.0", babel-plugin-styled-components@^2.1.1:
   version "2.1.1"
@@ -4827,7 +4827,7 @@ fastest-levenshtein@^1.0.12:
   resolved "https://registry.yarnpkg.com/fastest-levenshtein/-/fastest-levenshtein-1.0.16.tgz#210e61b6ff181de91ea9b3d1b84fdedd47e034e5"
   integrity sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==
 
-fastq@^1.13.0, fastq@^1.6.0:
+fastq@^1.13.0, fastq@^1.15.0, fastq@^1.6.0:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.15.0.tgz#d04d07c6a2a68fe4599fea8d2e103a937fae6b3a"
   integrity sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==
@@ -5058,7 +5058,7 @@ fs-extra@^10.1.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@^11.1.0:
+fs-extra@^11.1.0, fs-extra@^11.1.1:
   version "11.1.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.1.tgz#da69f7c39f3b002378b0954bb6ae7efdc0876e2d"
   integrity sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==
@@ -5233,18 +5233,18 @@ gatsby-core-utils@^3.25.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.8.0.tgz#b9baac9f9434d0c789e470e8caf8003edf91d7ac"
-  integrity sha512-C2uOZBd9j6AYIyiB+DdxRtbQgAa3kMDRsKR5eCwALp0Bkg3W5I/YiXhSF7zQxVckaqNXzXvmedJESKCJNIvO7w==
+gatsby-core-utils@^4.8.0, gatsby-core-utils@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.9.0.tgz#1134d9a119f49b90d3b5107210dfdd17a4231463"
+  integrity sha512-diCAmlr42YQpSKapD374JVF+ojDXTHxnrNoS907jNGgT4J35t2az9GsEQFgrEou3Td5TLuUl/8yJM2Hpwn4gyg==
   dependencies:
     "@babel/runtime" "^7.20.13"
     ci-info "2.0.0"
     configstore "^5.0.1"
-    fastq "^1.13.0"
-    file-type "^16.5.3"
-    fs-extra "^11.1.0"
-    got "^11.8.5"
+    fastq "^1.15.0"
+    file-type "^16.5.4"
+    fs-extra "^11.1.1"
+    got "^11.8.6"
     hash-wasm "^4.9.0"
     import-from "^4.0.0"
     lmdb "2.5.3"
@@ -5320,23 +5320,23 @@ gatsby-parcel-config@0.16.0:
     "@parcel/transformer-js" "2.6.2"
     "@parcel/transformer-json" "2.6.2"
 
-gatsby-plugin-image@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-3.8.0.tgz#291294c6065a1cffd4e58d2a1208281b8582d85f"
-  integrity sha512-VbTriPNucfb+9JyphrRsZb6BH3xPxU2wwjKPd/7QXzsHRnljt7fQblt3FyLVmJe9XH9YBBBZyIoZOu3Vm2XbBQ==
+gatsby-plugin-image@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-3.9.0.tgz#d181060c34481e4bdb62c8cb00525de0d9e82e4e"
+  integrity sha512-9oTzosYPRwrw3BNgHgh+0BCpqBE83tBnuM7wuorHehdo1dmcGmz96e7qWfaRLY1LR08kxXLmbW0dWNZJXv66CQ==
   dependencies:
     "@babel/code-frame" "^7.18.6"
     "@babel/parser" "^7.20.13"
     "@babel/runtime" "^7.20.13"
     "@babel/traverse" "^7.20.13"
     babel-jsx-utils "^1.1.0"
-    babel-plugin-remove-graphql-queries "^5.8.0"
+    babel-plugin-remove-graphql-queries "^5.9.0"
     camelcase "^6.3.0"
     chokidar "^3.5.3"
     common-tags "^1.8.2"
-    fs-extra "^11.1.0"
-    gatsby-core-utils "^4.8.0"
-    gatsby-plugin-utils "^4.8.0"
+    fs-extra "^11.1.1"
+    gatsby-core-utils "^4.9.0"
+    gatsby-plugin-utils "^4.9.0"
     objectFitPolyfill "^2.3.5"
     prop-types "^15.8.1"
 
@@ -5425,19 +5425,19 @@ gatsby-plugin-utils@^3.19.0:
     joi "^17.4.2"
     mime "^3.0.0"
 
-gatsby-plugin-utils@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-4.8.0.tgz#d88824bec89cef1192246358a9b1c0171f7f4432"
-  integrity sha512-zRdqP2t2W+j8ujHYtXFYnXKUS1JkjjM59Lh39bl6u9opgAByfK3jab1NpmxFQ220TAmqHrDSwOqiiB7GyuJQ/w==
+gatsby-plugin-utils@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-4.9.0.tgz#d0b7c72964ef6c4dee7d81f4e6217e5e677c7352"
+  integrity sha512-JGd6FNjoj2ceb4eCw7xzIELlPwSBxGGkJpy+iQTnLT32aPT0vidjGmiytXpNDvktLrxpmuTDPVfMJTjopu+y2A==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    fastq "^1.13.0"
-    fs-extra "^11.1.0"
-    gatsby-core-utils "^4.8.0"
-    gatsby-sharp "^1.8.0"
+    fastq "^1.15.0"
+    fs-extra "^11.1.1"
+    gatsby-core-utils "^4.9.0"
+    gatsby-sharp "^1.9.0"
     graphql-compose "^9.0.10"
     import-from "^4.0.0"
-    joi "^17.7.0"
+    joi "^17.9.1"
     mime "^3.0.0"
 
 gatsby-react-router-scroll@^5.25.0:
@@ -5481,10 +5481,10 @@ gatsby-sharp@^0.19.0:
     "@types/sharp" "^0.30.5"
     sharp "^0.30.7"
 
-gatsby-sharp@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-1.8.0.tgz#2f8016a560383d06b0dd25f7c0ce61477b922631"
-  integrity sha512-68y/KH5Z7aU8EGgATTgZsr7qYnE/M34oPoDDA1seXWx3gvE0yXctuXNrRKGS89M94/aEu2WotKoX3Gjb2JQzVQ==
+gatsby-sharp@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-1.9.0.tgz#96f085dba28dcae44f67b99cf503757c63bac1e3"
+  integrity sha512-R5uahYWf1vWZJs97n6DMC+yMByWcDFZiYCkghdS4qvFz4MsbtS/jzU8qz/mcgwxQW3G10VlFa2XuxTsKGYdzzQ==
   dependencies:
     "@types/sharp" "^0.31.1"
     sharp "^0.31.3"
@@ -5918,7 +5918,7 @@ gopd@^1.0.1:
   dependencies:
     get-intrinsic "^1.1.3"
 
-got@^11.8.5:
+got@^11.8.5, got@^11.8.6:
   version "11.8.6"
   resolved "https://registry.yarnpkg.com/got/-/got-11.8.6.tgz#276e827ead8772eddbcfc97170590b841823233a"
   integrity sha512-6tfZ91bOr7bOXnK7PRDCGBLa1H4U080YHNaAQ2KsMGlLEzRbk44nsZF2E1IeRc3vtJHPVbKCYgdFbaGO2ljd8g==
@@ -6830,6 +6830,17 @@ joi@^17.4.2, joi@^17.7.0:
   version "17.9.1"
   resolved "https://registry.yarnpkg.com/joi/-/joi-17.9.1.tgz#74899b9fa3646904afa984a11df648eca66c9018"
   integrity sha512-FariIi9j6QODKATGBrEX7HZcja8Bsh3rfdGYy/Sb65sGlZWK/QWesU1ghk7aJWDj95knjXlQfSmzFSPPkLVsfw==
+  dependencies:
+    "@hapi/hoek" "^9.0.0"
+    "@hapi/topo" "^5.0.0"
+    "@sideway/address" "^4.1.3"
+    "@sideway/formula" "^3.0.1"
+    "@sideway/pinpoint" "^2.0.0"
+
+joi@^17.9.1:
+  version "17.9.2"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-17.9.2.tgz#8b2e4724188369f55451aebd1d0b1d9482470690"
+  integrity sha512-Itk/r+V4Dx0V3c7RLFdRh12IOjySm2/WGPMubBT92cQvRfYZhPM2W0hZlctjj72iES8jsRCwp7S/cRmWBnJ4nw==
   dependencies:
     "@hapi/hoek" "^9.0.0"
     "@hapi/topo" "^5.0.0"
