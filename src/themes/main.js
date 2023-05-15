@@ -12,6 +12,7 @@ const colors = {
   colorGreyDarkest: '#1a1a1a',
 
   colorYellow: '#FFF9AA',
+  colorOrange: '#FF825C',
 }
 
 const main = {
