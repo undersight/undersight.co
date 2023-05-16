@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
-import ReactGA from 'react-ga'
+import { inject } from '@vercel/analytics'
 
 import '../assets/styles/reset.css'
 import '../assets/styles/fonts.css'
@@ -26,12 +26,8 @@ class TemplateWrapper extends React.Component {
   componentDidMount = () => {
     this.setState({ loadState: 'loaded' })
 
-    ReactGA.initialize('UA-116544151-1')
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  }
-
-  componentDidUpdate = () => {
-    ReactGA.pageview(window.location.pathname + window.location.search)
+    // Vercel analytics
+    inject()
   }
 
   render() {

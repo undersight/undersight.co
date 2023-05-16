@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Eduardo Nunes <ed@undersight.co>",
   "dependencies": {
+    "@vercel/analytics": "^1.0.1",
     "babel-plugin-styled-components": "^2.1.1",
     "gatsby": "^4.25.6",
     "gatsby-cli": "^5.7.0",

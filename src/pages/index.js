@@ -11,6 +11,10 @@ const IndexPage = ({
   },
 }) => {
   const Posts = edges.map((edge) => (
+    <ProjectThumbnail key={edge.node.id} project={edge.node} />
+  ))
+
+  return (
     <>
       <Helmet
         title="Undersight.co"
@@ -69,11 +73,8 @@ const IndexPage = ({
           },
         ]}
       ></Helmet>
-    <ProjectThumbnail key={edge.node.id} project={edge.node} />
-    </>
-  ))
-
-  return <ProjectGrid>{Posts}</ProjectGrid>
+      <ProjectGrid>{Posts}</ProjectGrid>
+     </>)
 }
 
 export default IndexPage
