@@ -89,7 +89,7 @@ order: 1
 
 ![Example screenshots from the live website](images/screens-3@2x.png)
 
-<video controls playsinline loop preload poster="/videos/great-great-great/walkthrough.png">
+<video controls playsinline loop preload="metadata" poster="/videos/great-great-great/walkthrough.png">
   <source src="/videos/great-great-great/walkthrough.mp4" type="video/mp4" />
 </video>
 
