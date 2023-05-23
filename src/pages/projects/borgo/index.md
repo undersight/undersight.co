@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/borgo/"
-order: 3
+order: 2
 ---
 
 <article role="article">
