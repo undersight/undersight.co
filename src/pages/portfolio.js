@@ -127,7 +127,7 @@ const PortfolioPage = ({
   return (
     <>
       <Helmet
-        title="Undersight.co"
+        title="Eduardo Nunes — Designer & Creative Developer"
         meta={[
           { name: 'name', content: 'Undersight.co' },
           {
