@@ -190,7 +190,7 @@ const PortfolioPage = ({
 
             <p>Please click the button below to download a PDF with selected work, or simply scroll down to read a few more in-depth case studies.</p>
 
-            <a href="https://undersight.s3.eu-north-1.amazonaws.com/eduardo_nunes-2023_product_design_deck.pdf">Download PDF</a>
+            <a href="https://undersight.s3.eu-north-1.amazonaws.com/eduardo_nunes-2023_product_design_deck.pdf">Download</a>
           </div>
         </Left>
 
