@@ -36,7 +36,7 @@ The client was happy with our suggestion, and we decided to build the Community 
 
 </article>
 
-![Some of the UI components designed and developed for Borgo](images/topics@2x.png)
+![List of topics and sub-topics, along with icons for each one](images/topics@2x.png)
 
 <article role="article">
 
@@ -52,7 +52,7 @@ The brand evolved from there: the concept that smaller, like-minded parts drive 
 
 </article>
 
-![Screenshot from Borgo’s promotional website](images/brand@2x.png)
+![Examples of brand applications](images/brand@2x.png)
 
 <article role="article">
 
@@ -66,9 +66,9 @@ Visually, they are represented through a unique badge that combines the topic’
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/bonfires@2x.png)
+![Onboarding screens for the Community section, explaining how Bonfires work](images/bonfires@2x.png)
 
-![View of UI components in use inside Borgo’s user dashboard](images/bonfire-construction@2x.png)
+![Breakdown of how bonfire icons are created](images/bonfire-construction@2x.png)
 
 <article role="article">
 
@@ -78,7 +78,7 @@ At release, the Hub page displays either trending content (if the user is logged
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/hub@2x.png)
+![Several screenshots from the Hub's dashboard, as seen on an iPhone](images/hub@2x.png)
 
 <article role="article">
 
@@ -88,7 +88,7 @@ To avoid making this process too demanding on the user, we start by asking only 
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/onboarding@2x.png)
+![Several screenshots from the Hub's onboarding flow, as seen on an iPhone](images/onboarding@2x.png)
 
 <article role="article">
 
@@ -98,7 +98,7 @@ After a brief onboarding tutorial, we present users with the most recent activit
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/community@2x.png)
+![Several screenshots of the Community section, as seen on an iPhone](images/community@2x.png)
 
 <article role="article">
 
@@ -112,7 +112,7 @@ Once a user opens a Bonfire for the first time, it is displayed to everyone else
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/new-bonfire@2x.png)
+![Several screenshots of the Bonfire creation flow, as seen on an iPhone](images/new-bonfire@2x.png)
 
 <article role="article">
 
@@ -126,7 +126,7 @@ To make it easier for users to understand what organizations might be involved, 
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/bonfire-people@2x.png)
+![Screenshots of the People's tab, inside a Bonfire](images/bonfire-people@2x.png)
 
 <article role="article">
 
@@ -136,9 +136,9 @@ Bonfires are split into three different types of content: Discussion (which look
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/bonfire-content@2x.png)
+![Screenshots of the Discussion, News, and Events tabs, inside a Bonfire](images/bonfire-content@2x.png)
 
-![View of UI components in use inside Borgo’s user dashboard](images/soon@2x.png)
+![Screenshots of the coming soon screens for the Ideas and Funding tools](images/soon@2x.png)
 
 <article role="article">
 
