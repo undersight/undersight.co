@@ -56,7 +56,7 @@ const Left = styled.div`
     line-height: 1.4;
     font-weight: normal;
     margin-top: ${rem(10)};
-    max-width: 48ch;
+    max-width: 40ch;
 
     @media ${(props) => props.theme.smallDown} {
       br {
@@ -72,28 +72,53 @@ const Left = styled.div`
       margin-top: 1.4em;
     }
   }
+`
 
-  a {
-    display: table;
+const Buttons = styled.div`
+  display: flex;
+  gap: 1em;
+  margin-top: 2em;
+`
+
+const PrimaryButton = styled.a`
+  display: table;
+  font-family: ${(props) => props.theme.ffSecondary};
+  font-size: ${rem(16)};
+  font-variation-settings: 'wght' 600, 'wdth' 105;
+  text-transform: uppercase;
+  background-color: ${(props) => props.theme.colorBlack};
+  color: ${(props) => props.theme.colorWhite};
+  padding: 1em 2em;
+  border-radius: 2em;
+
+  &:hover {
+    background-color: ${(props) => props.theme.colorYellow};
+    color: ${(props) => props.theme.colorBlack};
+  }
+
+  @media ${(props) => props.theme.smallUp} {
+    font-size: calc(1em + 0.3vw);
     margin-top: 2em;
-    font-family: ${(props) => props.theme.ffSecondary};
-    font-size: ${rem(16)};
-    font-variation-settings: 'wght' 600, 'wdth' 105;
-    text-transform: uppercase;
-    background-color: ${(props) => props.theme.colorBlack};
-    color: ${(props) => props.theme.colorWhite};
-    padding: 1em 2em;
-    border-radius: 2em;
+  }
+`
 
-    &:hover {
-      background-color: ${(props) => props.theme.colorYellow};
-      color: ${(props) => props.theme.colorBlack};
-    }
+const SecondaryButton = styled.a`
+  display: table;
+  font-family: ${(props) => props.theme.ffSecondary};
+  font-size: ${rem(16)};
+  font-variation-settings: 'wght' 600, 'wdth' 105;
+  text-transform: uppercase;
+  color: ${(props) => props.theme.colorBlack};
+  padding: 1em;
+  border-radius: 2em;
 
-    @media ${(props) => props.theme.smallUp} {
-      font-size: calc(1em + 0.3vw);
-      margin-top: 2em;
-    }
+  &:hover {
+    text-decoration: underline;
+  }
+
+  @media ${(props) => props.theme.smallUp} {
+    font-size: calc(1em + 0.3vw);
+    margin-top: 2em;
   }
 `
 
@@ -188,9 +213,12 @@ const PortfolioPage = ({
           <div>
             <h1><strong>Thank you</strong> for your interest in my portfolio.</h1>
 
-            <p>Please click the button below to download a PDF with selected work, or simply scroll down to read a few more in-depth case studies.</p>
+            <p>Please click below to download a PDF with selected work, or open the deck as a Figma prototype.</p>
 
-            <a href="https://undersight.s3.eu-north-1.amazonaws.com/eduardo_nunes-2023_product_design_deck.pdf">Download</a>
+            <Buttons>
+              <PrimaryButton href="https://undersight.s3.eu-north-1.amazonaws.com/eduardo_nunes-2023_product_design_deck.pdf">Download PDF</PrimaryButton>
+              <SecondaryButton href="https://www.figma.com/proto/xdQVfdKCNyWYmUaLvcgp2o/Eduardo-Nunes-%E2%80%94-Portfolio?page-id=48%3A2&type=design&node-id=48-154&viewport=25%2C349%2C0.06&scaling=scale-down" target="_blank">Open in Figma</SecondaryButton>
+            </Buttons>
           </div>
         </Left>
 
@@ -198,7 +226,6 @@ const PortfolioPage = ({
           <img src="/images/ed.jpg" />
         </Right>
       </PortfolioWrapper>
-      <ProjectGrid>{Posts}</ProjectGrid>
      </>)
 }
 
