@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/bore/"
-order: 11
+order: 12
 ---
 
 <article role="article">

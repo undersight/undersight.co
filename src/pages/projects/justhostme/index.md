@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/justhostme/"
-order: 9
+order: 10
 ---
 
 <article role="article">

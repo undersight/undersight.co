@@ -195,7 +195,7 @@ const PortfolioPage = ({
         </Left>
 
         <Right>
-          <img src="/images/ed.jpg" />
+          <img src="/images/ed.jpg" alt="Portrait of Eduardo Nunes" />
         </Right>
       </PortfolioWrapper>
       <ProjectGrid>{Posts}</ProjectGrid>
