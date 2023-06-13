@@ -9,7 +9,7 @@ og: "./og.png"
 
 # Options
 path: "/great-great-great/"
-order: 1
+order: 3
 ---
 
 <article role="article">

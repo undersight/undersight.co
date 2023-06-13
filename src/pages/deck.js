@@ -2,10 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { rem } from 'polished'
-import { graphql } from 'gatsby'
-
-import ProjectGrid from '../components/Project/projectGrid'
-import ProjectThumbnail from '../components/Project/projectThumbnail'
 
 const PortfolioWrapper = styled.div`
   display: flex;
@@ -140,15 +136,7 @@ const Right = styled.div`
   }
 `
 
-const PortfolioPage = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
-  const Posts = edges.map((edge) => (
-    <ProjectThumbnail key={edge.node.id} project={edge.node} />
-  ))
-
+const PortfolioPage = () => {
   return (
     <>
       <Helmet
@@ -223,37 +211,10 @@ const PortfolioPage = ({
         </Left>
 
         <Right>
-          <img src="/images/ed.jpg" />
+          <img src="/images/ed.jpg" alt="Portrait of Eduardo Nunes" />
         </Right>
       </PortfolioWrapper>
      </>)
 }
 
 export default PortfolioPage
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___order] }) {
-      edges {
-        node {
-          id
-          frontmatter {
-            path
-            title
-            type
-            thumbnail {
-              publicURL
-              childImageSharp {
-                gatsbyImageData(layout: FIXED)
-                original {
-                  width
-                  height
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`
