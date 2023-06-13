@@ -56,7 +56,7 @@ const Left = styled.div`
     line-height: 1.4;
     font-weight: normal;
     margin-top: ${rem(10)};
-    max-width: 48ch;
+    max-width: 40ch;
 
     @media ${(props) => props.theme.smallDown} {
       br {
@@ -217,7 +217,7 @@ const PortfolioPage = ({
 
             <Buttons>
               <PrimaryButton href="https://undersight.s3.eu-north-1.amazonaws.com/eduardo_nunes-2023_product_design_deck.pdf">Download PDF</PrimaryButton>
-              <SecondaryButton href="https://www.figma.com/proto/yJxRQ29Npp0oDboRbzmjSe/Eduardo-Nunes-%E2%80%94-CV?page-id=48%3A2&type=design&node-id=48-154&viewport=480%2C642%2C0.03&scaling=scale-down" target="_blank">Open in Figma</SecondaryButton>
+              <SecondaryButton href="https://www.figma.com/proto/xdQVfdKCNyWYmUaLvcgp2o/Eduardo-Nunes-%E2%80%94-Portfolio?page-id=48%3A2&type=design&node-id=48-154&viewport=25%2C349%2C0.06&scaling=scale-down" target="_blank">Open in Figma</SecondaryButton>
             </Buttons>
           </div>
         </Left>
