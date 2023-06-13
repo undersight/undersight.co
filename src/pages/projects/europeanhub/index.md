@@ -112,7 +112,7 @@ Once a user opens a Bonfire for the first time, it is displayed to everyone else
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/bonfire-people@2x.png)
+![View of UI components in use inside Borgo’s user dashboard](images/new-bonfire@2x.png)
 
 <article role="article">
 
@@ -126,7 +126,7 @@ To make it easier for users to understand what organizations might be involved, 
 
 </article>
 
-![View of UI components in use inside Borgo’s user dashboard](images/bonfire-content@2x.png)
+![View of UI components in use inside Borgo’s user dashboard](images/bonfire-people@2x.png)
 
 <article role="article">
 
@@ -135,6 +135,8 @@ Anyone can browse a Bonfire, but users can only post or interact with content af
 Bonfires are split into three different types of content: Discussion (which looks and works like a message board), News, and Events.
 
 </article>
+
+![View of UI components in use inside Borgo’s user dashboard](images/bonfire-content@2x.png)
 
 ![View of UI components in use inside Borgo’s user dashboard](images/soon@2x.png)
 
