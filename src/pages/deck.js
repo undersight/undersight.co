@@ -20,6 +20,10 @@ const Left = styled.div`
 
   & > div {
     width: 80%;
+
+    @media ${(props) => props.theme.xsmallDown} {
+      width: 90%;
+    }
   }
 
   h1 {
@@ -72,49 +76,48 @@ const Left = styled.div`
 
 const Buttons = styled.div`
   display: flex;
-  gap: 1em;
+  flex-wrap: wrap;
+  font-size: calc(1em + 0.3vw);
   margin-top: 2em;
 `
 
 const PrimaryButton = styled.a`
   display: table;
   font-family: ${(props) => props.theme.ffSecondary};
-  font-size: ${rem(16)};
   font-variation-settings: 'wght' 600, 'wdth' 105;
   text-transform: uppercase;
   background-color: ${(props) => props.theme.colorBlack};
   color: ${(props) => props.theme.colorWhite};
   padding: 1em 2em;
   border-radius: 2em;
+  white-space: nowrap;
 
   &:hover {
     background-color: ${(props) => props.theme.colorYellow};
     color: ${(props) => props.theme.colorBlack};
   }
 
-  @media ${(props) => props.theme.smallUp} {
-    font-size: calc(1em + 0.3vw);
-    margin-top: 2em;
+  @media ${(props) => props.theme.smallDown} {
+    font-size: ${rem(14)};
   }
 `
 
 const SecondaryButton = styled.a`
   display: table;
   font-family: ${(props) => props.theme.ffSecondary};
-  font-size: ${rem(16)};
   font-variation-settings: 'wght' 600, 'wdth' 105;
   text-transform: uppercase;
   color: ${(props) => props.theme.colorBlack};
-  padding: 1em;
+  padding: 1em 2em;
   border-radius: 2em;
+  white-space: nowrap;
 
   &:hover {
     text-decoration: underline;
   }
 
-  @media ${(props) => props.theme.smallUp} {
-    font-size: calc(1em + 0.3vw);
-    margin-top: 2em;
+  @media ${(props) => props.theme.smallDown} {
+    font-size: ${rem(14)};
   }
 `
 
