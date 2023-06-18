@@ -124,7 +124,9 @@ input::-moz-placeholder			      { opacity: 1; }
 input:-ms-input-placeholder		    { opacity: 1; }
 
 .modal {
-  font-family: 'base-mono-wide','Andale Mono','AndaleMono','Lucida Console','Lucida Sans Typewriter','Bitstream Vera Sans Mono',monospace;
+  font-family: 'sfv', sans-serif;
+  font-variation-settings: 'wght' 550, 'wdth' 100;
+  letter-spacing: 0.01em;
 }
 
 /* Hide FOUT */
