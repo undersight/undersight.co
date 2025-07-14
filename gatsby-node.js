@@ -6,17 +6,20 @@
 
 const path = require("path");
 
-exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  switch (stage) {
-    case `build-html`:
+exports.onCreateWebpackConfig = ({ stage, actions, loaders }) => {
+  if (stage === `build-html`) {
     actions.setWebpackConfig({
-      loader: ("null", {
-        test: /webfontloader/,
-        loader: "null-loader",
-      }),
+      module: {
+        rules: [
+          {
+            test: /webfontloader/,
+            use: loaders.null(),
+          },
+        ],
+      },
     })
   }
-};
+}
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
