@@ -194,6 +194,7 @@ const ProjectTitle = styled.h1`
 
   @media ${(props) => props.theme.largeUp} {
     font-size: ${rem(32)};
+  }
 `
 
 const ProjectType = styled.h2`
